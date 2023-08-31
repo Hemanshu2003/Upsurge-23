@@ -123,7 +123,7 @@ Array(200).fill().forEach(addStar);
 //adding car in scene
 let loadedModel;
 const glftLoader = new GLTFLoader();
-glftLoader.load('./assets/robot_playground/scene.gltf', (glftScene) => {
+glftLoader.load('/src/assets/robot_playground/scene.gltf', (glftScene) => {
   loadedModel = glftScene;
   glftScene.scene.traverse((c) => {
     c.castShadow = true;
@@ -140,7 +140,7 @@ glftLoader.load('./assets/robot_playground/scene.gltf', (glftScene) => {
 //adding Upsurge logo in scene
 let UpsurgeLogo;
 const glftLoader1 = new GLTFLoader();
-glftLoader1.load('./assets/test123.gltf', (glftScene) => {
+glftLoader1.load('/src/assets/test123.gltf', (glftScene) => {
   UpsurgeLogo = glftScene;
   glftScene.scene.position.z = 0;
   glftScene.scene.position.y = 0;
@@ -179,7 +179,7 @@ function moveCamera() {
   // displayOrb.rotation.y += 0.01;
   // displayOrb.rotation.z += 0.01;
 
-  console.log(top);
+  // console.log(top);
 
   camera.position.z = top * -0.01;
   camera.position.x = top * -0.0002;
@@ -191,7 +191,7 @@ document.body.onscroll = moveCamera;
 function animate() {
   requestAnimationFrame(animate);
 
-  if (loadedModel && UpsurgeLogo) {
+  if (loadedModel || UpsurgeLogo) {
     loadedModel.scene.rotation.y += 0.005;
     UpsurgeLogo.scene.rotation.z += 0.01;
   }
