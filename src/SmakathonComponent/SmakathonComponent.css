@@ -1,0 +1,352 @@
+:root {
+  --gradient-angle: 0deg;
+  --clr-1: #052b2f;
+  --clr-2: #073438;
+  --clr-3: #f50cd6;
+  --clr-4: #170bf4;
+}
+.inset_border {
+  padding: 8px;
+  background: conic-gradient(
+    from var(--gradient-angle),
+    var(--clr-3),
+    var(--clr-4),
+    var(--clr-4),
+    var(--clr-3)
+  );
+  border-radius: 12px;
+  transform: translate(-10%, 0%);
+}
+.container {
+  font-size: 20px;
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 80vh;
+  color: #555;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.content {
+  z-index: 100;
+  background: url('./bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.content h2 {
+  margin: 0;
+  padding: 20px;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  font-weight: bolder;
+}
+
+.presentedBy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 0 0;
+}
+.presentedBy h3 {
+  color: white;
+  font-weight: lighter;
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.geeksLogo {
+  height: 80px;
+}
+.content p {
+  text-align: justify;
+  margin: auto;
+  max-width: 80%;
+  color: white;
+}
+
+/* curtain effect */
+.curtains {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* Overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url('./SMACK.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: opacity 0.25s;
+
+  /* Adjust timing as needed */
+  z-index: 90;
+}
+
+/* Fade out overlay on hover */
+.overlay:hover {
+  opacity: 0;
+  /* display: none; */
+}
+
+/* right side curtain */
+.curtains::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 50%;
+  background: url('./curtainbg.png');
+  height: 100%;
+  transform: translateX(0);
+  transition: 1s;
+}
+.curtains:hover::after {
+  transform: translateX(-100%);
+}
+
+/* left hand side curtain */
+
+.curtains:hover::before {
+  transform: translateX(100%);
+}
+.curtains::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 50%;
+  background: url('./curtainbg.png');
+  height: 100%;
+  transform: translateX(0);
+  transition: 1s;
+}
+
+/* Create a div which will completely overlap both the curtains 
+which has the background
+    background: url(/src/COMPONENTS/Neon\ Background\ -\ Made\ with\ PosterMyWall.jpg);
+on hover the  background image will fade out    */
+
+@media (max-width: 1400px) {
+  .overlay {
+    background: url('./SMACK_m.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .container {
+    margin: auto;
+  }
+  .inset_border {
+    transform: translate(0%, 0%);
+  }
+}
+@media (max-width: 1000px) {
+  .presentedBy {
+    flex-direction: column;
+  }
+  .presentedBy h3 {
+    font-size: 24px;
+  }
+  .content h2 {
+    font-size: 34px;
+  }
+  .content p {
+    font-size: 15px;
+  }
+  .presentedBy {
+    padding: 20px 0 0 0;
+  }
+}
+
+.reg_btn {
+  cursor: pointer;
+  position: relative;
+  width: 11em;
+  height: 4em;
+  z-index: 100;
+  outline: none;
+  transition: 0.1s;
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: #ddebf0;
+}
+
+#clip {
+  --color: #2761c3;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border: 5px double var(--color);
+  box-shadow: inset 0px 0px 15px #195480;
+  -webkit-clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+}
+
+.arrow {
+  position: absolute;
+  transition: 0.2s;
+  background-color: #2761c3;
+  top: 35%;
+  width: 11%;
+  height: 30%;
+}
+
+#leftArrow {
+  left: -13.5%;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 50%);
+}
+
+#rightArrow {
+  -webkit-clip-path: polygon(100% 49%, 0 0, 0 100%);
+  left: 102%;
+}
+
+button:hover #rightArrow {
+  background-color: #27c39f;
+  left: -15%;
+  animation: 0.6s ease-in-out both infinite alternate rightArrow8;
+}
+
+button:hover #leftArrow {
+  background-color: #27c39f;
+  left: 103%;
+  animation: 0.6s ease-in-out both infinite alternate leftArrow8;
+}
+
+.corner {
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  background-color: #2761c3;
+  box-shadow: inset 1px 1px 8px #2781c3;
+  transform: scale(1) rotate(45deg);
+  transition: 0.2s;
+}
+
+#rightTop {
+  top: -1.98em;
+  left: 91%;
+}
+
+#leftTop {
+  top: -1.96em;
+  left: -3em;
+}
+
+#leftBottom {
+  top: 2.1em;
+  left: -2.15em;
+}
+
+#rightBottom {
+  top: 45%;
+  left: 88%;
+}
+
+.reg_btn:hover #leftTop {
+  animation: 0.1s ease-in-out 0.05s both changeColor8,
+    0.2s linear 0.4s both lightEffect8;
+}
+
+.reg_btn:hover #rightTop {
+  animation: 0.1s ease-in-out 0.15s both changeColor8,
+    0.2s linear 0.4s both lightEffect8;
+}
+
+.reg_btn:hover #rightBottom {
+  animation: 0.1s ease-in-out 0.25s both changeColor8,
+    0.2s linear 0.4s both lightEffect8;
+}
+
+.reg_btn:hover #leftBottom {
+  animation: 0.1s ease-in-out 0.35s both changeColor8,
+    0.2s linear 0.4s both lightEffect8;
+}
+
+.reg_btn:hover .corner {
+  transform: scale(1.25) rotate(45deg);
+}
+
+.reg_btn:hover #clip {
+  animation: 0.2s ease-in-out 0.55s both greenLight8;
+  --color: #27c39f;
+}
+
+@keyframes changeColor8 {
+  from {
+    background-color: #2781c3;
+  }
+
+  to {
+    background-color: #27c39f;
+  }
+}
+
+@keyframes lightEffect8 {
+  from {
+    box-shadow: 1px 1px 5px #27c39f;
+  }
+
+  to {
+    box-shadow: 0 0 2px #27c39f;
+  }
+}
+
+@keyframes greenLight8 {
+  from {
+  }
+
+  to {
+    box-shadow: inset 0px 0px 32px #27c39f;
+  }
+}
+
+@keyframes leftArrow8 {
+  from {
+    transform: translate(0px);
+  }
+
+  to {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes rightArrow8 {
+  from {
+    transform: translate(0px);
+  }
+
+  to {
+    transform: translateX(-10px);
+  }
+}
