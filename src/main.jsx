@@ -123,19 +123,22 @@ Array(200).fill().forEach(addStar);
 //adding car in scene
 let loadedModel;
 const glftLoader = new GLTFLoader();
-glftLoader.load('/src/assets/robot_playground/scene.gltf', (glftScene) => {
-  loadedModel = glftScene;
-  glftScene.scene.traverse((c) => {
-    c.castShadow = true;
-  });
+glftLoader.load(
+  'https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/scene.gltf',
+  (glftScene) => {
+    loadedModel = glftScene;
+    glftScene.scene.traverse((c) => {
+      c.castShadow = true;
+    });
 
-  glftScene.scene.position.z = 28;
-  glftScene.scene.position.y = -2.5;
-  glftScene.scene.position.x = -8;
-  glftScene.scene.rotateY(21.3);
-  glftScene.scene.scale.set(3, 3, 3);
-  scene.add(glftScene.scene);
-});
+    glftScene.scene.position.z = 28;
+    glftScene.scene.position.y = -2.5;
+    glftScene.scene.position.x = -8;
+    glftScene.scene.rotateY(21.3);
+    glftScene.scene.scale.set(3, 3, 3);
+    scene.add(glftScene.scene);
+  }
+);
 
 //adding Upsurge logo in scene
 let UpsurgeLogo;
