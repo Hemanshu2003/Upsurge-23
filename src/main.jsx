@@ -6,6 +6,8 @@ import * as THREE from 'three';
 // import orbImg from './assets/orb.jpeg';
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import Robot from './assets/robot_playground/scene.gltf';
+import UpSurgeGltf from './assets/test123.gltf';
 
 const scene = new THREE.Scene();
 
@@ -123,7 +125,7 @@ Array(200).fill().forEach(addStar);
 //adding car in scene
 let loadedModel;
 const glftLoader = new GLTFLoader();
-glftLoader.load('/src/assets/robot_playground/scene.gltf', (glftScene) => {
+glftLoader.load(Robot, (glftScene) => {
   loadedModel = glftScene;
   glftScene.scene.traverse((c) => {
     c.castShadow = true;
@@ -140,7 +142,7 @@ glftLoader.load('/src/assets/robot_playground/scene.gltf', (glftScene) => {
 //adding Upsurge logo in scene
 let UpsurgeLogo;
 const glftLoader1 = new GLTFLoader();
-glftLoader1.load('/src/assets/test123.gltf', (glftScene) => {
+glftLoader1.load(UpSurgeGltf, (glftScene) => {
   UpsurgeLogo = glftScene;
   glftScene.scene.position.z = 0;
   glftScene.scene.position.y = 0;
@@ -191,7 +193,7 @@ document.body.onscroll = moveCamera;
 function animate() {
   requestAnimationFrame(animate);
 
-  if (loadedModel || UpsurgeLogo) {
+  if (loadedModel && UpsurgeLogo) {
     loadedModel.scene.rotation.y += 0.005;
     UpsurgeLogo.scene.rotation.z += 0.01;
   }
