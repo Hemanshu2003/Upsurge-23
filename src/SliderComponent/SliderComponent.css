@@ -68,7 +68,7 @@
 }
 
 .swiper-slide-active {
-  filter: drop-shadow(0px 0px 16px rgba(106, 89, 255, 0.8));
+  box-shadow: 0 0 20px rgb(255, 0, 0, 0.7), 0 0 40px rgb(250, 2, 229, 0.7);
 }
 
 .swiper-slide img {

@@ -8,7 +8,7 @@ body {
   /* background: url('./assets/road.jpg');
   background-repeat: no-repeat;
   background-size: cover; */
-  background: rgb(14, 4, 27);
+  background: rgb(11, 3, 21);
 }
 
 * {
@@ -18,7 +18,6 @@ body {
 
 :root {
   --dark-bg: rgba(4, 7, 25, 0.5);
-
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -37,9 +36,6 @@ main {
   overflow: hidden;
 }
 
-h1,
-h2,
-h3,
 blockquote {
   font-family: elevon, sans-serif;
   font-weight: 700;
@@ -53,7 +49,6 @@ canvas {
 }
 
 header {
-  background: var(--dark-bg);
   grid-column: 2 / span 5;
   font-size: 2.5rem;
   padding: 2rem;
@@ -74,19 +69,18 @@ blockquote {
   margin: 0;
   padding: 0;
   grid-column: 2 / span 9;
-  margin-bottom: 350px;
+  margin-bottom: 250px;
 }
 
 footer {
-  margin-top: 50rem;
   padding: 0;
-  grid-column: 2 / span 9;
+  grid-column: 2 / span 4;
   font-size: 22px;
 }
 
 blockquote p {
-  color: black;
-  background-color: white;
+  color: rgb(255, 7, 214);
+  background: #2a0158;
   font-size: 4rem;
   display: inline;
   line-height: 1;
@@ -99,6 +93,10 @@ blockquote p {
 }
 
 @media (max-width: 800px) {
+  main {
+    padding: 0;
+  }
+
   section {
     grid-column: 2 / 12;
     margin-bottom: 240px;
@@ -108,7 +106,7 @@ blockquote p {
     margin-bottom: 240px;
   }
   header {
-    grid-column: 2 / span 10;
+    grid-column: 1 / span 13;
     font-size: 24px;
     margin-bottom: 240px;
   }
@@ -118,6 +116,7 @@ blockquote p {
   }
 
   footer {
-    margin-bottom: 240px;
+    margin-top: 30rem;
+    grid-column: 1 / span 13;
   }
 }

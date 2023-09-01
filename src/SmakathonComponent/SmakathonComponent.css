@@ -28,6 +28,9 @@
   box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
+.container:hover {
+  box-shadow: 0 0 20px rgb(255, 0, 0), 0 0 40px rgb(250, 2, 229);
+}
 
 .content {
   z-index: 100;

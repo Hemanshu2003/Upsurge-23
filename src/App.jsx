@@ -3,6 +3,8 @@ import SliderComponent from './SliderComponent/SliderComponent';
 import NavbarComponent from './NavbarComponent/NavbarComponent';
 import ScheduleComponent from './ScheduleComponent/ScheduleComponent';
 import SmakathonComponent from './SmakathonComponent/SmakathonComponent';
+import FooterComponent from './FooterComponent/FooterComponent';
+import HeroComponent from './HeroComponent/HeroComponent';
 
 function App() {
   return (
@@ -10,15 +12,11 @@ function App() {
       <NavbarComponent />
       <main>
         <header>
-          <h1>Hero Section.</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nisi,
-            dolore in explicabo eveniet quis minus assumenda!
-          </p>
+          <HeroComponent />
         </header>
 
         <blockquote>
-          <p>getting started Loading....</p>
+          <p>Getting Started Loading....</p>
         </blockquote>
 
         <section>
@@ -34,7 +32,7 @@ function App() {
         </section>
 
         <footer>
-          <p>Footer section</p>
+          <FooterComponent />
         </footer>
       </main>
     </div>

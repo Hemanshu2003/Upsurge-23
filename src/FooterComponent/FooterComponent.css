@@ -1,0 +1,142 @@
+:root {
+  --clr-1: #3c00ff;
+  --clr-2: #7904ff;
+  --clr-3: #f50cd6;
+  --clr-4: #170bf4;
+  --clr-5: #2282ff;
+}
+
+.footer {
+  /* height: 100%; */
+
+  background-color: rgb(8, 4, 24);
+  /* overflow: hidden; */
+  color: white;
+  border-radius: 12px;
+  padding: 20px 5px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.25s;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  background: conic-gradient(
+    from 45deg at center,
+    var(--clr-1) 0%,
+    var(--clr-2) 25%,
+    var(--clr-3) 50%,
+    var(--clr-4) 75%,
+    var(--clr-5) 100%
+  );
+  filter: blur(20px);
+  z-index: -1;
+  opacity: 0.6;
+  border-radius: 12px;
+}
+
+.footer:hover {
+  box-shadow: 0 0 20px rgb(255, 0, 0, 0.7), 0 0 40px rgb(250, 2, 229, 0.7);
+}
+
+.innerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upsurge_logo {
+  width: 160px;
+  padding-bottom: 1rem;
+}
+
+.heading {
+  font-size: 44px;
+  color: white;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+}
+
+.links a {
+  color: white;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.acm {
+  padding-right: 5px;
+  width: 120px;
+}
+
+.cosmos {
+  padding-left: 5px;
+  width: 120px;
+}
+
+.extra_link {
+  margin-top: 1rem;
+}
+.extra_link a {
+  font-size: 20px;
+}
+
+.copyright {
+  justify-content: flex-end;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 660px) {
+  .footer {
+    width: 100vw;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 950px) {
+  .heading {
+    font-size: 26px;
+    padding-bottom: 1.5rem;
+  }
+
+  .links a {
+    font-size: 20px;
+  }
+
+  .sponsor_heading {
+    font-size: 20px;
+  }
+
+  .extra_link a {
+    font-size: 16px;
+  }
+}
+
+.xsvg {
+  color: white;
+}
