@@ -88,7 +88,7 @@ blockquote p {
 
 .left {
   grid-column: 5 / 13;
-  background: var(--dark-bg);
+  /* background: var(--dark-bg); */
   height: 80vh;
 }
 

@@ -144,14 +144,14 @@ let UpsurgeLogo;
 const glftLoader1 = new GLTFLoader();
 glftLoader1.load(UpSurgeGltf, (glftScene) => {
   UpsurgeLogo = glftScene;
-  glftScene.scene.position.z = 0;
+  glftScene.scene.position.z = 0.5;
   glftScene.scene.position.y = 0;
   glftScene.scene.position.x = 0;
   // glftScene.scene.rotateZ(21.3);
   glftScene.scene.rotation.x = 89.9;
   glftScene.scene.rotation.z = 89.5;
 
-  glftScene.scene.scale.set(1.5, 1.5, 1.5);
+  glftScene.scene.scale.set(1.4, 1.4, 1.4);
   scene.add(glftScene.scene);
 });
 
@@ -195,7 +195,7 @@ function animate() {
 
   if (loadedModel && UpsurgeLogo) {
     loadedModel.scene.rotation.y += 0.005;
-    UpsurgeLogo.scene.rotation.z += 0.01;
+    // UpsurgeLogo.scene.rotation.z += 0.01;
   }
 
   torus.rotation.x += 0.001;
