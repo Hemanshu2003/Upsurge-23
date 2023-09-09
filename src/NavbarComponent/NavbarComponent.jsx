@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavbarComponent.css';
+import { Link } from 'react-router-dom';
 
 export default function NavbarComponent() {
   const [initial, final] = React.useState(false);
@@ -12,10 +13,14 @@ export default function NavbarComponent() {
     <div>
       <ul className={`navigation ${initial && 'active'}`}>
         <li>
-          <a href="####"> Home </a>
+          <Link to="/home" className="anchor" onClick={toggleOnClick}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="####"> Hackathon </a>
+          <Link to="/smackathon" className="anchor" onClick={toggleOnClick}>
+            Smackathon
+          </Link>
         </li>
         <li>
           <a href="####"> Schedule </a>

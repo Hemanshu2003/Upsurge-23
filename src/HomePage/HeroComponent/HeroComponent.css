@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap');
+
+.centered {
+  left: 50vw;
+  top: 50vh;
+  text-align: center;
+}
+
+.neon {
+  font-family: 'Noto Sans Anatolian Hieroglyphs', sans-serif;
+  font-size: 5rem;
+  color: #ffedff;
+  padding: 30px;
+  filter: url(#stroke) url(#inner-glow) url(#outer-glow) url(#outer-glow1);
+}
+.neonText {
+  color: #ffedff;
+  text-shadow: 0 0 3px #ffedff, 0 0 9px #ffedff, 0 0 16px #ffedff,
+    0 0 40px #db0273, 0 0 80px #db0273, 0 0 90px #db0273, 0 0 100px #db0273,
+    0 0 150px #db0273;
+}
+
+@media (max-width: 900px) {
+  .neon {
+    font-size: 3rem;
+    margin-top: 10rem;
+  }
+}

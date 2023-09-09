@@ -1,41 +1,20 @@
-import './App.css';
-import SliderComponent from './SliderComponent/SliderComponent';
 import NavbarComponent from './NavbarComponent/NavbarComponent';
-import ScheduleComponent from './ScheduleComponent/ScheduleComponent';
-import SmakathonComponent from './SmakathonComponent/SmakathonComponent';
-import FooterComponent from './FooterComponent/FooterComponent';
-import HeroComponent from './HeroComponent/HeroComponent';
+import HomePage from './HomePage/HomePage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <NavbarComponent />
-      <main>
-        <header>
-          <HeroComponent />
-        </header>
-
-        <blockquote>
-          <p>Getting Started Loading....</p>
-        </blockquote>
-
-        <section>
-          <SmakathonComponent />
-        </section>
-
-        <section className="light">
-          <SliderComponent />
-        </section>
-
-        <section className="left">
-          <ScheduleComponent />
-        </section>
-
-        <footer>
-          <FooterComponent />
-        </footer>
-      </main>
-    </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route
+          path="/smackathon"
+          element={<h1>This is smakathon Component </h1>}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
