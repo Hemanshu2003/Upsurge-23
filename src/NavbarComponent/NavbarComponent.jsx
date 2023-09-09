@@ -13,12 +13,12 @@ export default function NavbarComponent() {
     <div>
       <ul className={`navigation ${initial && 'active'}`}>
         <li>
-          <Link to="/home" className="anchor" onClick={toggleOnClick}>
+          <Link to="home" className="anchor" onClick={toggleOnClick}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="/smackathon" className="anchor" onClick={toggleOnClick}>
+          <Link to="smackathon" className="anchor" onClick={toggleOnClick}>
             Smackathon
           </Link>
         </li>
@@ -29,7 +29,7 @@ export default function NavbarComponent() {
           <a href=""> Events </a>
         </li>
         <li>
-          <Link to="/team" className="anchor" onClick={toggleOnClick}>
+          <Link to="team" className="anchor" onClick={toggleOnClick}>
             Team
           </Link>
         </li>

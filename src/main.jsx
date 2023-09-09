@@ -7,7 +7,7 @@ import * as THREE from 'three';
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import Robot from './assets/robot_playground/scene.gltf';
-import UpSurgeGltf from './assets/test123.gltf';
+// import UpSurgeGltf from './assets/test123.gltf';
 
 const scene = new THREE.Scene();
 
@@ -140,20 +140,20 @@ glftLoader.load(Robot, (glftScene) => {
 });
 
 //adding Upsurge logo in scene
-let UpsurgeLogo;
-const glftLoader1 = new GLTFLoader();
-glftLoader1.load(UpSurgeGltf, (glftScene) => {
-  UpsurgeLogo = glftScene;
-  glftScene.scene.position.z = 0.5;
-  glftScene.scene.position.y = 0;
-  glftScene.scene.position.x = 0;
-  // glftScene.scene.rotateZ(21.3);
-  glftScene.scene.rotation.x = 89.9;
-  glftScene.scene.rotation.z = 89.5;
+// let UpsurgeLogo;
+// const glftLoader1 = new GLTFLoader();
+// glftLoader1.load(UpSurgeGltf, (glftScene) => {
+//   UpsurgeLogo = glftScene;
+//   glftScene.scene.position.z = 0.5;
+//   glftScene.scene.position.y = 0;
+//   glftScene.scene.position.x = 0;
+//   // glftScene.scene.rotateZ(21.3);
+//   glftScene.scene.rotation.x = 89.9;
+//   glftScene.scene.rotation.z = 89.5;
 
-  glftScene.scene.scale.set(1.4, 1.4, 1.4);
-  scene.add(glftScene.scene);
-});
+//   glftScene.scene.scale.set(1.4, 1.4, 1.4);
+//   scene.add(glftScene.scene);
+// });
 
 // adding the world to the project
 
@@ -193,7 +193,7 @@ document.body.onscroll = moveCamera;
 function animate() {
   requestAnimationFrame(animate);
 
-  if (loadedModel && UpsurgeLogo) {
+  if (loadedModel) {
     loadedModel.scene.rotation.y += 0.005;
     // UpsurgeLogo.scene.rotation.z += 0.01;
   }
