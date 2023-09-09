@@ -23,13 +23,15 @@ export default function NavbarComponent() {
           </Link>
         </li>
         <li>
-          <a href="####"> Schedule </a>
+          <a href=""> Schedule </a>
         </li>
         <li>
-          <a href="####"> Events </a>
+          <a href=""> Events </a>
         </li>
         <li>
-          <a href="####"> Contact </a>
+          <Link to="/team" className="anchor" onClick={toggleOnClick}>
+            Team
+          </Link>
         </li>
         <span className="toggleMenu" onClick={toggleOnClick}>
           <span
