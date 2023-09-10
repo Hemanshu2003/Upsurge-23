@@ -1,6 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import './SmakathonComponent.css';
 import GeeksLogo from '../../assets/HomePage/Smackathon/Gfg White.png';
 import SmackathonLogo from '../../assets/HomePage/Smackathon/Final Logo Medium.png';
+import PricePool from '../../assets/HomePage/Smackathon/price.png';
 import { Link } from 'react-router-dom';
 
 export default function SmakathonComponent() {
@@ -19,10 +21,12 @@ export default function SmakathonComponent() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit, amet conse ctetur adipi sicing elit. Aliquid,
-            beatae alias esse dicta tenetur repell endus ducimus dolor emque et
-            quos lauda ntium aliquam dolore!
+            " Experience the thrill of winning incredible prizes that will boost
+            your confidence and take you to unprecedented levels "
           </p>
+          <div>
+            <img src={PricePool} alt="" className="pricepool" />
+          </div>
 
           <Link className="link" to="/smackathon">
             <button className="regBtn">

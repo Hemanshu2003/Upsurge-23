@@ -23,7 +23,7 @@
   font-size: 20px;
   transform: translate(0%, 0%);
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   color: #555;
   border-radius: 10px;
   box-sizing: border-box;
@@ -70,11 +70,16 @@
 .smackthonLogo {
   height: 120px;
 }
+.pricepool {
+  height: 140px;
+}
 .content p {
   text-align: center;
   margin: 20px auto;
   max-width: 80%;
   color: white;
+  font-size: 18px;
+  font-style: italic;
 }
 
 /* Create a div which will completely overlap both the curtains 
@@ -105,6 +110,9 @@ on hover the  background image will fade out    */
   }
   .geeksLogo {
     height: 40px;
+  }
+  .pricepool {
+    height: 100px;
   }
 }
 
