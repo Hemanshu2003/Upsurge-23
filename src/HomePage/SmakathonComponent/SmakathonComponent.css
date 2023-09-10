@@ -187,3 +187,7 @@ on hover the  background image will fade out    */
   box-shadow: -5px 0 0 #fa02e5, -5px 0 0 #fa02e5;
   transition-delay: 0s, 0.5s, 1s, 1s;
 }
+
+.link {
+  text-decoration: none;
+}

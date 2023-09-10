@@ -1,6 +1,7 @@
 import './SmakathonComponent.css';
 import GeeksLogo from '../../assets/HomePage/Smackathon/Gfg White.png';
 import SmackathonLogo from '../../assets/HomePage/Smackathon/Final Logo Medium.png';
+import { Link } from 'react-router-dom';
 
 export default function SmakathonComponent() {
   return (
@@ -23,9 +24,11 @@ export default function SmakathonComponent() {
             quos lauda ntium aliquam dolore!
           </p>
 
-          <button className="regBtn">
-            <span>register now!</span>
-          </button>
+          <Link className="link" to="/smackathon">
+            <button className="regBtn">
+              <span>register now!</span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
