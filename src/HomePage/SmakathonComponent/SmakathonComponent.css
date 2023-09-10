@@ -39,6 +39,7 @@
   background: url('https://user-images.githubusercontent.com/74038190/212750996-938b257b-266c-45a7-9af7-655341c0f58b.gif');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.651);
   width: 100%;
@@ -68,14 +69,14 @@
 }
 
 .sb {
-  margin: 10px 0px;
+  margin: 0px 0px 10px 0px;
   color: white;
   font-family: 'Caveat', cursive;
   font-style: italic;
 }
 
 .geeksLogo {
-  height: 40px;
+  height: 60px;
 }
 .smackthonLogo {
   height: 120px;
