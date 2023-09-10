@@ -7,6 +7,7 @@
 }
 
 .Upsurge_Logo {
+  margin-top: 50px;
   width: 500px;
 }
 .neonText {
@@ -20,5 +21,9 @@
   .neon {
     font-size: 3rem;
     margin-top: 10rem;
+  }
+  .Upsurge_Logo {
+    width: 300px;
+    margin-top: 160px;
   }
 }

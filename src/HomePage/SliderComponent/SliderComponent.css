@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 .slider-section {
-  width: 70%;
+  width: 90%;
   padding: 1rem 1rem;
   margin: 0 auto;
 }
@@ -13,12 +15,17 @@
 .events_heading {
   padding: 1rem 0;
   margin-bottom: 60px;
-  font-size: 3.5rem;
+  font-size: 50px;
   text-align: center;
   color: white;
-  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
-    0 0 80px #ff2edc, 0 0 160px #ff2edc;
-  animation: tubelight 5s linear;
+  /* text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc; */
+  /* animation: tubelight 5s linear; */
+  letter-spacing: 3px;
+  font-family: 'Noto Sans Anatolian Hieroglyphs', sans-serif;
+  color: #ffedff;
+  text-transform: uppercase;
+  filter: url(#stroke) url(#inner-glow) url(#outer-glow);
 }
 
 @keyframes tubelight {

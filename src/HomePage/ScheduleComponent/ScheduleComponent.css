@@ -10,18 +10,18 @@
 }
 .schedule_heading {
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 50px;
   text-align: center;
-  color: white;
-  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
-    0 0 80px #ff2edc, 0 0 160px #ff2edc;
-  animation: tubelight 5s linear;
+  letter-spacing: 3px;
+  font-family: 'Noto Sans Anatolian Hieroglyphs', sans-serif;
+  color: #ffedff;
+  text-transform: uppercase;
+  filter: url(#stroke) url(#inner-glow) url(#outer-glow);
 }
 
 .Banner_heading {
   text-transform: uppercase;
-  margin-bottom: 20px;
-  font-size: 4rem;
+  font-size: 38px;
   text-align: center;
   color: white;
   text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
@@ -278,7 +278,6 @@
   }
   .schedule_heading {
     font-size: 3rem;
-    text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc;
   }
 
   .Banner_heading {
