@@ -13,8 +13,8 @@
   font-size: 5rem;
   text-align: center;
   color: white;
-  text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
-    0 0 80px #03bcf4, 0 0 160px #03bcf4;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
   animation: tubelight 5s linear;
 }
 
@@ -24,8 +24,8 @@
   font-size: 4rem;
   text-align: center;
   color: white;
-  text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
-    0 0 80px #03bcf4, 0 0 160px #03bcf4;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
   animation: tubelight 5s linear;
 }
 
@@ -278,7 +278,7 @@
   }
   .schedule_heading {
     font-size: 3rem;
-    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4;
+    text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc;
   }
 
   .Banner_heading {

@@ -1,10 +1,10 @@
 import './HeroComponent.css';
-
+import UpsurgeLogo from '../../assets/HomePage/Smackathon/Upsurge_Logo.png';
 export default function HeroComponent() {
   return (
     <div className="hero">
       <div className="centered">
-        <div className="neon">UPSURGE 2k23</div>
+        <img src={UpsurgeLogo} className="Upsurge_Logo" alt="" />
       </div>
       <svg>
         <defs>

@@ -9,7 +9,6 @@ export default function FooterComponent() {
     <footer className="footer">
       <div className="innerFooter">
         <img src={UpsurgeLogo} alt="" className="upsurge_logo" />
-        <h1 className="heading">Upsurge 2k23</h1>
 
         <div className="links">
           <a href="#">links</a>

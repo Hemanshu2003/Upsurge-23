@@ -31,7 +31,7 @@ export default function SliderComponent() {
 
   return (
     <div className="slider-section" id="events">
-      <h1 className="heading">Upsurge Events</h1>
+      <h1 className="events_heading">Upsurge Events</h1>
       <Swiper
         // autoplay={{delay :500}
         slideToClickedSlide={true}

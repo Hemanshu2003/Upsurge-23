@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 
-.heading {
+.events_heading {
   padding: 1rem 0;
   margin-bottom: 20px;
   font-size: 3.5rem;
@@ -163,7 +163,7 @@
     display: none !important;
   }
 
-  .heading {
+  .events_heading {
     font-size: 2.5rem;
   }
 

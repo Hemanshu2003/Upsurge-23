@@ -56,13 +56,6 @@
   padding-bottom: 1rem;
 }
 
-.heading {
-  font-size: 44px;
-  color: white;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-
 .links {
   display: flex;
   flex-wrap: wrap;
@@ -119,11 +112,6 @@
 }
 
 @media only screen and (min-width: 660px) and (max-width: 950px) {
-  .heading {
-    font-size: 26px;
-    padding-bottom: 1.5rem;
-  }
-
   .links a {
     font-size: 20px;
   }
