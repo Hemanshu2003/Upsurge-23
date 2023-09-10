@@ -28,7 +28,7 @@ export default function SmakathonComponent() {
             <img src={PricePool} alt="" className="pricepool" />
           </div> */}
 
-          <Link className="link" to="/smackathon" target="_target">
+          <Link className="link" to="/smackathon">
             <button className="regBtn">
               <span>register now!</span>
             </button>
