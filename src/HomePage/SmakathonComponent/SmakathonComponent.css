@@ -31,11 +31,10 @@
   overflow: hidden;
 }
 .container:hover {
-  box-shadow: 0 0 20px rgb(255, 0, 0), 0 0 40px rgb(250, 2, 229);
+  box-shadow: 0 0 20px rgb(255, 0, 0), 0 0 40px #fa02e5;
 }
 
 .content {
-  z-index: 100;
   background: url('https://user-images.githubusercontent.com/74038190/212750996-938b257b-266c-45a7-9af7-655341c0f58b.gif');
   background-size: cover;
   background-position: center;
@@ -44,6 +43,10 @@
   background-color: rgba(0, 0, 0, 0.651);
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 
 .presentedBy {
@@ -68,73 +71,10 @@
   height: 120px;
 }
 .content p {
-  text-align: justify;
-  margin: auto;
+  text-align: center;
+  margin: 20px auto;
   max-width: 80%;
   color: white;
-}
-
-/* curtain effect */
-.curtains {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-/* Overlay */
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: url('./SMACK.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 1;
-  transition: opacity 0.25s;
-
-  /* Adjust timing as needed */
-  z-index: 90;
-}
-
-/* Fade out overlay on hover */
-.overlay:hover {
-  opacity: 0;
-  /* display: none; */
-}
-
-/* right side curtain */
-.curtains::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  width: 50%;
-  background: url('./curtainbg.png');
-  height: 100%;
-  transform: translateX(0);
-  transition: 1s;
-}
-.curtains:hover::after {
-  transform: translateX(-100%);
-}
-
-/* left hand side curtain */
-
-.curtains:hover::before {
-  transform: translateX(100%);
-}
-.curtains::before {
-  content: '';
-  position: absolute;
-  right: 0;
-  width: 50%;
-  background: url('./curtainbg.png');
-  height: 100%;
-  transform: translateX(0);
-  transition: 1s;
 }
 
 /* Create a div which will completely overlap both the curtains 
@@ -143,13 +83,6 @@ which has the background
 on hover the  background image will fade out    */
 
 @media (max-width: 1400px) {
-  .overlay {
-    background: url('./SMACK_m.png');
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
   .container {
     margin: auto;
   }
@@ -171,181 +104,86 @@ on hover the  background image will fade out    */
     padding: 20px 0 0 0;
   }
   .geeksLogo {
-    height: 30px;
+    height: 40px;
   }
 }
 
-.reg_btn {
+/* cool btn */
+
+.regBtn {
   cursor: pointer;
+  background: transparent;
   position: relative;
-  width: 11em;
-  height: 4em;
-  z-index: 100;
+  display: inline-block;
+  padding: 15px 30px;
   outline: none;
-  transition: 0.1s;
-  background-color: transparent;
-  border: none;
-  font-size: 13px;
-  font-weight: bold;
-  color: #ddebf0;
+  border: 2px solid #fa02e5;
+  margin: 40px;
+  width: 220px;
+  height: 60px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #fff;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);
+  transition: 0.45s;
+  transition-delay: 0s;
 }
 
-#clip {
-  --color: #2761c3;
+.regBtn:hover {
+  transition-delay: 1.5s;
+  color: #000;
+  box-shadow: 0 0 10px #fa02e5, 0 0 20px #fa02e5, 0 0 40px #fa02e5,
+    0 0 80px #fa02e5, 0 0 100px #fa02e5;
+}
+
+.regBtn span {
+  position: relative;
+  z-index: 100;
+}
+
+.regBtn::before {
+  content: '';
   position: absolute;
-  top: 0;
-  overflow: hidden;
-  width: 100%;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #fa02e5;
+  box-shadow: 5px -8px 0 #fa02e5, 5px 8px 0 #fa02e5;
+  transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+  transition-delay: 1s, 0.5s, 0s, 0s;
+}
+
+.regBtn:hover::before {
+  width: 60%;
   height: 100%;
-  border: 5px double var(--color);
-  box-shadow: inset 0px 0px 15px #195480;
-  -webkit-clip-path: polygon(
-    30% 0%,
-    70% 0%,
-    100% 30%,
-    100% 70%,
-    70% 100%,
-    30% 100%,
-    0% 70%,
-    0% 30%
-  );
+  /* right: -2px; */
+  left: -2px;
+  box-shadow: 5px 0 0 #fa02e5, 5px 0 0 #fa02e5;
+  transition-delay: 0s, 0.5s, 1s, 1s;
 }
 
-.arrow {
+.regBtn::after {
+  content: '';
   position: absolute;
-  transition: 0.2s;
-  background-color: #2761c3;
-  top: 35%;
-  width: 11%;
-  height: 30%;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #fa02e5;
+  box-shadow: -5px -8px 0 #fa02e5, -5px 8px 0 #fa02e5;
+  transition: width 0.5s, right 0.5s, height 0.5s, box-shadow 0.5s;
+  transition-delay: 1s, 0.5s, 0s, 0s;
 }
 
-#leftArrow {
-  left: -13.5%;
-  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 50%);
-}
-
-#rightArrow {
-  -webkit-clip-path: polygon(100% 49%, 0 0, 0 100%);
-  left: 102%;
-}
-
-button:hover #rightArrow {
-  background-color: #27c39f;
-  left: -15%;
-  animation: 0.6s ease-in-out both infinite alternate rightArrow8;
-}
-
-button:hover #leftArrow {
-  background-color: #27c39f;
-  left: 103%;
-  animation: 0.6s ease-in-out both infinite alternate leftArrow8;
-}
-
-.corner {
-  position: absolute;
-  width: 4em;
-  height: 4em;
-  background-color: #2761c3;
-  box-shadow: inset 1px 1px 8px #2781c3;
-  transform: scale(1) rotate(45deg);
-  transition: 0.2s;
-}
-
-#rightTop {
-  top: -1.98em;
-  left: 91%;
-}
-
-#leftTop {
-  top: -1.96em;
-  left: -3em;
-}
-
-#leftBottom {
-  top: 2.1em;
-  left: -2.15em;
-}
-
-#rightBottom {
-  top: 45%;
-  left: 88%;
-}
-
-.reg_btn:hover #leftTop {
-  animation: 0.1s ease-in-out 0.05s both changeColor8,
-    0.2s linear 0.4s both lightEffect8;
-}
-
-.reg_btn:hover #rightTop {
-  animation: 0.1s ease-in-out 0.15s both changeColor8,
-    0.2s linear 0.4s both lightEffect8;
-}
-
-.reg_btn:hover #rightBottom {
-  animation: 0.1s ease-in-out 0.25s both changeColor8,
-    0.2s linear 0.4s both lightEffect8;
-}
-
-.reg_btn:hover #leftBottom {
-  animation: 0.1s ease-in-out 0.35s both changeColor8,
-    0.2s linear 0.4s both lightEffect8;
-}
-
-.reg_btn:hover .corner {
-  transform: scale(1.25) rotate(45deg);
-}
-
-.reg_btn:hover #clip {
-  animation: 0.2s ease-in-out 0.55s both greenLight8;
-  --color: #27c39f;
-}
-
-@keyframes changeColor8 {
-  from {
-    background-color: #2781c3;
-  }
-
-  to {
-    background-color: #27c39f;
-  }
-}
-
-@keyframes lightEffect8 {
-  from {
-    box-shadow: 1px 1px 5px #27c39f;
-  }
-
-  to {
-    box-shadow: 0 0 2px #27c39f;
-  }
-}
-
-@keyframes greenLight8 {
-  from {
-  }
-
-  to {
-    box-shadow: inset 0px 0px 32px #27c39f;
-  }
-}
-
-@keyframes leftArrow8 {
-  from {
-    transform: translate(0px);
-  }
-
-  to {
-    transform: translateX(10px);
-  }
-}
-
-@keyframes rightArrow8 {
-  from {
-    transform: translate(0px);
-  }
-
-  to {
-    transform: translateX(-10px);
-  }
+.regBtn:hover::after {
+  width: 60%;
+  height: 102%;
+  right: -2px;
+  box-shadow: -5px 0 0 #fa02e5, -5px 0 0 #fa02e5;
+  transition-delay: 0s, 0.5s, 1s, 1s;
 }
