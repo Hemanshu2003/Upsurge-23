@@ -10,7 +10,7 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import Robot from '../assets/robot_playground/scene.gltf';
 import React from 'react';
-// import UpSurgeGltf from './assets/test123.gltf';
+// import UpSurgeGltf from '../assets/embedded_all.gltf';
 
 const scene = new THREE.Scene();
 
@@ -121,7 +121,7 @@ glftLoader.load(Robot, (glftScene) => {
   scene.add(glftScene.scene);
 });
 
-//adding Upsurge logo in scene
+// adding Upsurge logo in scene
 // let UpsurgeLogo;
 // const glftLoader1 = new GLTFLoader();
 // glftLoader1.load(UpSurgeGltf, (glftScene) => {

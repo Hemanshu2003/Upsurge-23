@@ -1,5 +1,6 @@
 import './SmakathonComponent.css';
-import GeeksLogo from './geeksForGeek.png';
+import GeeksLogo from '../../assets/HomePage/Smackathon/gfg_logo.png';
+import SmackathonLogo from '../../assets/HomePage/Smackathon/Final Logo Medium.png';
 
 export default function SmakathonComponent() {
   return (
@@ -7,8 +8,13 @@ export default function SmakathonComponent() {
       <div className="container">
         <div className="content">
           <div className="presentedBy">
-            <h3> Sponsored By : </h3>
             <img src={GeeksLogo} alt="" className="geeksLogo" />
+            <h3 className="sb">Presents</h3>
+            <img
+              src={SmackathonLogo}
+              alt="smackthonLogo"
+              className="smackthonLogo"
+            />
           </div>
 
           <h2>SMACKATHON</h2>

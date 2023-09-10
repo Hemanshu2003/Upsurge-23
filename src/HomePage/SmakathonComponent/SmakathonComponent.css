@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=IBM+Plex+Mono:wght@500&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
 :root {
   --gradient-angle: 0deg;
   --clr-1: #052b2f;
@@ -34,9 +36,11 @@
 
 .content {
   z-index: 100;
-  background: url('./bg2.jpg');
+  background: url('https://user-images.githubusercontent.com/74038190/212750996-938b257b-266c-45a7-9af7-655341c0f58b.gif');
   background-size: cover;
   background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.651);
   width: 100%;
   height: 100%;
 }
@@ -57,19 +61,24 @@
 
 .presentedBy {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 40px 0 0 0;
 }
-.presentedBy h3 {
+
+.sb {
+  margin: 10px 0px;
   color: white;
-  font-weight: lighter;
-  font-size: 28px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Caveat', cursive;
+  font-style: italic;
 }
 
 .geeksLogo {
-  height: 80px;
+  height: 40px;
+}
+.smackthonLogo {
+  height: 120px;
 }
 .content p {
   text-align: justify;
@@ -162,11 +171,8 @@ on hover the  background image will fade out    */
   }
 }
 @media (max-width: 1000px) {
-  .presentedBy {
-    flex-direction: column;
-  }
   .presentedBy h3 {
-    font-size: 24px;
+    font-size: 18px;
   }
   .content h2 {
     font-size: 34px;
@@ -176,6 +182,9 @@ on hover the  background image will fade out    */
   }
   .presentedBy {
     padding: 20px 0 0 0;
+  }
+  .geeksLogo {
+    height: 30px;
   }
 }
 
