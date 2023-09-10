@@ -2,7 +2,7 @@
 import './SmakathonComponent.css';
 import GeeksLogo from '../../assets/HomePage/Smackathon/Gfg White.png';
 import SmackathonLogo from '../../assets/HomePage/Smackathon/Final Logo Medium.png';
-import PricePool from '../../assets/HomePage/Smackathon/price.png';
+// import PricePool from '../../assets/HomePage/Smackathon/price.png';
 import { Link } from 'react-router-dom';
 
 export default function SmakathonComponent() {
@@ -24,11 +24,11 @@ export default function SmakathonComponent() {
             " Experience the thrill of winning incredible prizes that will boost
             your confidence and take you to unprecedented levels "
           </p>
-          <div>
+          {/* <div>
             <img src={PricePool} alt="" className="pricepool" />
-          </div>
+          </div> */}
 
-          <Link className="link" to="/smackathon">
+          <Link className="link" to="/smackathon" target="_target">
             <button className="regBtn">
               <span>register now!</span>
             </button>

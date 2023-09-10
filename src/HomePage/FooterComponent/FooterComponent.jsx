@@ -1,6 +1,6 @@
 import './FooterComponent.css';
 import xsvg from './X.svg';
-import UpsurgeLogo from '../../assets/FooterImg/2.0.png';
+import UpsurgeLogo from '../../assets/HomePage/Smackathon/Upsurge_Logo.png';
 import AcmLogo from '../../assets/FooterImg/acm.png';
 import CosmosLogo from '../../assets/FooterImg/cosmos new logo.png';
 

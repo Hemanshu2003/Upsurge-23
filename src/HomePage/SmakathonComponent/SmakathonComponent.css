@@ -68,14 +68,14 @@
   height: 60px;
 }
 .smackthonLogo {
-  height: 120px;
+  height: 160px;
 }
 .pricepool {
   height: 140px;
 }
 .content p {
   text-align: center;
-  margin: 20px auto;
+  margin: 20px auto 30px auto;
   max-width: 80%;
   color: white;
   font-size: 18px;
@@ -126,7 +126,7 @@ on hover the  background image will fade out    */
   padding: 15px 30px;
   outline: none;
   border: 2px solid #fa02e5;
-  margin: 40px;
+  margin: 40px 0 60px 0;
   width: 220px;
   height: 60px;
   text-transform: uppercase;
