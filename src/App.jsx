@@ -2,6 +2,7 @@ import NavbarComponent from './NavbarComponent/NavbarComponent';
 import HomePage from './HomePage/HomePage';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import TeamPage from './TeamPage/TeamPage';
+import SmackathonPage from './SmackathonPage/SmackathonPage';
 
 function App() {
   return (
@@ -12,14 +13,7 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/team" element={<TeamPage />} />
 
-        <Route
-          path="/smackathon"
-          element={
-            <h1 style={{ color: 'white', textAlign: 'center' }}>
-              This is smakathon Component
-            </h1>
-          }
-        />
+        <Route path="/smackathon" element={<SmackathonPage />} />
       </Routes>
     </HashRouter>
   );
