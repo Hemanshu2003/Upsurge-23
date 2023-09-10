@@ -1,5 +1,5 @@
 import './SmakathonComponent.css';
-import GeeksLogo from '../../assets/HomePage/Smackathon/gfg_logo.png';
+import GeeksLogo from '../../assets/HomePage/Smackathon/Gfg White.png';
 import SmackathonLogo from '../../assets/HomePage/Smackathon/Final Logo Medium.png';
 
 export default function SmakathonComponent() {
