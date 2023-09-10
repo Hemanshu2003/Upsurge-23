@@ -17,8 +17,6 @@ export default function SmakathonComponent() {
             />
           </div>
 
-          <h2>SMACKATHON</h2>
-
           <p>
             Lorem ipsum dolor sit, amet conse ctetur adipi sicing elit. Aliquid,
             beatae alias esse dicta tenetur repell endus ducimus dolor emque et
