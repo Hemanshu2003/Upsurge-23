@@ -13,12 +13,17 @@ export default function SmackathonPage() {
           <a href="#">
             <img src={smackathon_logo} alt="" className="smackathon_logo" />
           </a>
-
-          <div className="btns">
+ <div>
+            <script
+              src="https://widget.konfhub.com/widget.js"
+              button_id="btn_4a14fc0aa37a"
+            ></script>
+          </div>
+{/*           <div className="btns">
             <button className="application-btn">
               <a href="#">REGISTER HERE</a>
             </button>
-          </div>
+          </div> */}
         </div>
       </section>
 
