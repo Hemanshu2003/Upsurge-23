@@ -10,7 +10,7 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import Robot from '../assets/robot_playground/scene.gltf';
 import React from 'react';
-// import UpSurgeGltf from './assets/test123.gltf';
+import UpSurgeGltf from '../assets/test123-v1-v2/test123-v1.gltf';
 
 const scene = new THREE.Scene();
 
@@ -123,19 +123,19 @@ glftLoader.load(Robot, (glftScene) => {
 
 //adding Upsurge logo in scene
 // let UpsurgeLogo;
-// const glftLoader1 = new GLTFLoader();
-// glftLoader1.load(UpSurgeGltf, (glftScene) => {
-//   UpsurgeLogo = glftScene;
-//   glftScene.scene.position.z = 0.5;
-//   glftScene.scene.position.y = 0;
-//   glftScene.scene.position.x = 0;
-//   // glftScene.scene.rotateZ(21.3);
-//   glftScene.scene.rotation.x = 89.9;
-//   glftScene.scene.rotation.z = 89.5;
+const glftLoader1 = new GLTFLoader();
+glftLoader1.load(UpSurgeGltf, (glftScene) => {
+  // UpsurgeLogo = glftScene;
+  glftScene.scene.position.z = 0.5;
+  glftScene.scene.position.y = 0;
+  glftScene.scene.position.x = 0;
+  // glftScene.scene.rotateZ(21.3);
+  glftScene.scene.rotation.x = 89.9;
+  glftScene.scene.rotation.z = 89.5;
 
-//   glftScene.scene.scale.set(1.4, 1.4, 1.4);
-//   scene.add(glftScene.scene);
-// });
+  glftScene.scene.scale.set(1.4, 1.4, 1.4);
+  scene.add(glftScene.scene);
+});
 
 // add texture
 

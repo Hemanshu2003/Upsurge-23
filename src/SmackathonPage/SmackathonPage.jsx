@@ -1,9 +1,10 @@
 import smackathon_logo from '../assets/HomePage/Smackathon/Final Logo Medium.png';
 import gfg_logo from '../assets/HomePage/Smackathon/Gfg White.png';
 import './SmackathonPage.css';
+import ele1 from '../assets/HomePage/Smackathon/samay.png';
 export default function SmackathonPage() {
   return (
-    <smackathonPage>
+    <div className="smakaPage">
       <section className="heroSection">
         <div className="innerHero">
           <a href="#">
@@ -13,22 +14,24 @@ export default function SmackathonPage() {
           <a href="#">
             <img src={smackathon_logo} alt="" className="smackathon_logo" />
           </a>
- <div>
+
+          {/* <div>
             <script
               src="https://widget.konfhub.com/widget.js"
               button_id="btn_4a14fc0aa37a"
             ></script>
-          </div>
-{/*           <div className="btns">
+          </div> */}
+
+          <div className="btns">
             <button className="application-btn">
               <a href="#">REGISTER HERE</a>
             </button>
-          </div> */}
+          </div>
         </div>
       </section>
 
       <section className="about">
-        <h2 className="heading">Smackathon</h2>
+        <h2 className="heading_smackathonPage">Smackathon</h2>
         <p className="description">
           The Department of Computer Science and Engineering at YCCE organized
           an event called Smackathon Online as part of UPSURGE 2K22. The event
@@ -60,6 +63,121 @@ export default function SmackathonPage() {
           GeeksforGeeks 🎁
         </h3>
       </section>
-    </smackathonPage>
+
+      {/* TIME LINE */}
+
+      <div className="timeline">
+        <h2 className="heading_smackathonPage timeline_heading">TimeLine</h2>
+        <div className="container_timeline left_container">
+          <img src={ele1} alt="Image" />
+          <div className="text-box">
+            <h2 className="N">DAY 1</h2>
+            <small className="M">
+              {' '}
+              10:00 am - Problem statements will be released for all
+              participants.
+            </small>
+            <span className="left-container-arrow"></span>
+          </div>
+          <div style={{ height: '60px' }}></div>
+        </div>
+
+        <div className="container_timeline right_container">
+          <img src={ele1} alt="Image" />
+          <div className="text-box">
+            <h2 className="N">DAY 1</h2>
+            <small className="N">
+              11:30 am - The teams will have to finalize any 1 of the problem
+              statements.
+            </small>
+            <span className="right-container-arrow"></span>
+          </div>
+          <div style={{ height: '60px' }}></div>
+        </div>
+
+        <div className="container_timeline left_container">
+          <img src={ele1} alt="Image" />
+          <div className="text-box">
+            <h2 className="N">DAY 1</h2>
+            <small className="N">1:00pm - Kahana khalo friends</small>
+            <span className="left-container-arrow"></span>
+          </div>
+          <div style={{ height: '60px' }}></div>
+        </div>
+
+        <div className="container_timeline right_container">
+          <img src={ele1} alt="Image" />
+          <div className="text-box">
+            <h2 className="N">DAY 1</h2>
+            <small className="N">5:00pm - short break lelo</small>
+            <span className="right-container-arrow"></span>
+          </div>
+          <div style={{ height: '60px' }}></div>
+        </div>
+
+        <div className="container_timeline left_container">
+          <img src={ele1} alt="Image" />
+          <div className="text-box">
+            <h2 className="N">DAY 1</h2>
+            <small className="N">8:30pm - firse Kahana Khalo</small>
+            <span className="left-container-arrow"></span>
+          </div>
+
+          <div style={{ height: '60px' }}></div>
+        </div>
+        <div className="container_timeline right_container">
+          <img src={ele1} alt="Image" />
+          <div className="text-box">
+            <h2 className="N">DAY 2</h2>
+            <small className="N">11:00 am - winnner will be announced</small>
+            <span className="right-container-arrow"></span>
+          </div>
+          <div style={{ height: '60px' }}></div>
+        </div>
+
+        <div className="container_timeline left_container">
+          <img src={ele1} alt="Image" />
+          <div className="text-box">
+            <h2 className="N">DAY 2</h2>
+            <small className="N">
+              11:00 am - winnner will be announced at Validictory Ceremony
+            </small>
+            <span className="left-container-arrow"></span>
+          </div>
+          <div style={{ height: '60px' }}></div>
+        </div>
+
+        {/* <div className="container_timeline right_container">
+          <img src={ele1} alt="Image" />
+          <div className="text-box">
+            <h2 className="N">Amazon</h2>
+            <small className="N">2019-2020</small>
+            <span className="right-container-arrow"></span>
+          </div>
+          <div style={{ height: '60px' }}></div>
+        </div> */}
+
+        {/* <div className="container_timeline left_container">
+          <img src={ele1} alt="Image" />
+
+          <div className="text-box">
+            <h2 className="N">Microsoft</h2>
+            <small className="N">2019-2020</small>
+            <span className="left-container-arrow"></span>
+          </div>
+          <div style={{ height: '60px' }}></div>
+        </div> */}
+        {/* <div className="container_timeline right_container">
+            <img src={ele1} alt="Image" />
+
+            <div className="text-box">
+              <h2 className="N">Amazon</h2>
+              <small className="N">2019-2020</small>
+              <span className="right-container-arrow"></span>
+            </div>
+            <div style={{ height: '60px' }}></div>
+          </div> */}
+      </div>
+    </div>
   );
 }
