@@ -80,7 +80,7 @@ export default function SmackathonPage() {
             </small>
             <span className="left-container-arrow"></span>
           </div>
-          <div style={{ height: '60px' }}></div>
+          <div style={{ height: '20px' }}></div>
         </div>
 
         <div className="container_timeline right_container">
@@ -93,7 +93,7 @@ export default function SmackathonPage() {
             </small>
             <span className="right-container-arrow"></span>
           </div>
-          <div style={{ height: '60px' }}></div>
+          <div style={{ height: '20px' }}></div>
         </div>
 
         <div className="container_timeline left_container">
@@ -103,7 +103,7 @@ export default function SmackathonPage() {
             <small className="N">1:00pm - Kahana khalo friends</small>
             <span className="left-container-arrow"></span>
           </div>
-          <div style={{ height: '60px' }}></div>
+          <div style={{ height: '20px' }}></div>
         </div>
 
         <div className="container_timeline right_container">
@@ -113,7 +113,7 @@ export default function SmackathonPage() {
             <small className="N">5:00pm - short break lelo</small>
             <span className="right-container-arrow"></span>
           </div>
-          <div style={{ height: '60px' }}></div>
+          <div style={{ height: '20px' }}></div>
         </div>
 
         <div className="container_timeline left_container">
@@ -124,7 +124,7 @@ export default function SmackathonPage() {
             <span className="left-container-arrow"></span>
           </div>
 
-          <div style={{ height: '60px' }}></div>
+          <div style={{ height: '20px' }}></div>
         </div>
         <div className="container_timeline right_container">
           <img src={ele1} alt="Image" />
@@ -133,7 +133,7 @@ export default function SmackathonPage() {
             <small className="N">11:00 am - winnner will be announced</small>
             <span className="right-container-arrow"></span>
           </div>
-          <div style={{ height: '60px' }}></div>
+          <div style={{ height: '20px' }}></div>
         </div>
 
         <div className="container_timeline left_container">
@@ -145,7 +145,7 @@ export default function SmackathonPage() {
             </small>
             <span className="left-container-arrow"></span>
           </div>
-          <div style={{ height: '60px' }}></div>
+          <div style={{ height: '20px' }}></div>
         </div>
 
         {/* <div className="container_timeline right_container">
@@ -155,7 +155,7 @@ export default function SmackathonPage() {
             <small className="N">2019-2020</small>
             <span className="right-container-arrow"></span>
           </div>
-          <div style={{ height: '60px' }}></div>
+          <div style={{ height: '20px' }}></div>
         </div> */}
 
         {/* <div className="container_timeline left_container">
@@ -166,7 +166,7 @@ export default function SmackathonPage() {
             <small className="N">2019-2020</small>
             <span className="left-container-arrow"></span>
           </div>
-          <div style={{ height: '60px' }}></div>
+          <div style={{ height: '20px' }}></div>
         </div> */}
         {/* <div className="container_timeline right_container">
             <img src={ele1} alt="Image" />
@@ -176,7 +176,7 @@ export default function SmackathonPage() {
               <small className="N">2019-2020</small>
               <span className="right-container-arrow"></span>
             </div>
-            <div style={{ height: '60px' }}></div>
+            <div style={{ height: '20px' }}></div>
           </div> */}
       </div>
 
