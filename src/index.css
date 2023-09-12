@@ -11,6 +11,10 @@ body {
   background: rgb(11, 3, 21);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
