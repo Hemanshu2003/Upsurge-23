@@ -9,16 +9,21 @@ export default function NavbarComponent() {
     final((prev) => !prev);
   }
 
+  function PageChange() {
+    toggleOnClick();
+    window.scrollTo(0, 0);
+  }
+
   return (
     <div>
       <ul className={`navigation ${initial && 'active'}`}>
         <li>
-          <Link to="home" className="anchor" onClick={toggleOnClick}>
+          <Link to="home" className="anchor" onClick={PageChange}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="smackathon" className="anchor" onClick={toggleOnClick}>
+          <Link to="smackathon" className="anchor" onClick={PageChange}>
             Smackathon
           </Link>
         </li>
@@ -29,7 +34,7 @@ export default function NavbarComponent() {
           <a href=""> Events </a>
         </li>
         <li>
-          <Link to="team" className="anchor" onClick={toggleOnClick}>
+          <Link to="team" className="anchor" onClick={PageChange}>
             Team
           </Link>
         </li>
