@@ -378,7 +378,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 60px;
-  margin-top: 50px;
+  margin-top: 100px;
   position: relative;
   border: 2px solid transparent;
   border-image: linear-gradient(45deg, #1961a9, #9b199b);
@@ -415,6 +415,13 @@ iframe {
   align-items: center;
   flex-direction: column;
 }
+.peaklogo1 {
+  position: absolute;
+  top: -193px;
+  right: -2px;
+  width: 300px;
+  transform: rotate(1deg);
+}
 
 @media screen and (max-width: 750px) {
   .heading_venue {
@@ -422,11 +429,14 @@ iframe {
     font-size: 42px;
     margin-left: 42px;
     margin-top: -95px;
+    position: relative;
+    z-index: 10;
   }
   .Map {
     flex-direction: column;
     width: 90%;
     gap: 0;
+    margin-top: 130px;
     padding: 10px;
   }
   .text-right {
@@ -436,6 +446,140 @@ iframe {
     height: 300px;
     width: 300px;
   }
+  .peaklogo1 {
+    top: -193px;
+    right: 10px;
+  }
 }
 
 /* Venus Section  by unnati ends here */
+
+/* Price pool section by katil starts here */
+
+.prizepool_info {
+  margin-top: 25px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.pricepool_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.card1 {
+  width: 350px;
+  /* background-color: rgba(7, 24, 46, 0.3); */
+  overflow: hidden;
+  margin: 20px;
+  color: aliceblue;
+  transform: translateY(20px);
+  margin-top: 40px;
+}
+.card2 {
+  width: 400px;
+  /* background-color: rgba(7, 24, 46, 0.3); */
+
+  overflow: hidden;
+  margin: 20px;
+  color: aliceblue;
+}
+.card3 {
+  width: 350px;
+  /* background-color: rgba(7, 24, 46, 0.3); */
+
+  overflow: hidden;
+  margin: 20px;
+  color: aliceblue;
+  margin-top: 40px;
+  transform: translateY(20px);
+}
+.pricepool_content {
+  text-align: center;
+  padding: 20px;
+}
+
+.pricepool_content h3 {
+  background: url('../assets/images/sa.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 30px;
+  color: rgb(227, 36, 109);
+  font-family: cursive;
+  font-weight: bolder;
+  margin: 10px;
+}
+.pricepool_content h4 {
+  margin-top: 30px;
+  font-size: 54px;
+  color: #fce863;
+}
+.price1 {
+  margin-top: 10px;
+  width: 100%;
+}
+.price2 {
+  margin-top: 10px;
+  width: 80%;
+}
+.price3 {
+  margin-top: 20px;
+  width: 79%;
+  margin-bottom: 10px;
+}
+
+#PRIZE1 {
+  font-size: 68px;
+}
+
+.card1:hover {
+  transition: 0.5s;
+}
+.card2:hover {
+  transition: 0.5s;
+}
+.card3:hover {
+  transition: 0.5s;
+}
+.voucher {
+  margin-top: 50px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.pricepool_heading {
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 38px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px #2bc4f7cc, 0 0 20px #3acbfcba, 0 0 40px #3acbfcba,
+    0 0 80px #3acbfcba, 0 0 160px #3acbfcba;
+}
+
+@media (max-width: 900px) {
+  .pricepool_heading {
+    font-size: 22px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .card1 {
+    width: 325px;
+    order: 2;
+  }
+  .card2 {
+    order: 1;
+    width: 350px;
+  }
+  .card3 {
+    order: 3;
+    width: 325px;
+  }
+  .pricepool_content {
+    padding: 0 20px;
+  }
+}
+/* Price pool section by katil ends here */

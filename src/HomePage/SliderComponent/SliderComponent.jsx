@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './SliderComponent.css';
@@ -10,16 +11,16 @@ import 'swiper/css/effect-cards';
 
 import { EffectCoverflow, Pagination, Navigation, EffectCards } from 'swiper';
 
-import slide_image_1 from '../../assets/images/download.jpeg';
-import slide_image_2 from '../../assets/images/download.jpeg';
-import slide_image_3 from '../../assets/images/download.jpeg';
-import slide_image_4 from '../../assets/images/download.jpeg';
-import slide_image_5 from '../../assets/images/download.jpeg';
-import slide_image_6 from '../../assets/images/download.jpeg';
-import slide_image_7 from '../../assets/images/download.jpeg';
-import slide_image_8 from '../../assets/images/download.jpeg';
-import slide_image_9 from '../../assets/images/download.jpeg';
-import slide_image_10 from '../../assets/images/download.jpeg';
+// import slide_image_1 from '../../assets/images/download.jpeg';
+// import slide_image_2 from '../../assets/images/download.jpeg';
+// import slide_image_3 from '../../assets/images/download.jpeg';
+// import slide_image_4 from '../../assets/images/download.jpeg';
+// import slide_image_5 from '../../assets/images/download.jpeg';
+// import slide_image_6 from '../../assets/images/download.jpeg';
+// import slide_image_7 from '../../assets/images/download.jpeg';
+// import slide_image_8 from '../../assets/images/download.jpeg';
+// import slide_image_9 from '../../assets/images/download.jpeg';
+// import slide_image_10 from '../../assets/images/download.jpeg';
 
 export default function SliderComponent() {
   // const [activeIndex, setActiveIndex] = useState(0);
@@ -33,6 +34,7 @@ export default function SliderComponent() {
     <div className="slider-section" id="events">
       <h1 className="events_heading">Upsurge Events</h1>
       <Swiper
+        initialSlide={1}
         // autoplay={{delay :500}
         slideToClickedSlide={true}
         autoHeight={true}
@@ -42,7 +44,7 @@ export default function SliderComponent() {
         // effect={"fade"}
         grabCursor={true}
         centeredSlides={true}
-        loop={true}
+        loop={false}
         slidesPerView={'auto'}
         // coverflowEffect={{
         //   rotate: 0,
@@ -74,39 +76,49 @@ export default function SliderComponent() {
         }}
       >
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/Technical+Medium.png"
+            alt="slide_image"
+          />
           <div className="slide_content">
-            <h1 className="slide_heading">Event 1</h1>
+            <h1 className="slide_heading">Technical Events</h1>
             <p>
-              Hello this is a awesome slider with a nice heading and a nice
-              description of the card this looks good and thats it for now add
-              more later
+              'Unleash your inner tech enthusiast! Get ready to experience a
+              mind-boggling journey that will leave you in awe. Stay tuned for
+              more details!'
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_2} alt="slide_image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/Cultural+Medium.png"
+            alt="slide_image"
+          />
           <div className="slide_content">
-            <h1 className="slide_heading">Event 2</h1>
+            <h1 className="slide_heading">Cultural Events</h1>
             <p>
-              Hello this is a awesome slider with a nice heading and a nice
-              description of the card this looks good and thats it for now add
-              more later
+              "Prepare to be captivated for the fun journey. Embrace the rhythms
+              that make our diversity shine. We promise an unforgettable
+              cultural extravaganza that will touch your heart. Stay tuned for
+              more details!"
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/NON-Technical+Large.jpeg"
+            alt="slide_image"
+          />
           <div className="slide_content">
-            <h1 className="slide_heading">Event 3</h1>
+            <h1 className="slide_heading">Non-Technical Events</h1>
             <p>
-              Hello this is a awesome slider with a nice heading and a nice
-              description of the card this looks good and thats it for now add
-              more later
+              "Step out of your comfort zone and embark on a journey like no
+              other. Stay tuned for more details!"
+              <a href="www.google.com">readmore..</a>
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src={slide_image_4} alt="slide_image" />
           <div className="slide_content">
             <h1 className="slide_heading">Event 4</h1>
@@ -116,8 +128,8 @@ export default function SliderComponent() {
               more later
             </p>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
           <img src={slide_image_5} alt="slide_image" />
           <div className="slide_content">
             <h1 className="slide_heading">Event 5</h1>
@@ -182,7 +194,7 @@ export default function SliderComponent() {
               more later
             </p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <div className="slider-controler">
           <div className="btn">

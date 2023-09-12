@@ -69,7 +69,6 @@
 
 .swiper-slide {
   width: 400px !important;
-  /* height: 42rem; */
   position: relative;
   border-radius: 2rem;
 }
@@ -102,9 +101,12 @@
   border-bottom-right-radius: 2rem;
   padding: 2rem 2.5rem;
   color: black;
+  height: 250px;
   /* display: none; */
 }
-
+.slide_content p {
+  font-size: 14px;
+}
 .slide_heading {
   text-align: center;
   margin-bottom: 2rem;
