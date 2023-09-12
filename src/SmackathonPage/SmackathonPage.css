@@ -124,7 +124,7 @@
     font-size: 42px;
   }
   .timeline_heading {
-    text-align: left;
+    text-align: center;
     margin-left: 15px;
     padding-bottom: 20px;
   }
@@ -363,7 +363,7 @@ body {
   font-size: 68px;
   text-align: center;
   color: white;
-
+  margin-top: 150px;
   text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
     0 0 80px #ff2edc, 0 0 160px #ff2edc;
   animation: tubelight 5s linear;
@@ -425,10 +425,9 @@ iframe {
 
 @media screen and (max-width: 750px) {
   .heading_venue {
-    text-align: left;
+    text-align: center;
     font-size: 42px;
-    margin-left: 42px;
-    margin-top: -95px;
+    margin-top: 0;
     position: relative;
     z-index: 10;
   }
