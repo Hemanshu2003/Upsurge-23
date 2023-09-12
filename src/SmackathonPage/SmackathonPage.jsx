@@ -2,6 +2,7 @@ import smackathon_logo from '../assets/HomePage/Smackathon/Final Logo Medium.png
 import gfg_logo from '../assets/HomePage/Smackathon/Gfg White.png';
 import './SmackathonPage.css';
 import ele1 from '../assets/HomePage/Smackathon/samay.png';
+import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
 export default function SmackathonPage() {
   return (
     <div className="smakaPage">
@@ -178,6 +179,38 @@ export default function SmackathonPage() {
             <div style={{ height: '60px' }}></div>
           </div> */}
       </div>
+
+      {/* Time ends here */}
+
+      {/* Venus starts here */}
+
+      <div>
+        <h1 className="heading_venue">Locate Us!</h1>
+
+        <div className="Map" id="correct">
+          <div style={{ alignItems: 'center' }} className="iframeMap ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119118.2038380647!2d78.82803159726564!3d21.094862899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd495abf6622d6f%3A0x2bd70ec1faa74ad4!2sDepartment%20Of%20Computer%20Science%20And%20Engineering!5e0!3m2!1sen!2sin!4v1694333084486!5m2!1sen!2sin"
+              style={{ filter: 'invert(100%)' }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div className="text-right">
+            <img src={mi} alt="Description of the image" />
+
+            <h3>
+              6th October, 2023 <br />
+              Seminar Hall, CSE building, <br /> YCCE campus
+            </h3>
+
+            {/* <h2 style={{color:'white' ,marginBottom:'20px'}}> <img src={mi} alt="Description of the image"  />6th October,2023</h2>
+            <h3 style={{color:'white'}}>Seminar Hall,Cse building,YCCE capmpus </h3> */}
+          </div>
+        </div>
+      </div>
+      {/* Veneus  ends here */}
     </div>
   );
 }

@@ -149,6 +149,7 @@
 
 .N {
   color: #fff;
+  margin: 10px 10px 0 10px;
 }
 .M {
   color: #fff;
@@ -159,7 +160,7 @@ body {
 .timeline {
   position: relative;
   max-width: 78%;
-  margin: 200px auto;
+  margin: 200px auto 0 auto;
 }
 .container_timeline {
   padding: 10px 50px;
@@ -212,7 +213,7 @@ body {
 
 .text-box {
   padding: 10px;
-  background-color: #000000;
+  background-color: #0b0315;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
@@ -321,6 +322,7 @@ body {
 @media screen and (max-width: 600px) {
   .timeline {
     margin: 100px auto;
+    min-width: 90%;
   }
   .timeline::after {
     left: 31px;
@@ -336,6 +338,7 @@ body {
   }
   .text-box small {
     font-size: 14px;
+    margin: 10px 0;
   }
   .right_container {
     left: 0;
@@ -352,3 +355,87 @@ body {
   }
 }
 /* Time line Section by Unnati ends here */
+
+/* Venus Section  by unnati Starts here */
+
+.heading_venue {
+  text-transform: uppercase;
+  font-size: 68px;
+  text-align: center;
+  color: white;
+
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
+  animation: tubelight 5s linear;
+}
+.Map {
+  width: max-content; /* Set the width to 80% */
+  margin: 0 auto;
+  padding: 40px;
+
+  align-items: center;
+  background-color: #0b0315;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 50px;
+  position: relative;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1961a9, #9b199b);
+  border-image-slice: 1;
+  box-shadow: 0 0 20px rgba(102, 36, 156, 0.8), 0 0 40px rgba(0, 119, 255, 0.8);
+}
+.newdiv :hover {
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1961a9, #9b199b);
+  border-image-slice: 1;
+  box-shadow: 0 0 20px rgba(102, 36, 156, 0.8), 0 0 40px rgba(0, 119, 255, 0.8);
+}
+
+iframe {
+  height: 550px;
+  width: 550px;
+}
+.text-right {
+  align-items: center;
+}
+
+.text-right img {
+  width: 100px;
+  height: 100px;
+}
+.text-right h3 {
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+.text-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+  .heading_venue {
+    text-align: left;
+    font-size: 42px;
+    margin-left: 42px;
+    margin-top: -95px;
+  }
+  .Map {
+    flex-direction: column;
+    width: 90%;
+    gap: 0;
+    padding: 10px;
+  }
+  .text-right {
+    margin: 20px;
+  }
+  iframe {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/* Venus Section  by unnati ends here */
