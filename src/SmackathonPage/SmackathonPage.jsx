@@ -7,7 +7,19 @@ import peakLogo1 from '../assets/images/peak.png';
 import secondPrice from '../assets/images/2.png';
 import firstPrice from '../assets/images/1.png';
 import thirdPrice from '../assets/images/3.png';
+import gfgGoodies from '../assets/images/GFG-Goodies.png';
+
 export default function SmackathonPage() {
+  const closeModal = function () {
+    const modal = document.querySelector('.modal');
+    modal.classList.add('hidden_model');
+  };
+
+  const openModal = function () {
+    const modal = document.querySelector('.modal');
+    modal.classList.remove('hidden_model');
+  };
+
   return (
     <div className="smakaPage">
       <section className="heroSection">
@@ -28,10 +40,22 @@ export default function SmackathonPage() {
           </div> */}
 
           <div className="btns">
-            <button className="application-btn">
-              <a href="#">REGISTER HERE</a>
+            <button className="regBtn application_btn" onClick={openModal}>
+              <span>register Here!</span>
             </button>
           </div>
+        </div>
+        <div className="modal hidden_model">
+          <button className="close-modal" onClick={closeModal}>
+            &times;
+          </button>
+          <iframe
+            src="https://konfhub.com/widget/smackathon23?ticketId=9549"
+            id="konfhub-widget"
+            title="Register for Smackathon 23"
+            width="94%"
+            height="600"
+          ></iframe>
         </div>
       </section>
 
@@ -56,7 +80,7 @@ export default function SmackathonPage() {
           <b>Round 1:</b> Preliminary round, where each team submitted a short
           descriptive video of their project.
           <br />
-          <b>Round 1:</b> Judging round, where the jury comprised of Dr. Kishor
+          <b>Round 2:</b> Judging round, where the jury comprised of Dr. Kishor
           Boyar from the CSE Department, Dr. Amoli Belsare from the Electronics
           and Telecommunication Department, and Prof. Rupa A. Fadnavis from the
           CSE Department. Five teams qualified for this final judging round
@@ -70,10 +94,8 @@ export default function SmackathonPage() {
       </section>
       {/* PRICE POOL SECTION STARTS*/}
       <div className="prizepool_info">
-        <h2 className="pricepool_heading">
-          WITH A WHOPPING PRIZE POOL OF
-          <h1>₹35,000</h1>
-        </h2>
+        <h2 className="pricepool_heading">WITH A WHOPPING PRIZE POOL OF</h2>
+        <h1>₹35,000</h1>
       </div>
       <div className="pricepool_container">
         <div className="card1">
@@ -99,15 +121,20 @@ export default function SmackathonPage() {
         </div>
       </div>
       <div className="voucher">
-        <h2>VOUCHER INFO HEADER</h2>
-        <p>
-          info about vouchers
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-          laborum reprehenderit, ducimus odit in ab esse recusandae assumenda
-          distinctio veritatis voluptatum, maiores ut blanditiis, dolorem minus
-          similique nesciunt nostrum. Pariatur!
-        </p>
+        <h2 className="voucher_heading">Exclusive Goodies From GFG </h2>
+        <div className="goodies_container">
+          <div className="left_goodies">
+            <img src={gfgGoodies} alt="" className="goodies_img" />
+          </div>
+
+          <div className="right_goodies">
+            <p>
+              1. Provide GFG Kits to the top 3 winners of the Hackathon. <br />
+              2.GFG Discount coupons worth Rs2000 for winners. <br />
+              3.GFG Discount coupons worth Rs300 for all participants.
+            </p>
+          </div>
+        </div>
       </div>
       {/* PRICE POOL SECTION ENDS*/}
 

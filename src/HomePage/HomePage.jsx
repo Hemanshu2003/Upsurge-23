@@ -176,7 +176,7 @@ export default function HomePage() {
         </header>
 
         <blockquote>
-          <p>Getting Started Loading....</p>
+          <p>Unexpected VIP Visit !</p>
         </blockquote>
 
         <section>
