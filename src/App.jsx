@@ -1,12 +1,12 @@
 import NavbarComponent from './NavbarComponent/NavbarComponent';
 import HomePage from './HomePage/HomePage';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import TeamPage from './TeamPage/TeamPage';
 import SmackathonPage from './SmackathonPage/SmackathonPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavbarComponent />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -14,7 +14,7 @@ function App() {
         <Route path="/team" element={<TeamPage />} />
         <Route path="/smackathon" element={<SmackathonPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
