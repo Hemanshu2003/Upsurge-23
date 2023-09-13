@@ -117,6 +117,7 @@
   margin-top: 20px;
   font-family: 'SF Pro Display', sans-serif;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 980px) {
@@ -139,7 +140,8 @@
     font-size: 16px;
   }
   .extra {
-    font-size: 22px;
+    font-size: 16px;
+    margin-bottom: 10px;
   }
 }
 
@@ -617,7 +619,7 @@ iframe {
   }
 }
 
-/* Goodies coantaier by hemanshu ends here */
+/* Goodies coantaier by hemanshu ends here  */
 
 /* Model box */
 
@@ -668,3 +670,68 @@ iframe {
     height: 510px;
   }
 }
+
+/* background for paragraph by Hemanshu  start*/
+
+.bg_para {
+  --border-radius: 15px;
+  --border-width: 4px;
+  appearance: none;
+  position: relative;
+  padding: 10px;
+  border: 0;
+  background: rgba(5, 5, 22, 0.6);
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  z-index: 2;
+}
+
+.bg_para::after {
+  --m-i: linear-gradient(#000, #000);
+  --m-o: content-box, padding-box;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: var(--border-width);
+  background-image: conic-gradient(
+    #488cfb,
+    #29dbbc,
+    #ddf505,
+    #ff9f0e,
+    #e440bb,
+    #655adc,
+    #488cfb
+  );
+  -webkit-mask-image: var(--m-i), var(--m-i);
+  mask-image: var(--m-i), var(--m-i);
+  -webkit-mask-origin: var(--m-o);
+  mask-origin: var(--m-o);
+  -webkit-mask-clip: var(--m-o);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+  filter: hue-rotate(0);
+  animation: rotate-hue linear 500ms infinite;
+  animation-play-state: paused;
+  animation-play-state: running;
+}
+
+@keyframes rotate-hue {
+  to {
+    filter: hue-rotate(1turn);
+  }
+}
+
+.bg_para,
+.bg_para::after {
+  box-sizing: border-box;
+}
+
+.bg_para:active {
+  --border-width: 5px;
+}
+
+/* background for paragraph by Hemanshu ends */
