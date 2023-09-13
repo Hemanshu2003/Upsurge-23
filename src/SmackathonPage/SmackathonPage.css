@@ -627,7 +627,7 @@ iframe {
 
 .modal {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -652,7 +652,7 @@ iframe {
   background: none;
 }
 .modal iframe {
-  height: 550px;
+  height: 600px;
 }
 
 @media (max-width: 600px) {
@@ -665,6 +665,6 @@ iframe {
   }
 
   .modal iframe {
-    height: 450px;
+    height: 510px;
   }
 }
