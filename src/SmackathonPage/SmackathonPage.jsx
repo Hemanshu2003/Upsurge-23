@@ -98,31 +98,36 @@ export default function SmackathonPage() {
       {/* PRICE POOL SECTION STARTS*/}
       <div className="prizepool_info">
         <h2 className="pricepool_heading">WITH A WHOPPING PRIZE POOL OF</h2>
-        <h1>₹35,000</h1>
+        <h1 className="pricepoolh1">₹35,000</h1>
       </div>
-      <div className="pricepool_container">
-        <div className="card1">
-          <div className="pricepool_content">
-            <h3>Second Prize</h3>
-            <img src={secondPrice} className="price2" alt="" />
-            <h4 id="PRIZE">₹7,000</h4>
-          </div>
-        </div>
-        <div className="card2">
-          <div className="pricepool_content">
-            <h3>First Prize</h3>
-            <img src={firstPrice} className="price1" alt="" />
-            <h4 id="PRIZE1">₹12,000</h4>
-          </div>
-        </div>
-        <div className="card3">
-          <div className="pricepool_content">
-            <h3>Third Prize</h3>
-            <img src={thirdPrice} className="price3" alt="" />
-            <h4 id="PRIZE">₹3,000</h4>
+      <div style={{ width: '80%', margin: 'auto' }}>
+        <div className="bg_para">
+          <div className="pricepool_container">
+            <div className="card1">
+              <div className="pricepool_content">
+                <h3>Second Prize</h3>
+                <img src={secondPrice} className="price2" alt="" />
+                <h4 id="PRIZE">₹7,000</h4>
+              </div>
+            </div>
+            <div className="card2">
+              <div className="pricepool_content">
+                <h3>First Prize</h3>
+                <img src={firstPrice} className="price1" alt="" />
+                <h4 id="PRIZE1">₹12,000</h4>
+              </div>
+            </div>
+            <div className="card3">
+              <div className="pricepool_content">
+                <h3>Third Prize</h3>
+                <img src={thirdPrice} className="price3" alt="" />
+                <h4 id="PRIZE">₹3,000</h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
       <div className="voucher">
         <h2 className="voucher_heading">Exclusive Goodies From GFG </h2>
         <div className="goodies_container">
