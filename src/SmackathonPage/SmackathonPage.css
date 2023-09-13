@@ -596,6 +596,9 @@ iframe {
   .pricepool_content {
     padding: 0 20px;
   }
+  .pricepool_container {
+    padding-bottom: 30px;
+  }
 }
 /* Price pool section by katil ends here */
 
@@ -809,3 +812,53 @@ iframe {
 }
 
 /* background for paragraph by Hemanshu ends */
+
+/* rules and guildline by  Hemanshu starts here */
+.rules_container {
+  width: 84%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rules_heading {
+  margin-top: 120px;
+  font-size: 46px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px #2bc4f7cc, 0 0 20px #3acbfcba, 0 0 40px #3acbfcba,
+    0 0 80px #3acbfcba, 0 0 160px #3acbfcba;
+  margin-bottom: 10px;
+}
+.rules_subheading {
+  font-size: 26px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px #2bc4f7cc, 0 0 20px #3acbfcba, 0 0 40px #3acbfcba,
+    0 0 80px #3acbfcba, 0 0 160px #3acbfcba;
+  margin-bottom: 40px;
+}
+
+.rules_container ul {
+  width: 82%;
+  margin: auto;
+  padding: 20px;
+}
+.rules_container li {
+  margin: 20px;
+  line-height: 24px;
+}
+
+@media (max-width: 800px) {
+  .rules_heading {
+    font-size: 28px;
+  }
+  .rules_subheading {
+    font-size: 16px;
+  }
+  .rules_container ul {
+    width: 100%;
+  }
+}
+/* rules and guildline by  Hemanshu ends here */

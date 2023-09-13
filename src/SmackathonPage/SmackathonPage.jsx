@@ -155,7 +155,6 @@ export default function SmackathonPage() {
           <div className="text-box">
             <h2 className="N">DAY 1</h2>
             <small className="M">
-              {' '}
               10:00 am - Problem statements will be released for all
               participants.
             </small>
@@ -293,6 +292,71 @@ export default function SmackathonPage() {
         </div>
       </div>
       {/* Veneus  ends here */}
+      {/* Rules and regulation  and winner */}
+      {/* rules */}
+
+      <h1 className="rules_heading">
+        Rules and Guidelines For Smackathon 2023
+      </h1>
+      <h2 className="rules_subheading">
+        Here are some rules and guidelines for our community:
+      </h2>
+      <div className="rules_container">
+        <div className="bg_para">
+          <ul>
+            <li>A team must Have 3 minimum and 5 maximum members.</li>
+            <li>
+              A Team ID will be allocated to the team on registration which
+              shall be used for future references.
+            </li>
+            <li>
+              The idea presented by the teams should be original (not protected
+              by means of patent/copyright/technical publication by anyone).
+            </li>
+            <li>
+              All modes of official communication will be through the Techfest
+              e-mail
+            </li>
+            <li>
+              Participants are advised to keep track of all folders in their
+              e-mail accounts.
+            </li>
+            <li>
+              Registrations are done through the Website of Upsurge.
+              Participants must register by [registration deadline] to secure
+              their spot.
+            </li>
+            <li>
+              All modes of official communication will be through the Techfest
+              e-mail. Participants are advised to keep track of all folders in
+              their e-mail accounts.
+            </li>
+            <li>
+              No responsibility will be held by Techfest, for any late, lost or
+              misdirected entries
+            </li>
+            <li>
+              Problem Statements to be Given on the day of the hackathon starts.
+            </li>
+            <li>
+              All projects must align with the pre-announced hackathon theme or
+              problem statement.
+            </li>
+            <li>
+              Projects must be submitted by [24 HOURS]. Late submissions will
+              not be considered for judging.
+            </li>
+            <li>
+              Participants must not engage in any malicious or harmful
+              activities.
+            </li>
+            <li>
+              Meals and rest areas will be provided onsite (only if the
+              accomodation is taken).
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }

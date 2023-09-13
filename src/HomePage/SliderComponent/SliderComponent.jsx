@@ -87,7 +87,7 @@ export default function SliderComponent() {
               that make our diversity shine. We promise an unforgettable
               cultural...
             </p>
-            <a href="" className="events_link">
+            <a className="events_link">
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -135,7 +135,7 @@ export default function SliderComponent() {
                     fill="#e1f5fe"
                   ></path>
                 </svg>
-                <span className="now">now!</span>
+                <span className="now">soon!</span>
                 <span className="play">Register</span>
               </button>
             </a>
@@ -153,7 +153,7 @@ export default function SliderComponent() {
               mind-boggling journey that will leave you in awe. Stay tuned for
               more details!'
             </p>
-            <a href="" className="events_link">
+            <a className="events_link">
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -201,7 +201,7 @@ export default function SliderComponent() {
                     fill="#e1f5fe"
                   ></path>
                 </svg>
-                <span className="now">now!</span>
+                <span className="now">soon!</span>
                 <span className="play">Register</span>
               </button>
             </a>
@@ -219,7 +219,7 @@ export default function SliderComponent() {
               other. Stay tuned for more details! extravaganza that will touch
               your heart..."
             </p>
-            <a href="" className="events_link">
+            <a className="events_link">
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -267,7 +267,7 @@ export default function SliderComponent() {
                     fill="#e1f5fe"
                   ></path>
                 </svg>
-                <span className="now">now!</span>
+                <span className="now">soon!</span>
                 <span className="play">Register</span>
               </button>
             </a>
