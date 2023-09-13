@@ -119,7 +119,10 @@
   text-align: center;
   margin-bottom: 10px;
 }
-
+.timeline_heading {
+  text-align: center;
+  margin-bottom: 70px;
+}
 @media (max-width: 980px) {
   .heading_smackathonPage {
     font-size: 42px;
@@ -127,7 +130,8 @@
   .timeline_heading {
     text-align: center;
     margin-left: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
   }
 }
 @media (max-width: 450px) {
@@ -251,9 +255,9 @@ body {
 .timeline::after {
   content: '';
   position: absolute;
-  border-top: 1px dotted #000; /* 1px width and black color, adjust as needed */
+  border-top: 4px dotted #000; /* 1px width and black color, adjust as needed */
   width: 100%; /* Adjust the width as needed */
-  margin: 10px 0; /* Add margin for spacing if needed */
+  margin: 85px 0 83px; /* Add margin for spacing if needed */
   width: 2px;
   height: 100%;
   background: linear-gradient(
@@ -266,7 +270,7 @@ body {
     #a0d6e0,
     #9b199b
   );
-  top: 0;
+  top: 105px;
   left: 50%;
   margin-left: -3px;
   z-index: -1;
@@ -275,18 +279,9 @@ body {
 @keyframes moveline {
   0% {
     height: 0;
-    /* border: 2px solid transparent;
-      border-image: linear-gradient(45deg, #1961a9, #9b199b);
-      border-image-slice: 1;
-      box-shadow: 0 0 20px rgba(102, 36, 156, 0.8), 0 0 40px rgba(0, 119, 255, 0.8);
-  */
   }
   100% {
-    height: 100%;
-    /* border: 2px solid transparent;
-      border-image: linear-gradient(45deg, #1961a9, #9b199b);
-      border-image-slice: 1;
-      box-shadow: 0 0 20px rgba(102, 36, 156, 0.8), 0 0 40px rgba(0, 119, 255, 0.8); */
+    height: 76%;
   }
 }
 
@@ -354,6 +349,17 @@ body {
     border-right: 15px solid #fff;
     border-left: 0;
     left: -15px;
+  }
+  .timeline::after {
+    top: 70px;
+  }
+  @keyframes moveline {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 78%;
+    }
   }
 }
 /* Time line Section by Unnati ends here */
