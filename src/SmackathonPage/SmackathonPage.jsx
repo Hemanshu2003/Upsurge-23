@@ -100,7 +100,7 @@ export default function SmackathonPage() {
         <h2 className="pricepool_heading">WITH A WHOPPING PRIZE POOL OF</h2>
         <h1 className="pricepoolh1">₹35,000</h1>
       </div>
-      <div style={{ width: '80%', margin: 'auto' }}>
+      <div style={{ width: '84%', margin: 'auto' }}>
         <div className="bg_para">
           <div className="pricepool_container">
             <div className="card1">
