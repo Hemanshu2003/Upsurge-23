@@ -651,6 +651,9 @@ iframe {
   border: none;
   background: none;
 }
+.modal iframe {
+  height: 550px;
+}
 
 @media (max-width: 600px) {
   .modal {
@@ -659,5 +662,9 @@ iframe {
   .close-modal {
     top: -8px;
     right: 5px;
+  }
+
+  .modal iframe {
+    height: 450px;
   }
 }
