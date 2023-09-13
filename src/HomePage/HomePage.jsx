@@ -10,7 +10,7 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import Robot from '../assets/robot_playground/scene.gltf';
 import React from 'react';
-import UpSurgeGltf from '../assets/test123-v1-v2/test123-v1.gltf';
+import UpSurgeGltf from '../assets/test123-123-v6/test123.gltf';
 
 const scene = new THREE.Scene();
 
