@@ -179,7 +179,7 @@ export default function SmackathonPage() {
               08 : 30 AM : Check-in Time for Teams <br />
               09 : 30 AM : INAUGURATION
             </small>
-            <span className="right-container-arrow"></span>
+            <span className="left-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
@@ -194,7 +194,7 @@ export default function SmackathonPage() {
               10 : 00 AM : Problem Statements will be Released <br />
               11 : 30 AM : Teams to Lock and submit There Problem Statements
             </small>
-            <span className="left-container-arrow"></span>
+            <span className="right-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
@@ -210,7 +210,7 @@ export default function SmackathonPage() {
               12 : 00 PM : Development To be Started
               <br />3 : 00 PM- 5:00 PM : Idea Presentation Round 1 Shortlisting
             </small>
-            <span className="right-container-arrow"></span>
+            <span className="left-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
@@ -225,7 +225,7 @@ export default function SmackathonPage() {
               7 : 30 PM - 10:30 PM : Dinner for teams who have opted for
               accommodation <br />
             </small>
-            <span className="left-container-arrow"></span>
+            <span className="right-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
@@ -240,7 +240,7 @@ export default function SmackathonPage() {
               7 : 00 AM - 8 : 00 AM : BreakFast <br />8 : 30 AM : Final
               Elimination
             </small>
-            <span className="right-container-arrow"></span>
+            <span className="left-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
@@ -256,7 +256,7 @@ export default function SmackathonPage() {
               <br />
               12 : 00 PM : Top 5 Finalists Declaration
             </small>
-            <span className="left-container-arrow"></span>
+            <span className="right-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
@@ -270,7 +270,7 @@ export default function SmackathonPage() {
             <small className="M">
               2 : 00 PM : Winners to be announce in valedictory ceremony <br />
             </small>
-            <span className="right-container-arrow"></span>
+            <span className="left-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>{' '}
