@@ -1,9 +1,9 @@
 import SliderComponent from './SliderComponent/SliderComponent';
-import ScheduleComponent from './ScheduleComponent/ScheduleComponent';
+// import ScheduleComponent from '  ./ScheduleComponent/ScheduleComponent';
 import SmakathonComponent from './SmakathonComponent/SmakathonComponent';
 import FooterComponent from './FooterComponent/FooterComponent';
 import HeroComponent from './HeroComponent/HeroComponent';
-
+import '../HomePage/HomePage.css';
 import * as THREE from 'three';
 // import orbImg from './assets/orb.jpeg';
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
@@ -188,7 +188,13 @@ export default function HomePage() {
         </section>
 
         <section className="left">
-          <ScheduleComponent />
+          <h1 className="schedule_heading" style={{ textAlign: 'centre' }}>
+            Schedule
+          </h1>{' '}
+          <h1 className="schedule_heading1" style={{ textAlign: 'centre' }}>
+            coming soon...
+          </h1>
+          {/* <ScheduleComponent /> */}
         </section>
 
         <footer>
