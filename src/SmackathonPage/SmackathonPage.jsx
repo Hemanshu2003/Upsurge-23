@@ -1,5 +1,5 @@
 import './SmackathonPage.css';
-import peak from '../assets/images/peak2.png';
+// import peak from '../assets/images/peak2.png';
 import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
 
 export default function SmackathonPage() {
@@ -24,7 +24,7 @@ export default function SmackathonPage() {
               className="gfgLogo"
             />
           </a>
-          <img src={peak} alt="" className="peak2" />
+          {/* <img src={peak} alt="" className="peak2" /> */}
           <h3 className="presents">Presents</h3>
           <a href="#">
             <img
