@@ -2,6 +2,7 @@
 .smakaPage {
   z-index: 40;
   position: absolute;
+  width: 100%;
 }
 
 .heroSection {
@@ -435,7 +436,7 @@ iframe {
   .heading_venue {
     text-align: center;
     font-size: 42px;
-    margin-top: 0;
+    margin-top: 80px;
     position: relative;
     z-index: 10;
   }
@@ -474,7 +475,7 @@ iframe {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .card1 {
   width: 350px;
@@ -560,11 +561,12 @@ iframe {
 .pricepool_heading {
   margin-top: 100px;
   text-transform: uppercase;
-  font-size: 38px;
+  font-size: 48px;
   text-align: center;
   color: rgb(255, 255, 255);
   text-shadow: 0 0 10px #2bc4f7cc, 0 0 20px #3acbfcba, 0 0 40px #3acbfcba,
     0 0 80px #3acbfcba, 0 0 160px #3acbfcba;
+  margin-bottom: 60px;
 }
 .pricepoolh1 {
   margin: 10px 0px 30px 0px;
@@ -915,12 +917,6 @@ iframe {
   padding-left: 20px;
   max-width: 300px;
 }
-.peak2 {
-  position: absolute;
-  height: 500px;
-  bottom: 0;
-  left: 0;
-}
 
 @media (max-width: 800px) {
   .assgn_up {
@@ -949,3 +945,158 @@ iframe {
   }
 }
 /* Assesment end */
+
+/* smackathon footer */
+.footer_smackathon {
+  background-color: rgb(8, 4, 24);
+  /* overflow: hidden; */
+  color: white;
+  border-radius: 12px;
+  padding: 20px 5px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.25s;
+  background: linear-gradient(
+    180deg,
+    rgba(11, 3, 21, 0.833) 5.8%,
+    rgb(0, 0, 0) 73.2%
+  );
+  margin-top: 120px;
+  /* backdrop-filter: blur(10px); */
+}
+
+.innerFooter_smackathon {
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.logos_All {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.links_All {
+  width: 30%;
+}
+
+.links_smackathon a {
+  text-align: left;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.follow_All {
+  width: 30%;
+}
+
+.social_smackathon {
+  flex-direction: column;
+  width: 100%;
+}
+
+.followus_smackathon {
+  margin-bottom: 20px;
+}
+
+.social_links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.address_contact_Smackathon {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact_details {
+  display: flex;
+  gap: 15px;
+  text-align: start;
+}
+
+.address_smackathon {
+  margin-bottom: 10px;
+}
+
+.copyRight_container_smackathon {
+  width: 80%;
+  margin: auto;
+  line-height: 18px;
+}
+
+@media (max-width: 600px) {
+  .innerFooter_smackathon {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .logos_All {
+    width: 70%;
+  }
+
+  .links_All {
+    width: 70%;
+    margin-bottom: 5px;
+  }
+
+  .links_smackathon a {
+    text-align: center;
+  }
+
+  .follow_All {
+    width: 70%;
+  }
+
+  .social_smackathon h3 {
+    font-size: 26px;
+  }
+
+  .social_links {
+    gap: 50px;
+  }
+
+  .address_smackathon {
+    margin-bottom: 25px;
+  }
+
+  .address_smackathon h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+
+  .address_smackathon p {
+    line-height: 19px;
+    font-size: 16px;
+  }
+
+  .contact_smackathon h3 {
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+
+  .contact_smackathon p {
+    font-size: 17px;
+  }
+
+  .upsurge_logo_smackathon {
+    width: 200px;
+  }
+
+  .links_smackathon a {
+    font-size: 18px;
+  }
+
+  .contact_details {
+    text-align: center;
+  }
+}
+/* footer ends here */

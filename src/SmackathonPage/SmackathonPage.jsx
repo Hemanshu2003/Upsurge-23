@@ -1,5 +1,6 @@
+/* eslint-disable react/jsx-no-target-blank */
 import './SmackathonPage.css';
-// import peak from '../assets/images/peak2.png';
+
 import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
 
 export default function SmackathonPage() {
@@ -7,6 +8,10 @@ export default function SmackathonPage() {
     const modal = document.querySelector('.modal');
     modal.classList.add('hidden_model');
   };
+
+  function PageChange() {
+    window.scrollTo(0, 0);
+  }
 
   const openModal = function () {
     const modal = document.querySelector('.modal');
@@ -24,7 +29,7 @@ export default function SmackathonPage() {
               className="gfgLogo"
             />
           </a>
-          {/* <img src={peak} alt="" className="peak2" /> */}
+
           <h3 className="presents">Presents</h3>
           <a href="#">
             <img
@@ -60,7 +65,7 @@ export default function SmackathonPage() {
           ></iframe>
         </div>
       </section>
-      <section className="about">
+      {/* <section className="about">
         <h2 className="heading_smackathonPage">Smackathon</h2>
         <div className="bg_para">
           <p className="description">
@@ -95,13 +100,12 @@ export default function SmackathonPage() {
             GeeksforGeeks 🎁
           </h3>
         </div>
-      </section>
+      </section> */}
       {/* PRICE POOL SECTION STARTS*/}
       <div className="prizepool_info">
-        <h2 className="pricepool_heading">WITH A WHOPPING PRIZE POOL OF</h2>
-        <h1 className="pricepoolh1">₹30,000</h1>
+        <h2 className="pricepool_heading">CASH Pricess</h2>
       </div>
-      <div style={{ width: '90%', margin: 'auto' }}>
+      <div style={{ width: '84%', margin: 'auto' }}>
         <div className="bg_para">
           <div className="pricepool_container">
             <div className="card1">
@@ -288,6 +292,70 @@ export default function SmackathonPage() {
           </div> */}
       </div>
       {/* Time ends here */}
+      {/* Rules and regulation  and winner */}
+      {/* rules */}
+      <h1 className="rules_heading">
+        Rules and Guidelines For Smackathon 2023
+      </h1>
+      <h2 className="rules_subheading">
+        Here are some rules and guidelines for our community:
+      </h2>
+      <div className="rules_container">
+        <div className="bg_para">
+          <ul>
+            <li>
+              A team must consist of a minimum of 3 members and a maximum of 5
+              members.
+            </li>
+            <li>
+              A team access pass will be distributed to the team upon
+              registration, which shall be used for future references.
+            </li>
+            <li>
+              The ideas presented by the teams should be original and not
+              protected by means of patents, copyrights, or technical
+              publications by anyone.
+            </li>
+            <li>
+              All official communication will be conducted through the
+              Smackathon email. Participants are advised to monitor all folders
+              in their email accounts.
+            </li>
+            <li>
+              Registrations must be completed through the Upsurge website by the
+              [registration deadline] to secure a spot.
+            </li>
+            <li>
+              No responsibility will be held by the Smackathon Team for any
+              late, lost, or misdirected entries.
+            </li>
+            <li>
+              Problem statements will be provided on the day the hackathon
+              starts.
+            </li>
+            <li>
+              All projects must align with the pre-announced Smackathon theme or
+              problem statement.
+            </li>
+            <li>
+              Participants must not engage in any malicious or harmful
+              activities.
+            </li>
+            <li>
+              Meals and rest areas will be provided onsite only if accommodation
+              is taken.
+            </li>
+            <li>
+              According to YCCE Policy, no female participants are allowed to
+              stay overnight. After 8 pm, they must leave
+              <br /> the campus but can rejoin at 6 am the next day. Those from
+              outside Nagpur will stay at YCCE girls <br />
+              hostel, and the organizing team will manage their accommodation.
+            </li>
+          </ul>
+        </div>
+      </div>
+      {/* rules end here */}
       {/* Venus starts here */}
       <div>
         <h1 className="heading_venue">Locate Us!</h1>
@@ -318,70 +386,7 @@ export default function SmackathonPage() {
         </div>
       </div>
       {/* Veneus  ends here */}
-      {/* Rules and regulation  and winner */}
-      {/* rules */}
-      <h1 className="rules_heading">
-        Rules and Guidelines For Smackathon 2023
-      </h1>
-      <h2 className="rules_subheading">
-        Here are some rules and guidelines for our community:
-      </h2>
-      <div className="rules_container">
-        <div className="bg_para">
-          <ul>
-            <li>A team must Have 3 minimum and 5 maximum members.</li>
-            <li>
-              A Team ID will be allocated to the team on registration which
-              shall be used for future references.
-            </li>
-            <li>
-              The idea presented by the teams should be original (not protected
-              by means of patent/copyright/technical publication by anyone).
-            </li>
-            <li>
-              All modes of official communication will be through the Techfest
-              e-mail
-            </li>
-            <li>
-              Participants are advised to keep track of all folders in their
-              e-mail accounts.
-            </li>
-            <li>
-              Registrations are done through the Website of Upsurge.
-              Participants must register by [registration deadline] to secure
-              their spot.
-            </li>
-            <li>
-              All modes of official communication will be through the Techfest
-              e-mail. Participants are advised to keep track of all folders in
-              their e-mail accounts.
-            </li>
-            <li>
-              No responsibility will be held by Techfest, for any late, lost or
-              misdirected entries
-            </li>
-            <li>
-              Problem Statements to be Given on the day of the hackathon starts.
-            </li>
-            <li>
-              All projects must align with the pre-announced hackathon theme or
-              problem statement.
-            </li>
-            <li>
-              Projects must be submitted by [24 HOURS]. Late submissions will
-              not be considered for judging.
-            </li>
-            <li>
-              Participants must not engage in any malicious or harmful
-              activities.
-            </li>
-            <li>
-              Meals and rest areas will be provided onsite (only if the
-              accomodation is taken).
-            </li>
-          </ul>
-        </div>
-      </div>
+
       <h1 className="rules_heading assessment_heading">
         Assessment Criteria For Smackthon 2023
       </h1>
@@ -427,6 +432,128 @@ export default function SmackathonPage() {
           </ul>
         </div>
       </div>
+
+      {/* Footer starts here */}
+      <footer className="footer_smackathon">
+        <div className="innerFooter innerFooter_smackathon">
+          <div className="logos_All">
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Upsurge_Logo.png"
+              alt=""
+              className="upsurge_logo upsurge_logo_smackathon"
+            />
+
+            <div className="logo">
+              <img
+                src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/ACM_final.png"
+                alt=""
+                width="80"
+                className="acm"
+              />
+              <img
+                src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/cosmos+new+logo.png"
+                width="80"
+                alt=""
+                className="cosmos"
+              />
+            </div>
+          </div>
+
+          <div className="links_All">
+            <div className="links links_smackathon">
+              <a href="/#/smackathon" onClick={PageChange}>
+                Smackathon
+              </a>
+              <a href="#">Schedule</a>
+              <a href="#">Events</a>
+              <a href="/#/team" onClick={PageChange}>
+                Team
+              </a>
+            </div>
+          </div>
+          <div className="follow_All">
+            <div className="social social_smackathon">
+              <h3 className="followus_smackathon">Follow Us</h3>
+              <div className="social_links">
+                <a
+                  href="https://www.instagram.com/cse_ycce_official/"
+                  target="_blank"
+                >
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                {/* <a href="#" target="_blank">
+          <i className="fa fa-twitter" aria-hidden="true"></i>
+          
+        </a> */}
+                <a href="mailto:smackathon@upsurge2k23.tech">
+                  <i className="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/yccecosmos/"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="address_contact social_smackathon address_contact_Smackathon">
+              <div className="address address_smackathon">
+                <h3>Find Us</h3>
+                <p>
+                  CSE Dept, YCCE College <br />
+                  Wanadongri, Nagpur
+                </p>
+              </div>
+              <div className="contact contact_smackathon">
+                <h3>Contact Us</h3>
+                <div className="contact_details">
+                  <div className="contact_details_name">
+                    <p>Shudhanshu Nerkar</p>
+                    <p>Navin Patel</p>
+                  </div>
+                  <div className="contact_details_number">
+                    <p>(73919 95430)</p>
+                    <p>(77450 10395)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* <h2 className="sponsor_heading">Sponsors</h2>
+
+      <div className="links extra_link">
+        <a href="#">Extra links </a>
+        <a href="#">Extra links </a>
+        <a href="#">Extra links </a>
+        <a href="#">Extra links </a>
+      </div> */}
+          </div>
+        </div>
+
+        <div className="copyRight_container copyRight_container_smackathon">
+          <p className="copyright">
+            &copy; Copyrights belongs to Department Computer Science and
+            Engineering, <br />
+            Developed By Hemanshu Waghmare, Divyansh Sharma, Unnati Thakre,
+            Kartik Tichkule , Abhijeet Sahu, Taha Hussian , Vishakha Fulare
+            <br />
+            <a
+              href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/no+refund+policy+.pdf"
+              className="privacy_footer"
+            >
+              Privacy Policy,
+            </a>{' '}
+            <a
+              href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/privacy+policy+.pdf"
+              className="privacy_footer"
+            >
+              No Refund Policy
+            </a>
+          </p>
+        </div>
+      </footer>
+      {/* footer ends here */}
     </div>
   );
 }
