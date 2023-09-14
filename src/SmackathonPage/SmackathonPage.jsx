@@ -1,5 +1,5 @@
 import './SmackathonPage.css';
-import peak from '../assets/images/peak2.png';
+import peak from '../assets/images/peak2.jpeg';
 import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
 
 export default function SmackathonPage() {
