@@ -101,7 +101,7 @@ export default function FooterComponent() {
           Engineering, <br />
           Developed By Hemanshu Waghmare, Divyansh Sharma, Unnati Thakre, <br />{' '}
           Kartik Tichkule , Abhijeet Sahu, Taha Hussian , Vishakha Fulare
-          <br />
+          <br /> <br />
           <a
             href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/privacy+policy+.pdf"
             className="privacy_footer"

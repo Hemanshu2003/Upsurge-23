@@ -554,7 +554,7 @@ export default function SmackathonPage() {
             Developed By Hemanshu Waghmare, Divyansh Sharma, Unnati Thakre,
             Kartik Tichkule ,<br /> Abhijeet Sahu, Taha Hussian , Vishakha
             Fulare
-            <br />
+            <br /> <br />
             <a
               href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/no+refund+policy+.pdf"
               className="privacy_footer"
