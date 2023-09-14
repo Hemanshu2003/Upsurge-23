@@ -99,8 +99,8 @@ export default function FooterComponent() {
         <p className="copyright">
           &copy; Copyrights belongs to Department Computer Science and
           Engineering, <br />
-          Developed By Hemanshu Waghmare, Divyansh Sharma, Unnati Thakre, Kartik
-          Tichkule , Abhijeet Sahu, Taha Hussian , Vishakha Fulare
+          Developed By Hemanshu Waghmare, Divyansh Sharma, Unnati Thakre, <br />{' '}
+          Kartik Tichkule , Abhijeet Sahu, Taha Hussian , Vishakha Fulare
           <br />
           <a
             href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/privacy+policy+.pdf"

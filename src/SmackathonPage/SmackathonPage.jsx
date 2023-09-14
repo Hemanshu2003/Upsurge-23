@@ -176,10 +176,10 @@ export default function SmackathonPage() {
           <div className="text-box">
             <h2 className="N">DAY 1</h2>
             <small className="M">
-              10:00 am - Problem statements will be released for all
-              participants.
+              08 : 30 AM : Check-in Time for Teams <br />
+              09 : 30 AM : INAUGURATION
             </small>
-            <span className="left-container-arrow"></span>
+            <span className="right-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
@@ -190,11 +190,11 @@ export default function SmackathonPage() {
           />
           <div className="text-box">
             <h2 className="N">DAY 1</h2>
-            <small className="N">
-              11:30 am - The teams will have to finalize any 1 of the problem
-              statements.
+            <small className="M">
+              10 : 00 AM : Problem Statements will be Released <br />
+              11 : 30 AM : Teams to Lock and submit There Problem Statements
             </small>
-            <span className="right-container-arrow"></span>
+            <span className="left-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
@@ -203,36 +203,15 @@ export default function SmackathonPage() {
             src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
             alt="Image"
           />
-          <div className="text-box">
-            <h2 className="N">DAY 1</h2>
-            <small className="N">1:00pm - Kahana khalo friends</small>
-            <span className="left-container-arrow"></span>
-          </div>
-          <div style={{ height: '20px' }}></div>
-        </div>
-        <div className="container_timeline right_container">
-          <img
-            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
-            alt="Image"
-          />
-          <div className="text-box">
-            <h2 className="N">DAY 1</h2>
-            <small className="N">5:00pm - short break lelo</small>
-            <span className="right-container-arrow"></span>
-          </div>
-          <div style={{ height: '20px' }}></div>
-        </div>
-        <div className="container_timeline left_container">
-          <img
-            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
-            alt="Image"
-          />
-          <div className="text-box">
-            <h2 className="N">DAY 1</h2>
-            <small className="N">8:30pm - firse Kahana Khalo</small>
-            <span className="left-container-arrow"></span>
-          </div>
 
+          <div className="text-box">
+            <h2 className="N">DAY 1</h2>
+            <small className="M">
+              12 : 00 PM : Development To be Started
+              <br />3 : 00 PM- 5:00 PM : Idea Presentation Round 1 Shortlisting
+            </small>
+            <span className="right-container-arrow"></span>
+          </div>
           <div style={{ height: '20px' }}></div>
         </div>
         <div className="container_timeline right_container">
@@ -241,9 +220,12 @@ export default function SmackathonPage() {
             alt="Image"
           />
           <div className="text-box">
-            <h2 className="N">DAY 2</h2>
-            <small className="N">11:00 am - winnner will be announced</small>
-            <span className="right-container-arrow"></span>
+            <h2 className="N">DAY 1</h2>
+            <small className="M">
+              7 : 30 PM - 10:30 PM : Dinner for teams who have opted for
+              accommodation <br />
+            </small>
+            <span className="left-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
@@ -254,10 +236,41 @@ export default function SmackathonPage() {
           />
           <div className="text-box">
             <h2 className="N">DAY 2</h2>
-            <small className="N">
-              11:00 am - winnner will be announced at Validictory Ceremony
+            <small className="M">
+              7 : 00 AM - 8 : 00 AM : BreakFast <br />8 : 30 AM : Final
+              Elimination
+            </small>
+            <span className="right-container-arrow"></span>
+          </div>
+          <div style={{ height: '20px' }}></div>
+        </div>
+        <div className="container_timeline right_container">
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
+            alt="Image"
+          />
+          <div className="text-box">
+            <h2 className="N">DAY 2</h2>
+            <small className="M">
+              10 : 00 PM - 12:00 PM : Final Presentation Round 2 Shortlisting{' '}
+              <br />
+              12 : 00 PM : Top 5 Finalists Declaration
             </small>
             <span className="left-container-arrow"></span>
+          </div>
+          <div style={{ height: '20px' }}></div>
+        </div>
+        <div className="container_timeline left_container">
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
+            alt="Image"
+          />
+          <div className="text-box">
+            <h2 className="N">DAY 2</h2>
+            <small className="M">
+              2 : 00 PM : Winners to be announce in valedictory ceremony <br />
+            </small>
+            <span className="right-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
         </div>{' '}
@@ -536,7 +549,8 @@ export default function SmackathonPage() {
             &copy; Copyrights belongs to Department Computer Science and
             Engineering, <br />
             Developed By Hemanshu Waghmare, Divyansh Sharma, Unnati Thakre,
-            Kartik Tichkule , Abhijeet Sahu, Taha Hussian , Vishakha Fulare
+            Kartik Tichkule ,<br /> Abhijeet Sahu, Taha Hussian , Vishakha
+            Fulare
             <br />
             <a
               href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/no+refund+policy+.pdf"
