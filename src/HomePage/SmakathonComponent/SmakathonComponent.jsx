@@ -1,8 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import './SmakathonComponent.css';
-import GeeksLogo from '../../assets/HomePage/Smackathon/Gfg White.png';
-import SmackathonLogo from '../../assets/HomePage/Smackathon/Final Logo Medium.png';
-// import PricePool from '../../assets/HomePage/Smackathon/price.png';
 import { Link } from 'react-router-dom';
 // import { useState } from 'react';
 
@@ -52,10 +49,14 @@ export default function SmakathonComponent() {
       <div className="container">
         <div className="content">
           <div className="presentedBy">
-            <img src={GeeksLogo} alt="" className="geeksLogo" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Gfg+White.png"
+              alt=""
+              className="geeksLogo"
+            />
             <h3 className="sb">Presents</h3>
             <img
-              src={SmackathonLogo}
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Final+Logo+Medium.png"
               alt="smackthonLogo"
               className="smackthonLogo"
             />

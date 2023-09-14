@@ -1,13 +1,6 @@
-import smackathon_logo from '../assets/HomePage/Smackathon/Final Logo Medium.png';
-import gfg_logo from '../assets/HomePage/Smackathon/Gfg White.png';
 import './SmackathonPage.css';
-import ele1 from '../assets/HomePage/Smackathon/samay.png';
+
 import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
-import peakLogo1 from '../assets/images/peak.png';
-import secondPrice from '../assets/images/2.png';
-import firstPrice from '../assets/images/1.png';
-import thirdPrice from '../assets/images/3.png';
-import gfgGoodies from '../assets/images/GFG-Goodies.png';
 
 export default function SmackathonPage() {
   const closeModal = function () {
@@ -25,11 +18,19 @@ export default function SmackathonPage() {
       <section className="heroSection">
         <div className="innerHero">
           <a href="#">
-            <img src={gfg_logo} alt="" className="gfgLogo" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Gfg+White.png"
+              alt=""
+              className="gfgLogo"
+            />
           </a>
           <h3 className="presents">Presents</h3>
           <a href="#">
-            <img src={smackathon_logo} alt="" className="smackathon_logo" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Final+Logo+Medium.png"
+              alt=""
+              className="smackathon_logo"
+            />
           </a>
 
           {/* <div>
@@ -97,7 +98,7 @@ export default function SmackathonPage() {
       {/* PRICE POOL SECTION STARTS*/}
       <div className="prizepool_info">
         <h2 className="pricepool_heading">WITH A WHOPPING PRIZE POOL OF</h2>
-        <h1 className="pricepoolh1">₹35,000</h1>
+        <h1 className="pricepoolh1">₹30,000</h1>
       </div>
       <div style={{ width: '90%', margin: 'auto' }}>
         <div className="bg_para">
@@ -105,21 +106,33 @@ export default function SmackathonPage() {
             <div className="card1">
               <div className="pricepool_content">
                 <h3>Second Prize</h3>
-                <img src={secondPrice} className="price2" alt="" />
+                <img
+                  src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/2.png"
+                  className="price2"
+                  alt=""
+                />
                 <h4 id="PRIZE">₹7,000</h4>
               </div>
             </div>
             <div className="card2">
               <div className="pricepool_content">
                 <h3>First Prize</h3>
-                <img src={firstPrice} className="price1" alt="" />
+                <img
+                  src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/1.png"
+                  className="price1"
+                  alt=""
+                />
                 <h4 id="PRIZE1">₹12,000</h4>
               </div>
             </div>
             <div className="card3">
               <div className="pricepool_content">
                 <h3>Third Prize</h3>
-                <img src={thirdPrice} className="price3" alt="" />
+                <img
+                  src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/3.png"
+                  className="price3"
+                  alt=""
+                />
                 <h4 id="PRIZE">₹3,000</h4>
               </div>
             </div>
@@ -130,7 +143,11 @@ export default function SmackathonPage() {
         <h2 className="voucher_heading">Exclusive Goodies From GFG </h2>
         <div className="goodies_container">
           <div className="left_goodies">
-            <img src={gfgGoodies} alt="" className="goodies_img" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/GFG-Goodies.png"
+              alt=""
+              className="goodies_img"
+            />
           </div>
 
           <div className="right_goodies">
@@ -147,7 +164,10 @@ export default function SmackathonPage() {
       <div className="timeline">
         <h2 className="heading_smackathonPage timeline_heading">TimeLine</h2>
         <div className="container_timeline left_container">
-          <img src={ele1} alt="Image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
+            alt="Image"
+          />
           <div className="text-box">
             <h2 className="N">DAY 1</h2>
             <small className="M">
@@ -159,7 +179,10 @@ export default function SmackathonPage() {
           <div style={{ height: '20px' }}></div>
         </div>
         <div className="container_timeline right_container">
-          <img src={ele1} alt="Image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
+            alt="Image"
+          />
           <div className="text-box">
             <h2 className="N">DAY 1</h2>
             <small className="N">
@@ -171,7 +194,10 @@ export default function SmackathonPage() {
           <div style={{ height: '20px' }}></div>
         </div>
         <div className="container_timeline left_container">
-          <img src={ele1} alt="Image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
+            alt="Image"
+          />
           <div className="text-box">
             <h2 className="N">DAY 1</h2>
             <small className="N">1:00pm - Kahana khalo friends</small>
@@ -180,7 +206,10 @@ export default function SmackathonPage() {
           <div style={{ height: '20px' }}></div>
         </div>
         <div className="container_timeline right_container">
-          <img src={ele1} alt="Image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
+            alt="Image"
+          />
           <div className="text-box">
             <h2 className="N">DAY 1</h2>
             <small className="N">5:00pm - short break lelo</small>
@@ -189,7 +218,10 @@ export default function SmackathonPage() {
           <div style={{ height: '20px' }}></div>
         </div>
         <div className="container_timeline left_container">
-          <img src={ele1} alt="Image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
+            alt="Image"
+          />
           <div className="text-box">
             <h2 className="N">DAY 1</h2>
             <small className="N">8:30pm - firse Kahana Khalo</small>
@@ -199,7 +231,10 @@ export default function SmackathonPage() {
           <div style={{ height: '20px' }}></div>
         </div>
         <div className="container_timeline right_container">
-          <img src={ele1} alt="Image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
+            alt="Image"
+          />
           <div className="text-box">
             <h2 className="N">DAY 2</h2>
             <small className="N">11:00 am - winnner will be announced</small>
@@ -208,7 +243,10 @@ export default function SmackathonPage() {
           <div style={{ height: '20px' }}></div>
         </div>
         <div className="container_timeline left_container">
-          <img src={ele1} alt="Image" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/samay.png"
+            alt="Image"
+          />
           <div className="text-box">
             <h2 className="N">DAY 2</h2>
             <small className="N">
@@ -254,7 +292,11 @@ export default function SmackathonPage() {
         <h1 className="heading_venue">Locate Us!</h1>
 
         <div className="Map" id="correct">
-          <img src={peakLogo1} className="peaklogo1" alt="" />
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/peak.png"
+            className="peaklogo1"
+            alt=""
+          />
           <div style={{ alignItems: 'center' }} className="iframeMap ">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119118.2038380647!2d78.82803159726564!3d21.094862899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd495abf6622d6f%3A0x2bd70ec1faa74ad4!2sDepartment%20Of%20Computer%20Science%20And%20Engineering!5e0!3m2!1sen!2sin!4v1694333084486!5m2!1sen!2sin"

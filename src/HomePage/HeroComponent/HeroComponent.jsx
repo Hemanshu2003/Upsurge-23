@@ -1,10 +1,14 @@
 import './HeroComponent.css';
-import UpsurgeLogo from '../../assets/HomePage/Smackathon/Upsurge_Logo.png';
+
 export default function HeroComponent() {
   return (
     <div className="hero">
       <div className="centered">
-        <img src={UpsurgeLogo} className="Upsurge_Logo" alt="" />
+        <img
+          src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Upsurge_Logo.png"
+          className="Upsurge_Logo"
+          alt=""
+        />
       </div>
       <svg>
         <defs>
