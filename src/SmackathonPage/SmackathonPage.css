@@ -578,9 +578,9 @@ iframe {
 
 @media (max-width: 900px) {
   .pricepool_heading {
-    font-size: 22px;
+    font-size: 42px;
     width: 90%;
-    margin: auto;
+    margin: 100px auto 30px auto;
   }
 
   .card1 {
@@ -596,7 +596,7 @@ iframe {
     width: 100%;
   }
   .pricepool_content {
-    padding: 0 20px;
+    padding: 0;
   }
   .pricepool_container {
     padding-bottom: 30px;
@@ -861,6 +861,7 @@ iframe {
 }
 @media (max-width: 800px) {
   .rules_heading {
+    margin-top: 100px;
     font-size: 28px;
     margin-left: auto;
     margin-right: auto;
