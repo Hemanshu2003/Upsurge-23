@@ -1098,6 +1098,7 @@ iframe {
 
   .contact_details {
     text-align: center;
+    flex-direction: column;
   }
 }
 /* footer ends here */
