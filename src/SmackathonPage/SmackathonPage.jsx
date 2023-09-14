@@ -520,13 +520,16 @@ export default function SmackathonPage() {
               </div>
               <div className="contact contact_smackathon">
                 <h3>Contact Us</h3>
-                <div className="contact_details">
+                <div
+                  className="contact_details"
+                  style={{ textAlign: 'center' }}
+                >
                   <div className="contact_details_name">
                     <p>Shudhanshu Nerkar</p>
-                    <p>Navin Patel</p>
+                    <p>(73919 95430)</p>
                   </div>
                   <div className="contact_details_number">
-                    <p>(73919 95430)</p>
+                    <p>Navin Patel</p>
                     <p>(77450 10395)</p>
                   </div>
                 </div>
