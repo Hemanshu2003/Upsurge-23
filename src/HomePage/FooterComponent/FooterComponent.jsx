@@ -1,6 +1,5 @@
 import './FooterComponent.css';
 import xsvg from './X.svg';
-import UpsurgeLogo from '../../assets/HomePage/Smackathon/Upsurge_Logo.png';
 import AcmLogo from '../../assets/FooterImg/acm.png';
 import CosmosLogo from '../../assets/FooterImg/cosmos new logo.png';
 
@@ -8,7 +7,11 @@ export default function FooterComponent() {
   return (
     <footer className="footer">
       <div className="innerFooter">
-        <img src={UpsurgeLogo} alt="" className="upsurge_logo" />
+        <img
+          src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Upsurge_Logo.png"
+          alt=""
+          className="upsurge_logo"
+        />
 
         <div className="links">
           <a href="#">links</a>
