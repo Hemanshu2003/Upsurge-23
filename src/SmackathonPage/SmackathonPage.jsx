@@ -99,7 +99,7 @@ export default function SmackathonPage() {
         <h2 className="pricepool_heading">WITH A WHOPPING PRIZE POOL OF</h2>
         <h1 className="pricepoolh1">₹35,000</h1>
       </div>
-      <div style={{ width: '84%', margin: 'auto' }}>
+      <div style={{ width: '90%', margin: 'auto' }}>
         <div className="bg_para">
           <div className="pricepool_container">
             <div className="card1">
@@ -134,7 +134,7 @@ export default function SmackathonPage() {
           </div>
 
           <div className="right_goodies">
-            <p>
+            <p className="goodies_para">
               1. Provide GFG Kits to the top 3 winners of the Hackathon. <br />
               2.GFG Discount coupons worth Rs2000 for winners. <br />
               3.GFG Discount coupons worth Rs300 for all participants.
@@ -158,7 +158,6 @@ export default function SmackathonPage() {
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
-
         <div className="container_timeline right_container">
           <img src={ele1} alt="Image" />
           <div className="text-box">
@@ -171,7 +170,6 @@ export default function SmackathonPage() {
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
-
         <div className="container_timeline left_container">
           <img src={ele1} alt="Image" />
           <div className="text-box">
@@ -181,7 +179,6 @@ export default function SmackathonPage() {
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
-
         <div className="container_timeline right_container">
           <img src={ele1} alt="Image" />
           <div className="text-box">
@@ -191,7 +188,6 @@ export default function SmackathonPage() {
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
-
         <div className="container_timeline left_container">
           <img src={ele1} alt="Image" />
           <div className="text-box">
@@ -211,7 +207,6 @@ export default function SmackathonPage() {
           </div>
           <div style={{ height: '20px' }}></div>
         </div>
-
         <div className="container_timeline left_container">
           <img src={ele1} alt="Image" />
           <div className="text-box">
@@ -222,8 +217,7 @@ export default function SmackathonPage() {
             <span className="left-container-arrow"></span>
           </div>
           <div style={{ height: '20px' }}></div>
-        </div>
-
+        </div>{' '}
         {/* <div className="container_timeline right_container">
           <img src={ele1} alt="Image" />
           <div className="text-box">
@@ -233,7 +227,6 @@ export default function SmackathonPage() {
           </div>
           <div style={{ height: '20px' }}></div>
         </div> */}
-
         {/* <div className="container_timeline left_container">
           <img src={ele1} alt="Image" />
 
@@ -278,9 +271,6 @@ export default function SmackathonPage() {
               6th October, 2023 <br />
               Seminar Hall, CSE building, <br /> YCCE campus
             </h3>
-
-            {/* <h2 style={{color:'white' ,marginBottom:'20px'}}> <img src={mi} alt="Description of the image"  />6th October,2023</h2>
-            <h3 style={{color:'white'}}>Seminar Hall,Cse building,YCCE capmpus </h3> */}
           </div>
         </div>
       </div>
@@ -396,10 +386,4 @@ export default function SmackathonPage() {
       </div>
     </div>
   );
-}
-
-{
-  /* <li>
-              
-            </li> */
 }

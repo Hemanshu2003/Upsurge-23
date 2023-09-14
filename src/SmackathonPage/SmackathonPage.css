@@ -582,16 +582,16 @@ iframe {
   }
 
   .card1 {
-    width: 325px;
+    width: 100%;
     order: 2;
   }
   .card2 {
     order: 1;
-    width: 350px;
+    width: 100%;
   }
   .card3 {
     order: 3;
-    width: 325px;
+    width: 100%;
   }
   .pricepool_content {
     padding: 0 20px;
@@ -854,7 +854,9 @@ iframe {
   margin: 20px;
   line-height: 24px;
 }
-
+.goodies_para {
+  max-width: 300px;
+}
 @media (max-width: 800px) {
   .rules_heading {
     font-size: 28px;
