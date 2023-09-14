@@ -58,7 +58,6 @@ export default function SmackathonPage() {
           ></iframe>
         </div>
       </section>
-
       <section className="about">
         <h2 className="heading_smackathonPage">Smackathon</h2>
         <div className="bg_para">
@@ -127,7 +126,6 @@ export default function SmackathonPage() {
           </div>
         </div>
       </div>
-
       <div className="voucher">
         <h2 className="voucher_heading">Exclusive Goodies From GFG </h2>
         <div className="goodies_container">
@@ -145,9 +143,7 @@ export default function SmackathonPage() {
         </div>
       </div>
       {/* PRICE POOL SECTION ENDS*/}
-
       {/* TIME LINE */}
-
       <div className="timeline">
         <h2 className="heading_smackathonPage timeline_heading">TimeLine</h2>
         <div className="container_timeline left_container">
@@ -259,11 +255,8 @@ export default function SmackathonPage() {
             <div style={{ height: '20px' }}></div>
           </div> */}
       </div>
-
       {/* Time ends here */}
-
       {/* Venus starts here */}
-
       <div>
         <h1 className="heading_venue">Locate Us!</h1>
 
@@ -294,7 +287,6 @@ export default function SmackathonPage() {
       {/* Veneus  ends here */}
       {/* Rules and regulation  and winner */}
       {/* rules */}
-
       <h1 className="rules_heading">
         Rules and Guidelines For Smackathon 2023
       </h1>
@@ -357,6 +349,57 @@ export default function SmackathonPage() {
           </ul>
         </div>
       </div>
+      <h1 className="rules_heading assessment_heading">
+        Assessment Criteria For Smackthon 2023
+      </h1>
+      <div className="assgn_container">
+        <div className="bg_para">
+          <ul>
+            <div className="assgn_up">
+              <li className="assgn_line">
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/006/800/303/original/quality-work-abstract-concept-illustration-quality-in-a-workplace-employee-performance-experienced-worker-speed-of-production-improvement-effective-management-abstract-metaphor-vector.jpg"
+                  alt=""
+                  className="assgn_vector"
+                />
+                <h4 className="assgn_title">Quality of work submitted</h4>
+              </li>
+              <li className="assgn_line">
+                <img
+                  src="https://img.freepik.com/free-vector/time-management-concept-talk-chart_23-2148831728.jpg"
+                  alt=""
+                  className="assgn_vector"
+                />
+                <h4 className="assgn_title">Timeliness of submissions</h4>
+              </li>
+            </div>
+            <div className="assgn_down">
+              <li className="assgn_line">
+                <img
+                  src="https://img.freepik.com/free-vector/meeting-concept-illustration_114360-717.jpg?w=2000"
+                  alt=""
+                  className="assgn_vector"
+                />
+                <h4 className="assgn_title">Participation in discussions</h4>
+              </li>
+              <li className="assgn_line">
+                <img
+                  src="https://img.freepik.com/free-vector/flat-creativity-concept-illustration_52683-64279.jpg?w=2000"
+                  alt=""
+                  className="assgn_vector"
+                />
+                <h4 className="assgn_title">Innovation through imagination</h4>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
     </div>
   );
+}
+
+{
+  /* <li>
+              
+            </li> */
 }

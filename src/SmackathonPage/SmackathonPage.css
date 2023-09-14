@@ -862,3 +862,67 @@ iframe {
   }
 }
 /* rules and guildline by  Hemanshu ends here */
+
+/* Assesment start */
+
+.assgn_container {
+  width: 75%;
+  margin: auto;
+}
+
+.assgn_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+}
+.assessment_heading {
+  margin-bottom: 50px;
+}
+
+.assgn_vector {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.assgn_up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.assgn_down {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.assgn_title {
+  text-align: center;
+  font-size: 23px;
+  padding-left: 20px;
+  max-width: 300px;
+}
+
+@media (max-width: 800px) {
+  .assgn_up {
+    flex-direction: column;
+  }
+  .assgn_down {
+    flex-direction: column;
+  }
+
+  .assgn_vector {
+    width: 80px;
+    height: 80px;
+  }
+  .assgn_container {
+    width: 80%;
+    margin: auto;
+  }
+  .assgn_title {
+    text-align: center;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+}
+/* Assesment end */
