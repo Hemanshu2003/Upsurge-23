@@ -584,9 +584,10 @@ export default function SmackathonPage() {
             &copy; Copyrights belongs to Department Of Computer Science and
             Engineering, Developed By
             <Link
-              to=""
+              to="/websiteteam"
               className="privacy_footer"
               style={{ padding: '0px 4px' }}
+              onClick={PageChange}
             >
               Website Team CSE,
             </Link>

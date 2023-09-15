@@ -1,0 +1,264 @@
+websiteteam {
+  z-index: 40;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 300px;
+}
+/* This is website container */
+.website_team_container {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.website_team_heading {
+  font-size: 68px;
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
+}
+
+.website_team_cards_container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  row-gap: 50px;
+}
+.span3 {
+  grid-column: span 3 / span 3;
+}
+
+@media (max-width: 800px) {
+  .website_team_heading {
+    font-size: 40px;
+  }
+  .website_team_container {
+    width: 80%;
+  }
+
+  .website_team_cards_container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 0;
+  }
+  .span3 {
+    grid-column: span 1 / span 3;
+  }
+}
+
+.member_card {
+  cursor: pointer;
+  width: 280px;
+  height: 280px;
+  background: pink;
+  border-radius: 32px;
+  padding: 3px;
+  margin: auto;
+  position: relative;
+  box-shadow: #604b4a30 0px 70px 30px -50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.member_card .mail {
+  position: absolute;
+  right: 2rem;
+  top: 1.4rem;
+  background: transparent;
+  border: none;
+}
+
+.member_card .mail .fa {
+  cursor: pointer;
+  color: #d14976;
+  font-size: 20px;
+  stroke-width: 3px;
+  transition: all 0.5s;
+}
+
+.member_card .mail .fa:hover {
+  color: #7500b8;
+  transform: scale(1.3);
+}
+
+.member_card .profile-pic {
+  position: absolute;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  top: 3px;
+  left: 3px;
+  border-radius: 29px;
+  z-index: 1;
+  border: 0px solid #fbb9b6;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out 0.2s, z-index 0.5s ease-in-out 0.2s;
+}
+
+.member_card .profile-pic img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -o-object-position: 0px 0px;
+  object-position: 0px 0px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.member_card .profile-pic svg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 0px 0px;
+  object-position: 0px 0px;
+  transform-origin: 45% 20%;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.member_card .bottom {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  background: #d14976;
+  top: 80%;
+  border-radius: 29px;
+  z-index: 2;
+  box-shadow: rgba(96, 75, 74, 0.1882352941) 0px 5px 5px 0px inset;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.member_card .bottom .content_member {
+  position: absolute;
+  bottom: 0;
+  left: 1.5rem;
+  right: 1.5rem;
+  height: 160px;
+}
+
+.member_card .bottom .content_member .name {
+  display: block;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.member_card .bottom .content_member .about-me {
+  display: block;
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+.member_card .bottom .bottom-bottom {
+  position: absolute;
+  bottom: 0.8rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.member_card .bottom .bottom-bottom .social-links-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.member_card .bottom .bottom-bottom .social-links-container .fa {
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s;
+  filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.1333333333));
+}
+
+.member_card .bottom .bottom-bottom .social-links-container .fa:hover {
+  color: #7500b8;
+  transform: scale(1.3);
+}
+
+.member_card .bottom .bottom-bottom .button {
+  background: white;
+  color: #d14976;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.6rem;
+  transition: all 0.5s;
+  box-shadow: rgba(165, 132, 130, 0.1333333333) 0px 5px 5px 0px;
+}
+
+.member_card .bottom .bottom-bottom .button:hover {
+  background: #7500b8;
+  color: white;
+  transform: scale(1.1);
+}
+
+.member_card:hover {
+  border-top-left-radius: 55px;
+}
+
+.member_card:hover .bottom {
+  top: 20%;
+  border-radius: 80px 29px 29px 29px;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+}
+
+.hemanshu {
+  background: url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/hemanshu.jpeg');
+}
+
+.divyansh {
+  background: url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/sharma+2.jpeg');
+}
+
+.vishaka {
+  background: url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/vishaka.jpg');
+}
+.taha {
+  background: url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/taha.jpg');
+}
+.unnati {
+  background: url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/unnati.jpg');
+}
+.kartik {
+  background: url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/kartik.jpeg');
+}
+.abhijeet {
+  background: url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/abhijeet+2.jpeg');
+}
+.profile-pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.member_card:hover .profile-pic {
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 1;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  z-index: 3;
+  border: 7px solid rgba(64, 0, 83, 0.997);
+  box-shadow: rgba(96, 75, 74, 0.1882352941) 0px 5px 5px 0px;
+  transition: all 0.5s ease-in-out, z-index 0.5s ease-in-out 0.1s;
+}
+
+.member_card:hover .profile-pic:hover {
+  transform: scale(1.3);
+  border-radius: 0px;
+}
+
+.member_card:hover .profile-pic img {
+  transform: scale(2.5);
+  -o-object-position: 0px 25px;
+  object-position: 0px 25px;
+  transition: all 0.5s ease-in-out 0.5s;
+}
+
+.member_card:hover .profile-pic svg {
+  transform: scale(2.5);
+  transition: all 0.5s ease-in-out 0.5s;
+}

@@ -101,7 +101,8 @@ export default function FooterComponent() {
           &copy; Copyrights belongs to Department Computer Science and
           Engineering, Developed By{' '}
           <Link
-            to=""
+            to="/websiteteam"
+            onClick={PageChange}
             className="privacy_footer"
             style={{ margin: '0 3px', textDecoration: 'none' }}
           >
