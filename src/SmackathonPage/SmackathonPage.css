@@ -697,6 +697,8 @@ iframe {
   text-align: left;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
+  background-color: #000000a2;
 }
 .goodies_img {
   width: 350px;
