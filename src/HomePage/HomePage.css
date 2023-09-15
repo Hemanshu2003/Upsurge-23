@@ -10,19 +10,21 @@
   margin-top: 100px;
 }
 .schedule_heading1 {
-  text-transform: uppercase;
-  font-size: 60px;
+  font-family: 'Caveat', cursive;
+  font-style: italic;
+  font-size: 72px;
   text-align: center;
   letter-spacing: 5px;
-  font-family: 'Noto Sans Anatolian Hieroglyphs', sans-serif;
   color: #ffedff;
-  text-transform: uppercase;
-  filter: url(#stroke) url(#inner-glow) url(#outer-glow);
+  filter: url(#inner-glow) url(#outer-glow);
   margin-top: 50px;
 }
 
 @media (max-width: 800px) {
   .schedule_heading {
     margin-top: 0px;
+  }
+  .schedule_heading1 {
+    font-size: 52px;
   }
 }

@@ -192,7 +192,7 @@ export default function HomePage() {
             Schedule
           </h1>{' '}
           <h1 className="schedule_heading1" style={{ textAlign: 'centre' }}>
-            coming soon...
+            Coming Soon...
           </h1>
           {/* <ScheduleComponent /> */}
         </section>

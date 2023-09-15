@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
+import { Link } from 'react-router-dom';
 import './FooterComponent.css';
 
 export default function FooterComponent() {
@@ -98,10 +99,14 @@ export default function FooterComponent() {
       <div className="copyRight_container">
         <p className="copyright">
           &copy; Copyrights belongs to Department Computer Science and
-          Engineering, <br />
-          Developed By Hemanshu Waghmare, Divyansh Sharma, Unnati Thakre, <br />{' '}
-          Kartik Tichkule , Abhijeet Sahu, Taha Hussian , Vishakha Fulare
-          <br /> <br />
+          Engineering, Developed By{' '}
+          <Link
+            to=""
+            className="privacy_footer"
+            style={{ margin: '0 3px', textDecoration: 'none' }}
+          >
+            Website Team CSE,
+          </Link>
           <a
             href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/privacy+policy+.pdf"
             className="privacy_footer"

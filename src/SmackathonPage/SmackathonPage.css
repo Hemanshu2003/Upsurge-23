@@ -302,7 +302,7 @@ body {
   width: 90px;
   border-radius: 50%;
   right: -39px;
-  top: 32px;
+  top: 28px;
   z-index: 10;
 }
 .right_container img {
@@ -342,7 +342,7 @@ body {
 }
 
 .text-box h2 {
-  margin-left: 0;
+  margin-left: 10px;
   font-weight: 600;
 }
 .text-box small {
@@ -394,6 +394,9 @@ body {
     text-align: left;
     font-size: 13px;
     margin: 10px 0;
+  }
+  .container_timeline img {
+    top: 30px;
   }
   .right_container {
     left: 0;
@@ -618,18 +621,18 @@ iframe {
 .pricepool_heading {
   margin-top: 100px;
   text-transform: uppercase;
-  font-size: 48px;
+  font-size: 58px;
   text-align: center;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 10px #2bc4f7cc, 0 0 20px #3acbfcba, 0 0 40px #3acbfcba,
-    0 0 80px #3acbfcba, 0 0 160px #3acbfcba;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
   margin-bottom: 60px;
 }
 .pricepoolh1 {
   margin: 10px 0px 30px 0px;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 10px #2bc4f7cc, 0 0 20px #3acbfcba, 0 0 40px #3acbfcba,
-    0 0 80px #3acbfcba, 0 0 160px #3acbfcba;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
   font-size: 52px;
 }
 
@@ -663,29 +666,42 @@ iframe {
 
 /* Goodies coantaier by hemanshu starts here */
 
+.voucher {
+  margin-top: 100px;
+  color: aliceblue;
+  text-align: center;
+}
+
 .goodies_container {
   margin: auto;
   width: 70%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .voucher_heading {
   margin-top: 100px;
   text-transform: uppercase;
-  font-size: 38px;
+  font-size: 48px;
   text-align: center;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 10px #2bc4f7cc, 0 0 20px #3acbfcba, 0 0 40px #3acbfcba,
-    0 0 80px #3acbfcba, 0 0 160px #3acbfcba;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .right_goodies {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
 }
 .goodies_img {
-  width: 300px;
+  width: 350px;
+}
+.goodies_para {
+  text-align: left;
 }
 
 @media (max-width: 900px) {
@@ -693,12 +709,15 @@ iframe {
     width: 90%;
     flex-direction: column;
   }
+  .goodies_para {
+    max-width: 300px;
+    text-align: center;
+  }
   .voucher_heading {
     font-size: 26px;
     width: 80%;
   }
 }
-
 /* Goodies coantaier by hemanshu ends here  */
 
 /* Model box */
@@ -891,16 +910,16 @@ iframe {
   font-size: 46px;
   text-align: center;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 10px #2bc4f7cc, 0 0 20px #3acbfcba, 0 0 40px #3acbfcba,
-    0 0 80px #3acbfcba, 0 0 160px #3acbfcba;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
   margin-bottom: 10px;
 }
 .rules_subheading {
   font-size: 26px;
   text-align: center;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 10px #2bc4f7cc, 0 0 20px #3acbfcba, 0 0 40px #3acbfcba,
-    0 0 80px #3acbfcba, 0 0 160px #3acbfcba;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
   margin-bottom: 40px;
 }
 

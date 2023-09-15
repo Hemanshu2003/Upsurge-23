@@ -2,6 +2,7 @@
 import './SmackathonPage.css';
 import goodies from '../assets/images/GFG goodies Final.png';
 import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
+import { Link } from 'react-router-dom';
 
 export default function SmackathonPage() {
   const closeModal = function () {
@@ -171,6 +172,7 @@ export default function SmackathonPage() {
           </div>
         </div>
       </div>
+      {/* goodies section starts here */}
       <div className="voucher">
         <h2 className="voucher_heading">Exclusive Goodies From GFG </h2>
         <div className="goodies_container">
@@ -179,14 +181,21 @@ export default function SmackathonPage() {
           </div>
 
           <div className="right_goodies">
-            <p className="goodies_para">
-              1. Provide GFG Kits to the top 3 winners of the Hackathon. <br />
-              2.GFG Discount coupons worth Rs2000 for winners. <br />
-              3.GFG Discount coupons worth Rs300 for all participants.
-            </p>
+            <h3 className="goodies_para">
+              1. Provide GFG Kits to the top 3 winners of the Hackathon.{' '}
+            </h3>
+            <br />
+            <h3 className="goodies_para">
+              2. GFG Discount coupons worth Rs2000 for winners.{' '}
+            </h3>{' '}
+            <br />
+            <h3 className="goodies_para">
+              3. GFG Discount coupons worth Rs300 for all participants.{' '}
+            </h3>
           </div>
         </div>
       </div>
+      {/* goodies section ends here */}
       {/* PRICE POOL SECTION ENDS*/}
       {/* TIME LINE */}
       <div className="timeline">
@@ -573,17 +582,20 @@ export default function SmackathonPage() {
         <div className="copyRight_container copyRight_container_smackathon">
           <p className="copyright">
             &copy; Copyrights belongs to Department Of Computer Science and
-            Engineering, <br />
-            Developed By Hemanshu Waghmare, Divyansh Sharma, Unnati Thakre,
-            Kartik Tichkule ,<br /> Abhijeet Sahu, Taha Hussian , Vishakha
-            Fulare
-            <br /> <br />
+            Engineering, Developed By
+            <Link
+              to=""
+              className="privacy_footer"
+              style={{ padding: '0px 4px' }}
+            >
+              Website Team CSE,
+            </Link>
             <a
               href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/no+refund+policy+.pdf"
               className="privacy_footer"
             >
               Privacy Policy,
-            </a>{' '}
+            </a>
             <a
               href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/privacy+policy+.pdf"
               className="privacy_footer"
