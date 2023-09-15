@@ -397,41 +397,15 @@ export default function SmackathonPage() {
               at YCCE girls hostel, and the organizing team will manage their
               accommodation.
             </li>
+            <li>
+              Rules and guidelines are subjected to change as per organizing
+              team.
+            </li>
           </ul>
         </div>
       </div>
       {/* rules end here */}
-      {/* Venus starts here */}
-      <div>
-        <h1 className="heading_venue">Locate Us!</h1>
-
-        <div className="Map" id="correct">
-          <img
-            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/peak.png"
-            className="peaklogo1"
-            alt=""
-          />
-          <div style={{ alignItems: 'center' }} className="iframeMap ">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119118.2038380647!2d78.82803159726564!3d21.094862899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd495abf6622d6f%3A0x2bd70ec1faa74ad4!2sDepartment%20Of%20Computer%20Science%20And%20Engineering!5e0!3m2!1sen!2sin!4v1694333084486!5m2!1sen!2sin"
-              style={{ filter: 'invert(100%)' }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <div className="text-right">
-            <img src={mi} alt="Description of the image" />
-
-            <h3>
-              6th October, 2023 <br />
-              Seminar Hall, CSE building, <br /> YCCE campus
-            </h3>
-          </div>
-        </div>
-      </div>
-      {/* Veneus  ends here */}
-
+      {/* assgn critaria starts */}
       <h1 className="rules_heading assessment_heading">
         Assessment Criteria For Smackthon 2023
       </h1>
@@ -477,6 +451,37 @@ export default function SmackathonPage() {
           </ul>
         </div>
       </div>
+      {/* assgn critaria ends */}
+      {/* Venus starts here */}
+      <div>
+        <h1 className="heading_venue">Locate Us!</h1>
+
+        <div className="Map" id="correct">
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/peak.png"
+            className="peaklogo1"
+            alt=""
+          />
+          <div style={{ alignItems: 'center' }} className="iframeMap ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119118.2038380647!2d78.82803159726564!3d21.094862899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd495abf6622d6f%3A0x2bd70ec1faa74ad4!2sDepartment%20Of%20Computer%20Science%20And%20Engineering!5e0!3m2!1sen!2sin!4v1694333084486!5m2!1sen!2sin"
+              style={{ filter: 'invert(100%)' }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div className="text-right">
+            <img src={mi} alt="Description of the image" />
+
+            <h3>
+              6th October, 2023 <br />
+              Seminar Hall, CSE building, <br /> YCCE campus
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* Veneus  ends here */}
 
       {/* Footer starts here */}
       <footer className="footer_smackathon">
