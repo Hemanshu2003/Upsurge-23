@@ -591,14 +591,16 @@ export default function SmackathonPage() {
               Website Team CSE,
             </Link>
             <a
-              href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/no+refund+policy+.pdf"
+              href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/privacy+policy+.pdf"
               className="privacy_footer"
+              target="_blank"
             >
               Privacy Policy,
             </a>
             <a
-              href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/privacy+policy+.pdf"
+              href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/no+refund+policy+.pdf"
               className="privacy_footer"
+              target="_blank"
             >
               No Refund Policy
             </a>
