@@ -696,6 +696,7 @@ iframe {
   flex-direction: column;
   text-align: left;
   justify-content: center;
+  align-items: center;
 }
 .goodies_img {
   width: 350px;
@@ -714,7 +715,7 @@ iframe {
     text-align: center;
   }
   .voucher_heading {
-    font-size: 26px;
+    font-size: 32px;
     width: 80%;
   }
 }
