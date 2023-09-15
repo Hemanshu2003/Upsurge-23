@@ -326,7 +326,7 @@ body {
     #a0d6e0,
     #9b199b
   );
-  top: 105px;
+  top: 120px;
   left: 50%;
   margin-left: -3px;
   z-index: -1;
@@ -337,7 +337,7 @@ body {
     height: 0;
   }
   100% {
-    height: 76%;
+    height: 78%;
   }
 }
 
