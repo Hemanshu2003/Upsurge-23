@@ -103,7 +103,7 @@ export default function SmackathonPage() {
       </section> */}
       {/* PRICE POOL SECTION STARTS*/}
       <div className="prizepool_info">
-        <h2 className="pricepool_heading">CASH Pricess</h2>
+        <h2 className="pricepool_heading">CASH Prizes</h2>
       </div>
       <div style={{ width: '84%', margin: 'auto' }}>
         <div className="bg_para">
@@ -525,11 +525,11 @@ export default function SmackathonPage() {
                   style={{ textAlign: 'center' }}
                 >
                   <div className="contact_details_name">
-                    <p>Shudhanshu Nerkar</p>
+                    <p>Sudhanshu Nerkar</p>
                     <p>(73919 95430)</p>
                   </div>
                   <div className="contact_details_number">
-                    <p>Navin Patel</p>
+                    <p>Navin Patil</p>
                     <p>(77450 10395)</p>
                   </div>
                 </div>
