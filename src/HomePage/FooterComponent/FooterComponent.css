@@ -161,7 +161,7 @@
 .copyright {
   justify-content: flex-end;
   font-size: 13px;
-  line-height: 17px;
+  line-height: 18px;
   text-align: center;
   margin-top: 2rem;
   text-align: center;
@@ -173,6 +173,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .copyRight_container {
