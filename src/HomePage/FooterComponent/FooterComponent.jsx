@@ -99,14 +99,15 @@ export default function FooterComponent() {
       <div className="copyRight_container">
         <p className="copyright">
           &copy; Copyrights belongs to Department Computer Science and
-          Engineering, Developed By{' '}
+          Engineering <br />
+          Developed By{' '}
           <Link
             to="/websiteteam"
             onClick={PageChange}
             className="privacy_footer"
-            style={{ margin: '0 3px', textDecoration: 'none' }}
+            style={{ margin: '0 3px'}}
           >
-            Website Team CSE,
+            Website Team CSE <br />
           </Link>
           <a
             href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/privacy+policy+.pdf"
