@@ -224,7 +224,7 @@ export default function SmackathonPage() {
             <h2 className="N">DAY 1</h2>
             <small className="M">
               10 : 00 AM : Problem Statements will be Released <br />
-              11 : 30 AM : Teams to Lock and submit There Problem Statements
+              11 : 30 AM : Teams to Lock and submit Their Problem Statements
             </small>
             <span className="right-container-arrow"></span>
           </div>
@@ -300,7 +300,7 @@ export default function SmackathonPage() {
           <div className="text-box">
             <h2 className="N">DAY 2</h2>
             <small className="M">
-              2 : 00 PM : Winners to be announce in valedictory ceremony <br />
+              2 : 00 PM : Winners to be Announced in the valedictory ceremony <br />
             </small>
             <span className="left-container-arrow"></span>
           </div>
