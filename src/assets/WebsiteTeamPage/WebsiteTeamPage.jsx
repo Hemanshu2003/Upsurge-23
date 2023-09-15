@@ -63,7 +63,7 @@ export default function WebsiteTeamPage() {
                   <a href="">
                     <i className="fa fa-instagram " aria-hidden="true"></i>
                   </a>
-                  <a href="github.com/DivsSharma1">
+                  <a href="https://github.com/DivsSharma1">
                     <i className="fa fa-github " aria-hidden="true"></i>
                   </a>
                 </div>
