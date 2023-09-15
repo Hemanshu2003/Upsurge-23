@@ -1,4 +1,5 @@
 /* header Section By Divyansh Sharma Starts here */
+
 .smakaPage {
   z-index: 40;
   position: absolute;
@@ -34,6 +35,7 @@
   font-weight: 500;
   color: white;
   margin-bottom: 10px;
+  text-align: center;
 }
 .heading_smackathonPage {
   text-transform: uppercase;
@@ -48,13 +50,44 @@
 .smackathon_logo {
   width: 370px;
 }
-
+.whiteLine {
+  background: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 3px;
+  margin: 10px;
+}
 .btns {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+}
+.powered_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cojag_logo {
+  width: 180px;
+}
+.doket_logo {
+  width: 80px;
+}
+.gurukul_logo {
+  width: 200px;
+}
+.Co_poweredBy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Co_poweredBy_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .application-btn {
@@ -86,6 +119,26 @@
   }
   .description {
     text-align: justify;
+  }
+  .powered_container {
+    flex-direction: column;
+  }
+
+  .cojag_logo {
+    width: 160px;
+  }
+  .doket_logo {
+    width: 60px;
+  }
+  .gurukul_logo {
+    width: 120px;
+  }
+
+  .Co_poweredBy {
+    margin-top: 20px;
+  }
+  .powered_container {
+    margin-top: -20px;
   }
 }
 
@@ -155,10 +208,12 @@
 /* Time line Section by Unnati starts here */
 
 .N {
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   margin: 10px 10px 0 10px;
 }
 .M {
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
 body {
@@ -287,6 +342,7 @@ body {
 }
 
 .text-box h2 {
+  margin-left: 0;
   font-weight: 600;
 }
 .text-box small {
@@ -326,16 +382,17 @@ body {
     left: 31px;
   }
   .container_timeline {
-    width: 100%;
+    width: 105%;
     padding-left: 80px;
     padding-right: 25px;
   }
   .text-box {
     font-size: 13px;
-    text-align: center;
+    text-align: left;
   }
   .text-box small {
-    font-size: 14px;
+    text-align: left;
+    font-size: 13px;
     margin: 10px 0;
   }
   .right_container {
@@ -652,7 +709,7 @@ iframe {
 
 .modal {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -853,8 +910,11 @@ iframe {
   padding: 20px;
 }
 .rules_container li {
+  font-family: 'Open Sans', sans-serif;
   margin: 20px;
   line-height: 24px;
+  max-width: 92%;
+  text-align: left;
 }
 .goodies_para {
   max-width: 300px;
@@ -875,6 +935,11 @@ iframe {
   }
   .rules_container ul {
     width: 100%;
+    padding: 5px;
+  }
+  .rules_container li {
+    font-size: 14px;
+    line-height: 22px;
   }
 }
 /* rules and guildline by  Hemanshu ends here */
@@ -1070,6 +1135,7 @@ iframe {
   }
 
   .address_smackathon h3 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 23px;
     margin-bottom: 10px;
   }
@@ -1080,6 +1146,7 @@ iframe {
   }
 
   .contact_smackathon h3 {
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 8px;
     font-size: 22px;
   }
@@ -1093,6 +1160,7 @@ iframe {
   }
 
   .links_smackathon a {
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
   }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 canvas {
   position: fixed;
   top: 0;
@@ -9,6 +11,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover; */
   background: rgb(11, 3, 21);
+}
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 html {
@@ -22,7 +27,7 @@ html {
 
 :root {
   --dark-bg: rgba(4, 7, 25, 0.5);
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
 }

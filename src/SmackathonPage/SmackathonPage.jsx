@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import './SmackathonPage.css';
-
+import goodies from '../assets/images/GFG goodies Final.png';
 import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
 
 export default function SmackathonPage() {
@@ -52,6 +52,33 @@ export default function SmackathonPage() {
             </button>
           </div>
         </div>
+        <div className="powered_container">
+          <div className="poweredBy">
+            <h3 className="presents">Powered By</h3>
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/COJAG.png"
+              alt=""
+              className="cojag_logo"
+            />
+          </div>
+          <div className="Co_poweredBy">
+            <h3 className="presents">CO-Powered By</h3>
+            <div className="Co_poweredBy_img">
+              <img
+                src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/my+doket'.png"
+                alt=""
+                className="doket_logo"
+              />
+              <span className="whiteLine"></span>
+              <img
+                src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/webgurukul.png"
+                alt=""
+                className="gurukul_logo"
+              />
+            </div>
+          </div>
+        </div>
+
         <div className="modal hidden_model">
           <button className="close-modal" onClick={closeModal}>
             &times;
@@ -148,11 +175,7 @@ export default function SmackathonPage() {
         <h2 className="voucher_heading">Exclusive Goodies From GFG </h2>
         <div className="goodies_container">
           <div className="left_goodies">
-            <img
-              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/GFG-Goodies.png"
-              alt=""
-              className="goodies_img"
-            />
+            <img src={goodies} alt="" className="goodies_img" />
           </div>
 
           <div className="right_goodies">
@@ -360,10 +383,10 @@ export default function SmackathonPage() {
             </li>
             <li>
               According to YCCE Policy, no female participants are allowed to
-              stay overnight. After 8 pm, they must leave
-              <br /> the campus but can rejoin at 6 am the next day. Those from
-              outside Nagpur will stay at YCCE girls <br />
-              hostel, and the organizing team will manage their accommodation.
+              stay overnight. After 8 pm, they must leave the campus but can
+              rejoin at 6 am the next day. Those from outside Nagpur will stay
+              at YCCE girls hostel, and the organizing team will manage their
+              accommodation.
             </li>
           </ul>
         </div>
@@ -549,7 +572,7 @@ export default function SmackathonPage() {
 
         <div className="copyRight_container copyRight_container_smackathon">
           <p className="copyright">
-            &copy; Copyrights belongs to Department Computer Science and
+            &copy; Copyrights belongs to Department Of Computer Science and
             Engineering, <br />
             Developed By Hemanshu Waghmare, Divyansh Sharma, Unnati Thakre,
             Kartik Tichkule ,<br /> Abhijeet Sahu, Taha Hussian , Vishakha

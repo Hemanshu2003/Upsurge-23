@@ -34,7 +34,7 @@ export default function NavbarComponent() {
           <a href=""> Events </a>
         </li>
         <li>
-          <Link to="team" className="anchor" onClick={PageChange}>
+          <Link to="" className="anchor" onClick={PageChange}>
             Team
           </Link>
         </li>
