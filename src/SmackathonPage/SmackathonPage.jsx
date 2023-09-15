@@ -587,14 +587,15 @@ export default function SmackathonPage() {
         <div className="copyRight_container copyRight_container_smackathon">
           <p className="copyright">
             &copy; Copyrights belongs to Department Of Computer Science and
-            Engineering, Developed By
+            Engineering <br />
+            Developed By
             <Link
               to="/websiteteam"
               className="privacy_footer"
               style={{ padding: '0px 4px' }}
               onClick={PageChange}
             >
-              Website Team CSE,
+              Website Team CSE <br />
             </Link>
             <a
               href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Privacy+and+policy+/privacy+policy+.pdf"
