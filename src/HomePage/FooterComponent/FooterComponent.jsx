@@ -75,12 +75,12 @@ export default function FooterComponent() {
             <h3>Contact Us</h3>
             <div className="contact_details contact_details_home_mob">
               <div className="contact_details_name">
-                <p>oraganizer name</p>
-                <p>oraganizer name</p>
+                <p>Vedant Shivde <br />President Cosmos</p>
+                <p>Sudhanshu Nerkar  <br /> Chairperson ACM </p>
               </div>
               <div className="contact_details_number">
-                <p>(12341 12341)</p>
-                <p>(12341 12341)</p>
+                <p>9284165761</p>
+                <p>7391995430</p>
               </div>
             </div>
           </div>
