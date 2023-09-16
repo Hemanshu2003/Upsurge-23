@@ -73,13 +73,17 @@ export default function FooterComponent() {
           </div>
           <div className="contact">
             <h3>Contact Us</h3>
-            <div className="contact_details contact_details_home_mob">
+            <div className="contact_details contact_details_home_mob align-center_forHomeOnly">
               <div className="contact_details_name">
-                <p>Vedant Shivde <br /> ( President Cosmos )</p>
-                <p>Sudhanshu Nerkar  <br /> ( Chairperson ACM ) </p>
-              </div>
-              <div className="contact_details_number">
+                <p>
+                  Vedant Shivde <br /> ( President Cosmos )
+                </p>
                 <p>9284165761</p>
+              </div>
+              <div className="contact_details_name">
+                <p>
+                  Sudhanshu Nerkar <br /> ( Chairperson ACM )
+                </p>
                 <p>7391995430</p>
               </div>
             </div>
