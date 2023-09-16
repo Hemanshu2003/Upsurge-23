@@ -42,7 +42,7 @@ export default function FooterComponent() {
         </div>
 
         <div className="social">
-          <h3>Follow Uss</h3>
+          <h3>Follow Us</h3>
           <a
             href="https://www.instagram.com/cse_ycce_official/"
             target="_blank"
