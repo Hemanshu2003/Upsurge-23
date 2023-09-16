@@ -181,6 +181,22 @@
   margin: auto;
 }
 
+
+.contact_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_details_name {
+  display: flex;
+  gap: 10px;
+}
+
+.align-center_forHomeOnly {
+  align-items: center;
+}
+
+
 @media (max-width: 660px) {
   .footer {
     width: 100vw;
