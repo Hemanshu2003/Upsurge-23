@@ -60,9 +60,7 @@ export default function WebsiteTeamPage() {
                   <a href="https://www.linkedin.com/in/divyansh-sharma-159626246">
                     <i className="fa fa-linkedin " aria-hidden="true"></i>
                   </a>
-                  <a href="">
-                    <i className="fa fa-instagram " aria-hidden="true"></i>
-                  </a>
+
                   <a href="https://github.com/DivsSharma1">
                     <i className="fa fa-github " aria-hidden="true"></i>
                   </a>
