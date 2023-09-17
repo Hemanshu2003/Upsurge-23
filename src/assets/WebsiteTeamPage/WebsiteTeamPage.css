@@ -25,6 +25,7 @@ websiteteam {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   row-gap: 50px;
+  column-gap: 30px;
 }
 .span3 {
   grid-column: span 3 / span 3;
