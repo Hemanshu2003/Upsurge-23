@@ -10,6 +10,7 @@ import image2 from '../assets/images/environment.png';
 import image3 from '../assets/images/finance.png';
 import image4 from '../assets/images/web3.png';
 import image5 from '../assets/images/agriculture.png';
+import image6 from '../assets/images/openinnvo.png';
 
 import { useState } from 'react';
 
@@ -243,6 +244,113 @@ export default function SmackathonPage() {
         </div>
       </div>
       {/* goodies section ends here */}
+      {/* track section starts here */}
+      <h1 className="faq_heading">Tracks</h1>
+      <div className="track">
+        <div className="track-info">
+          <div className="imgHeading">
+            {' '}
+            <img src={image1} alt="Description of the image" />
+            <h1 className="track-heading">Education</h1>
+          </div>
+
+          <p>
+            These projects increase access to educational resources, facilitate
+            learning in the classroom, or generally make acquiring knowledge a
+            more engaging process. Hacks submitted to this category can range
+            from all-encompassing edtech solutions to projects that bring
+            awareness to a specific topic.
+          </p>
+        </div>
+
+        <div className="track-info">
+          <div className="imgHeading">
+            <img src={image} alt="Description of the image" />
+            <h2 className="track-heading">Healthcare</h2>
+          </div>
+          <p>
+            These projects take on public health challenges, combat health
+            disparities, or assist with maintaining personal wellness. Hacks
+            submitted to this category can range from digital archives of public
+            health information to apps that track the fitness data of an
+            individual user.
+          </p>
+        </div>
+
+        <div className="track-info">
+          <div className="imgHeading">
+            <img src={image2} alt="Description of the image" />
+            <h2 className="track-heading">Environment</h2>
+          </div>
+
+          <p>
+            These projects use technology to preserve ecological ecosystems or
+            promote sustainable lifestyles. Hacks submitted to this category can
+            range from sweeping solutions to pertinent environmental crises to
+            apps that encourage small sustainable habits{' '}
+          </p>
+        </div>
+
+        <div className="track-info">
+          <div className="imgHeading">
+            <img src={image3} alt="Description of the image" />
+            <h2 className="track-heading">Finance</h2>
+          </div>
+          <p>
+            These projects use technology to drive economic growth, generate
+            employment opportunities, attract investments and achieve economic
+            sustainability. Hacks submitted to this category can range from
+            solutions to mitigate risks, revolutionize fintech, make
+            transactions more secure and handle existing financial crisis.
+          </p>{' '}
+        </div>
+
+        <div className="track-info">
+          <div className="imgHeading">
+            <img src={image4} alt="Description of the image" />
+            <h2 className="track-heading">Web3</h2>
+          </div>
+          <p>
+            These projects use technology to revolutionize the digital landscape
+            and impact factors like data security with online platforms thereby
+            building robust decentralized applications. Hacks submitted under
+            this category can range from solutions pertinent to data ownership
+            and privacy to decentralized apps that encourage censorship
+            resistance, govern interoperability and harness environmental
+            sustainability.
+          </p>{' '}
+        </div>
+
+        <div className="track-info">
+          <div className="imgHeading">
+            <img src={image5} alt="Description of the image" />
+            <h2 className="track-heading">Agriculture</h2>
+          </div>
+          <p>
+            These projects use technology to influence a multitude of factors
+            that range from crop cultivation, livestock management to
+            agribusiness development. Hacks submitted to this category can range
+            from sweeping solutions to pertinent agricultural and farming crisis
+            to apps that encourage eco-friendly farming techniques and
+            sustainable agribusiness.
+          </p>
+        </div>
+
+        <div className="track-info last">
+          <div className="imgHeading">
+            <img src={image6} alt="Description of the image" />
+            <h2 className="track-heading">Open Innovation</h2>
+          </div>
+          <p>
+            Open innovation projects leverage technology and collaboration to
+            foster innovation across various sectors and industries. Projects
+            submitted to this category can encompass a wide range of
+            initiatives, from open-source software development to collaborative
+            research efforts and ecosystem-building activities.
+          </p>
+        </div>
+      </div>
+      {/* track section ends here */}
       {/* PRICE POOL SECTION ENDS*/}
       {/* TIME LINE */}
       <div className="timeline">
@@ -453,92 +561,7 @@ export default function SmackathonPage() {
         </div>
       </div>
       {/* rules end here */}
-      {/* track section starts here */}
-      <h1 className="faq_heading">Track</h1>
-      <div className="track">
-        <div className="track-info">
-          <img src={image1} alt="Description of the image" />
 
-          <p>
-            {' '}
-            <h1 className="track-heading">Education</h1>
-            These projects increase access to educational resources, facilitate
-            learning in the classroom, or generally make acquiring knowledge a
-            more engaging process. Hacks submitted to this category can range
-            from all-encompassing edtech solutions to projects that bring
-            awareness to a specific topic.
-          </p>
-        </div>
-
-        <div className="track-info">
-          <img src={image} alt="Description of the image" />
-          <p>
-            {' '}
-            <h2 className="track-heading">Healthcare</h2>
-            These projects take on public health challenges, combat health
-            disparities, or assist with maintaining personal wellness. Hacks
-            submitted to this category can range from digital archives of public
-            health information to apps that track the fitness data of an
-            individual user.
-          </p>{' '}
-        </div>
-
-        <div className="track-info">
-          <img src={image2} alt="Description of the image" />
-
-          <p>
-            {' '}
-            <h2 className="track-heading">Environment</h2>
-            These projects use technology to preserve ecological ecosystems or
-            promote sustainable lifestyles. Hacks submitted to this category can
-            range from sweeping solutions to pertinent environmental crises to
-            apps that encourage small sustainable habits{' '}
-          </p>
-        </div>
-
-        <div className="track-info">
-          <img src={image3} alt="Description of the image" />
-          <p>
-            {' '}
-            <h2 className="track-heading">Finance</h2>
-            These projects use technology to drive economic growth, generate
-            employment opportunities, attract investments and achieve economic
-            sustainability. Hacks submitted to this category can range from
-            solutions to mitigate risks, revolutionize fintech, make
-            transactions more secure and handle existing financial crisis.
-          </p>{' '}
-        </div>
-
-        <div className="track-info">
-          <img src={image4} alt="Description of the image" />
-          <p>
-            {' '}
-            <h2 className="track-heading">Web3</h2>
-            These projects use technology to revolutionize the digital landscape
-            and impact factors like data security with online platforms thereby
-            building robust decentralized applications. Hacks submitted under
-            this category can range from solutions pertinent to data ownership
-            and privacy to decentralized apps that encourage censorship
-            resistance, govern interoperability and harness environmental
-            sustainability.
-          </p>{' '}
-        </div>
-
-        <div className="track-info">
-          <img src={image5} alt="Description of the image" />
-          <p>
-            {' '}
-            <h2 className="track-heading">Agriculture</h2>
-            These projects use technology to influence a multitude of factors
-            that range from crop cultivation, livestock management to
-            agribusiness development. Hacks submitted to this category can range
-            from sweeping solutions to pertinent agricultural and farming crisis
-            to apps that encourage eco-friendly farming techniques and
-            sustainable agribusiness.
-          </p>{' '}
-        </div>
-      </div>
-      {/* track section ends here */}
       {/* assgn critaria starts */}
       <h1 className="rules_heading assessment_heading">
         Assessment Criteria For Smackthon 2023
@@ -586,36 +609,6 @@ export default function SmackathonPage() {
         </div>
       </div>
       {/* assgn critaria ends */}
-      {/* Venus starts here */}
-      <div>
-        <h1 className="heading_venue">Locate Us!</h1>
-
-        <div className="Map" id="correct">
-          <img
-            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/peak.png"
-            className="peaklogo1"
-            alt=""
-          />
-          <div style={{ alignItems: 'center' }} className="iframeMap ">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119118.2038380647!2d78.82803159726564!3d21.094862899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd495abf6622d6f%3A0x2bd70ec1faa74ad4!2sDepartment%20Of%20Computer%20Science%20And%20Engineering!5e0!3m2!1sen!2sin!4v1694333084486!5m2!1sen!2sin"
-              style={{ filter: 'invert(100%)' }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <div className="text-right">
-            <img src={mi} alt="Description of the image" />
-
-            <h3>
-              6th October, 2023 <br />
-              Seminar Hall, CSE building, <br /> YCCE campus
-            </h3>
-          </div>
-        </div>
-      </div>
-      {/* Veneus  ends here */}
 
       {/* FAQS starts here */}
       <h1 className="faq_heading">FAQ's</h1>
@@ -727,6 +720,36 @@ export default function SmackathonPage() {
       </div>
 
       {/* FAQS ends here */}
+      {/* Venus starts here */}
+      <div>
+        <h1 className="heading_venue">Locate Us!</h1>
+
+        <div className="Map" id="correct">
+          <img
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/peak.png"
+            className="peaklogo1"
+            alt=""
+          />
+          <div style={{ alignItems: 'center' }} className="iframeMap ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119118.2038380647!2d78.82803159726564!3d21.094862899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd495abf6622d6f%3A0x2bd70ec1faa74ad4!2sDepartment%20Of%20Computer%20Science%20And%20Engineering!5e0!3m2!1sen!2sin!4v1694333084486!5m2!1sen!2sin"
+              style={{ filter: 'invert(100%)' }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div className="text-right">
+            <img src={mi} alt="Description of the image" />
+
+            <h3>
+              6th October, 2023 <br />
+              Seminar Hall, CSE building, <br /> YCCE campus
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* Veneus  ends here */}
 
       {/* Footer starts here */}
       <footer className="footer_smackathon">

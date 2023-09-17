@@ -1280,29 +1280,27 @@ iframe {
   width: 84%;
   margin: 40px auto;
   padding: 20px;
-  background-color: #12111197;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-
-  border: 2px solid transparent;
-  border-image: linear-gradient(45deg, #1961a9, #9b199b);
-  border-image-slice: 1;
-  box-shadow: 0 0 20px rgba(102, 36, 156, 0.8), 0 0 40px rgba(0, 119, 255, 0.8);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  row-gap: 50px;
 }
 .track-info {
-  display: flex;
   font-size: medium;
-  padding: 1%;
+  padding: 1.5%;
+  background-color: #12111197;
+  border: 2px solid #ff2edc;
 }
 .track-info p {
-  font-size: 13px;
+  font-size: 14.5px;
   text-align: justify;
-  margin-left: 4%;
+  margin: 10px;
 }
 .track-heading {
   font-size: large;
   margin-bottom: 10px;
   color: #fff;
+  margin-left: 30px;
 }
 .track-info img {
   width: 80px; /* Set the width and height to create a circular shape */
@@ -1322,16 +1320,30 @@ iframe {
 }
 
 .track-info {
+  margin: auto;
+  max-width: 380px;
+  height: 300px;
   font-size: medium;
   color: #fff;
 }
+.imgHeading {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.last {
+  grid-column: span 3 / span 3;
+  max-width: 380px;
+}
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .track {
     max-width: 85%;
     padding: 10px;
-    display: block;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    row-gap: 20px;
   }
 
   .track-heading {
@@ -1342,9 +1354,15 @@ iframe {
   .track-info {
     font-size: small;
     display: block;
+    padding: 20px;
+    height: auto;
   }
   .track-info p {
     margin-left: 0%;
+  }
+  .last {
+    grid-column: span 1 / span 3;
+    max-width: 380px;
   }
 }
 /* track section ends here */
