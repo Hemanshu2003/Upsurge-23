@@ -30,9 +30,11 @@ export default function NavbarComponent() {
         <li>
           <a href=""> Schedule </a>
         </li>
-        <li>
-          <a href=""> Events </a>
-        </li>
+        {/* <li>
+          <Link to="/events" className="anchor" onClick={PageChange}>
+            Events
+          </Link>
+        </li> */}
         <li>
           <Link to="" className="anchor" onClick={PageChange}>
             Team

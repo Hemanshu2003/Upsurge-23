@@ -4,6 +4,7 @@ import { Routes, Route, HashRouter } from 'react-router-dom';
 import TeamPage from './TeamPage/TeamPage';
 import SmackathonPage from './SmackathonPage/SmackathonPage';
 import WebsiteTeamPage from './assets/WebsiteTeamPage/WebsiteTeamPage';
+import EventsPage from './EventsPage/EventsPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/team" element={<TeamPage />} />
         <Route path="/smackathon" element={<SmackathonPage />} />
         <Route path="/websiteteam" element={<WebsiteTeamPage />} />
+        <Route path="/events" element={<EventsPage />} />
       </Routes>
     </HashRouter>
   );
