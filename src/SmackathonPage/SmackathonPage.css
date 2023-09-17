@@ -1238,7 +1238,7 @@ iframe {
   min-height: 35px;
 }
 .accordion-content .header .question {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: white;
 }
@@ -1248,7 +1248,7 @@ iframe {
 }
 .accordion-content .description {
   height: 0;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 17px;
   color: white;
   font-weight: 400;
@@ -1257,12 +1257,18 @@ iframe {
 }
 
 @media (max-width: 800px) {
+  .accordion-content .header .question {
+    font-size: 13px;
+  }
   .accordion {
     width: 90%;
     margin: auto;
   }
   .question {
     padding: 10px;
+  }
+  .accordion-content .description {
+    font-size: 13px;
   }
 }
 

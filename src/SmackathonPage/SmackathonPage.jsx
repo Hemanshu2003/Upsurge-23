@@ -623,7 +623,7 @@ export default function SmackathonPage() {
         {/* <!-- question 1 --> */}
         <div className="accordion-content">
           <header className="header" onClick={flipState}>
-            <span className="question">1.What is SMACKATHON?</span>
+            <span className="question">Q1. What is SMACKATHON?</span>
             <i className="fa fa-solid fa-plus"></i>
           </header>
 
@@ -639,7 +639,7 @@ export default function SmackathonPage() {
         <div className="accordion-content">
           <header className="header" onClick={flipState}>
             <span className="question">
-              2.Why should one participate in Smackathon?
+              Q2. Why should one participate in Smackathon?
             </span>
             <i className="fa fa-solid fa-plus"></i>
           </header>
@@ -655,8 +655,8 @@ export default function SmackathonPage() {
         <div className="accordion-content">
           <header className="header" onClick={flipState}>
             <span className="question">
-              3.Is there any eligibility criteria to participate in Smackathon?
-              If yes, which candidates are eligible?
+              Q3. Is there any eligibility criteria to participate in
+              Smackathon? If yes, which candidates are eligible?
             </span>
             <i className="fa fa-solid fa-plus"></i>
           </header>
@@ -672,7 +672,7 @@ export default function SmackathonPage() {
         <div className="accordion-content">
           <header className="header" onClick={flipState}>
             <span className="question">
-              4.Is accomodation facility available for outsiders?
+              Q4. Is accomodation facility available for outsiders?
             </span>
             <i className="fa fa-solid fa-plus"></i>
           </header>
@@ -685,7 +685,7 @@ export default function SmackathonPage() {
         <div className="accordion-content">
           <header className="header" onClick={flipState}>
             <span className="question">
-              5.What are the perks of attending Smackathon?
+              Q5. What are the perks of attending Smackathon?
             </span>
             <i className="fa fa-solid fa-plus"></i>
           </header>
@@ -700,7 +700,7 @@ export default function SmackathonPage() {
         <div className="accordion-content">
           <header className="header" onClick={flipState}>
             <span className="question">
-              6.When will the problem statement be provided to the candidate?
+              Q6. When will the problem statement be provided to the candidate?
             </span>
             <i className="fa fa-solid fa-plus"></i>
           </header>
@@ -714,7 +714,7 @@ export default function SmackathonPage() {
         <div className="accordion-content">
           <header className="header" onClick={flipState}>
             <span className="question">
-              7.Do I compulsorily need to have a team to participate?
+              Q7. Do I compulsorily need to have a team to participate?
             </span>
             <i className="fa fa-solid fa-plus"></i>
           </header>
