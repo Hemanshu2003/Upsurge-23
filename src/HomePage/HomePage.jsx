@@ -171,7 +171,7 @@ export default function HomePage() {
     <React.Fragment>
       <canvas id="bg"></canvas>
       <main>
-        <header>
+        <header className="heroHeader">
           <HeroComponent />
         </header>
 

@@ -57,7 +57,7 @@ canvas {
   left: 0;
 }
 
-header {
+.heroHeader {
   grid-column: 2 / span 5;
   font-size: 2.5rem;
   padding: 2rem;
@@ -114,7 +114,7 @@ blockquote p {
     grid-column: 2 / span 12;
     margin-bottom: 240px;
   }
-  header {
+  .heroHeader {
     grid-column: 1 / span 13;
     font-size: 24px;
     margin-bottom: 240px;

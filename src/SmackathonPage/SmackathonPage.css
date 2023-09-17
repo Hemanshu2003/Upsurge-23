@@ -1195,3 +1195,150 @@ iframe {
   }
 }
 /* footer ends here */
+
+/* FAQS section starts here */
+.faq_heading {
+  margin-top: 120px;
+  font-size: 46px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
+}
+.accordion {
+  /* ye max-width laptop media query mein bada sakta hai laptop ke liye
+  530px mobile ke liye sahi hai */
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.accordion .accordion-content {
+  margin: 10px 0;
+  background-color: transparent;
+  background: #0a021faa;
+  border: 2px solid #ff2edc;
+  overflow: hidden;
+}
+
+.accordion-content.open {
+  padding-bottom: 10px;
+}
+.accordion-content .header {
+  display: flex;
+  min-height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease;
+}
+.accordion-content.open .header {
+  min-height: 35px;
+}
+.accordion-content .header .question {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+.accordion-content .header i {
+  font-size: 15px;
+  color: white;
+}
+.accordion-content .description {
+  height: 0;
+  font-size: 13px;
+  line-height: 17px;
+  color: white;
+  font-weight: 400;
+  padding: 0 15px;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 800px) {
+  .accordion {
+    width: 90%;
+    margin: auto;
+  }
+  .question {
+    padding: 10px;
+  }
+}
+
+/* FAQS section ends here */
+
+/* track section starts here */
+/* Track.css */
+.track {
+  width: 84%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #12111197;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #1961a9, #9b199b);
+  border-image-slice: 1;
+  box-shadow: 0 0 20px rgba(102, 36, 156, 0.8), 0 0 40px rgba(0, 119, 255, 0.8);
+}
+.track-info {
+  display: flex;
+  font-size: medium;
+  padding: 1%;
+}
+.track-info p {
+  font-size: 13px;
+  text-align: justify;
+  margin-left: 4%;
+}
+.track-heading {
+  font-size: large;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.track-info img {
+  width: 80px; /* Set the width and height to create a circular shape */
+  height: 80px;
+  border-radius: 50%; /* Makes the element circular */
+
+  /* Create a multi-color border using a linear gradient */
+  border: 2px solid transparent; /* Transparent border initially */
+  background: linear-gradient(
+    to right,
+    rgb(58, 115, 212),
+    blue,
+    rgb(128, 0, 85),
+    rgb(133, 18, 183)
+  ); /* Gradient background */
+  /* Adjust the angle and colors as needed */
+}
+
+.track-info {
+  font-size: medium;
+  color: #fff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .track {
+    max-width: 85%;
+    padding: 10px;
+    display: block;
+  }
+
+  .track-heading {
+    font-size: medium;
+    display: block;
+  }
+
+  .track-info {
+    font-size: small;
+    display: block;
+  }
+  .track-info p {
+    margin-left: 0%;
+  }
+}
+/* track section ends here */

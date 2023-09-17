@@ -1,10 +1,57 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-target-blank */
 import './SmackathonPage.css';
 import goodies from '../assets/images/GFG goodies Final.png';
 import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
 import { Link } from 'react-router-dom';
+import image from '../assets/images/health.png';
+import image1 from '../assets/images/education1.png';
+import image2 from '../assets/images/environment.png';
+import image3 from '../assets/images/finance.png';
+import image4 from '../assets/images/web3.png';
+import image5 from '../assets/images/agriculture.png';
+
+import { useState } from 'react';
 
 export default function SmackathonPage() {
+  // eslint-disable-next-line no-unused-vars
+  const [changeState, setState] = useState(false);
+
+  function flipState() {
+    setState((prev) => !prev);
+    const accordionContent = document.querySelectorAll('.accordion-content');
+
+    accordionContent.forEach((item, index) => {
+      let header = item.querySelector('header');
+      header.addEventListener('click', () => {
+        item.classList.toggle('open');
+
+        let description = item.querySelector('.description');
+        if (item.classList.contains('open')) {
+          description.style.height = `${description.scrollHeight}px`;
+          item.querySelector('i').classList.replace('fa-plus', 'fa-minus');
+        } else {
+          description.style.height = '0px';
+          item.querySelector('i').classList.replace('fa-minus', 'fa-plus');
+        }
+        removeOpen(index);
+      });
+    });
+  }
+
+  function removeOpen(index1) {
+    const accordionContent = document.querySelectorAll('.accordion-content');
+    accordionContent.forEach((item2, index2) => {
+      if (index1 != index2) {
+        item2.classList.remove('open');
+
+        let des = item2.querySelector('.description');
+        des.style.height = '0px';
+        item2.querySelector('i').classList.replace('fa-minus', 'fa-plus');
+      }
+    });
+  }
+
   const closeModal = function () {
     const modal = document.querySelector('.modal');
     modal.classList.add('hidden_model');
@@ -300,7 +347,8 @@ export default function SmackathonPage() {
           <div className="text-box">
             <h2 className="N">DAY 2</h2>
             <small className="M">
-              2 : 00 PM : Winners to be Announced in the valedictory ceremony <br />
+              2 : 00 PM : Winners to be Announced in the valedictory ceremony{' '}
+              <br />
             </small>
             <span className="left-container-arrow"></span>
           </div>
@@ -405,6 +453,92 @@ export default function SmackathonPage() {
         </div>
       </div>
       {/* rules end here */}
+      {/* track section starts here */}
+      <h1 className="faq_heading">Track</h1>
+      <div className="track">
+        <div className="track-info">
+          <img src={image1} alt="Description of the image" />
+
+          <p>
+            {' '}
+            <h1 className="track-heading">Education</h1>
+            These projects increase access to educational resources, facilitate
+            learning in the classroom, or generally make acquiring knowledge a
+            more engaging process. Hacks submitted to this category can range
+            from all-encompassing edtech solutions to projects that bring
+            awareness to a specific topic.
+          </p>
+        </div>
+
+        <div className="track-info">
+          <img src={image} alt="Description of the image" />
+          <p>
+            {' '}
+            <h2 className="track-heading">Healthcare</h2>
+            These projects take on public health challenges, combat health
+            disparities, or assist with maintaining personal wellness. Hacks
+            submitted to this category can range from digital archives of public
+            health information to apps that track the fitness data of an
+            individual user.
+          </p>{' '}
+        </div>
+
+        <div className="track-info">
+          <img src={image2} alt="Description of the image" />
+
+          <p>
+            {' '}
+            <h2 className="track-heading">Environment</h2>
+            These projects use technology to preserve ecological ecosystems or
+            promote sustainable lifestyles. Hacks submitted to this category can
+            range from sweeping solutions to pertinent environmental crises to
+            apps that encourage small sustainable habits{' '}
+          </p>
+        </div>
+
+        <div className="track-info">
+          <img src={image3} alt="Description of the image" />
+          <p>
+            {' '}
+            <h2 className="track-heading">Finance</h2>
+            These projects use technology to drive economic growth, generate
+            employment opportunities, attract investments and achieve economic
+            sustainability. Hacks submitted to this category can range from
+            solutions to mitigate risks, revolutionize fintech, make
+            transactions more secure and handle existing financial crisis.
+          </p>{' '}
+        </div>
+
+        <div className="track-info">
+          <img src={image4} alt="Description of the image" />
+          <p>
+            {' '}
+            <h2 className="track-heading">Web3</h2>
+            These projects use technology to revolutionize the digital landscape
+            and impact factors like data security with online platforms thereby
+            building robust decentralized applications. Hacks submitted under
+            this category can range from solutions pertinent to data ownership
+            and privacy to decentralized apps that encourage censorship
+            resistance, govern interoperability and harness environmental
+            sustainability.
+          </p>{' '}
+        </div>
+
+        <div className="track-info">
+          <img src={image5} alt="Description of the image" />
+          <p>
+            {' '}
+            <h2 className="track-heading">Agriculture</h2>
+            These projects use technology to influence a multitude of factors
+            that range from crop cultivation, livestock management to
+            agribusiness development. Hacks submitted to this category can range
+            from sweeping solutions to pertinent agricultural and farming crisis
+            to apps that encourage eco-friendly farming techniques and
+            sustainable agribusiness.
+          </p>{' '}
+        </div>
+      </div>
+      {/* track section ends here */}
       {/* assgn critaria starts */}
       <h1 className="rules_heading assessment_heading">
         Assessment Criteria For Smackthon 2023
@@ -483,6 +617,117 @@ export default function SmackathonPage() {
       </div>
       {/* Veneus  ends here */}
 
+      {/* FAQS starts here */}
+      <h1 className="faq_heading">FAQ's</h1>
+      <div className="accordion">
+        {/* <!-- question 1 --> */}
+        <div className="accordion-content">
+          <header className="header" onClick={flipState}>
+            <span className="question">1.What is SMACKATHON?</span>
+            <i className="fa-solid fa-plus"></i>
+          </header>
+
+          <p className="description">
+            'SMACKATHON', presented by Geeks for Geeks and co-powered by COJAG
+            is a 24 hour long challenge with innovative problem statements.
+            Teams have to implement their tinkering ideas and craft an
+            innovative solution by intensive step by step coding or software
+            development.
+          </p>
+        </div>
+        {/* <!-- question 2 --> */}
+        <div className="accordion-content">
+          <header className="header" onClick={flipState}>
+            <span className="question">
+              2.Why should one participate in Smackathon?
+            </span>
+            <i className="fa-solid fa-plus"></i>
+          </header>
+
+          <p className="description">
+            Participating in Smackathon can build up your confidence and it’s a
+            great platform to showcase your technical skills in front of all.
+            Also the participants will be getting 20% discount on any GFG course
+            and exlcusive GFG goodies and Rs.2000 coupons for each winner!
+          </p>
+        </div>
+        {/* <!-- question 3 --> */}
+        <div className="accordion-content">
+          <header className="header" onClick={flipState}>
+            <span className="question">
+              3.Is there any eligibility criteria to participate in Smackathon?
+              If yes, which candidates are eligible?
+            </span>
+            <i className="fa-solid fa-plus"></i>
+          </header>
+
+          <p className="description">
+            There is no specific eligibility criteria. It’s an open opportunity
+            for tech enthusiasts to harness their technical skill and craft an
+            innovative solution. Students from any college and pursuing any
+            course can participate.
+          </p>
+        </div>
+        {/* <!-- question 4 --> */}
+        <div className="accordion-content">
+          <header className="header" onClick={flipState}>
+            <span className="question">
+              4.Is accomodation facility available for outsiders?
+            </span>
+            <i className="fa-solid fa-plus"></i>
+          </header>
+
+          <p className="description">
+            Yes, accomodation facility is available for outsiders.
+          </p>
+        </div>
+        {/* <!-- question 5 --> */}
+        <div className="accordion-content">
+          <header className="header" onClick={flipState}>
+            <span className="question">
+              5.What are the perks of attending Smackathon?
+            </span>
+            <i className="fa-solid fa-plus"></i>
+          </header>
+
+          <p className="description">
+            Attending Smackathon is undoubtedly worth it. Alll the participants
+            will be getting 20% discount on any GFG course and exlcusive GFG
+            goodies and Rs.2000 coupons for each winner!
+          </p>
+        </div>
+        {/* <!-- question 6 --> */}
+        <div className="accordion-content">
+          <header className="header" onClick={flipState}>
+            <span className="question">
+              6.When will the problem statement be provided to the candidate?
+            </span>
+            <i className="fa-solid fa-plus"></i>
+          </header>
+
+          <p className="description">
+            The problem statement will be provided on the day of hackathon at
+            10:00 am.
+          </p>
+        </div>
+        {/* <!-- question 7 --> */}
+        <div className="accordion-content">
+          <header className="header" onClick={flipState}>
+            <span className="question">
+              7.Do I compulsorily need to have a team to participate?
+            </span>
+            <i className="fa-solid fa-plus"></i>
+          </header>
+
+          <p className="description">
+            Yes, it is compulsory to participate in a team. Team can have
+            minimum 3 and maximum 5 members.
+          </p>
+        </div>
+      </div>
+
+      {/* FAQS ends here */}
+
       {/* Footer starts here */}
       <footer className="footer_smackathon">
         <div className="innerFooter innerFooter_smackathon">
@@ -559,7 +804,7 @@ export default function SmackathonPage() {
                 <h3>Contact Us</h3>
                 <div
                   className="contact_details"
-                  style={{ textAlign: "center" }}
+                  style={{ textAlign: 'center' }}
                 >
                   <div className="smackathon_contact_name">
                     <p>Sudhanshu Nerkar</p>
