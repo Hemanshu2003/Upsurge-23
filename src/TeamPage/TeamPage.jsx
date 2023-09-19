@@ -313,7 +313,7 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="www.linkedin.com/in/prajakta-aote-909aa4268">
+                <a href="http://www.linkedin.com/in/prajakta-aote-909aa4268">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
                 <a href="https://instagram.com/prajakta_aote">
@@ -346,9 +346,6 @@ export default function TeamPage() {
               <div className="social-links-container">
                 <a href="https://www.linkedin.com/in/abhijeet-sahu-551801228/">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
-                </a>
-                <a href="   ">
-                  <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
               <button className="button">Know me!</button>
