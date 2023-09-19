@@ -36,7 +36,7 @@ export default function NavbarComponent() {
           </Link>
         </li> */}
         <li>
-          <Link to="" className="anchor" onClick={PageChange}>
+          <Link to="/team" className="anchor" onClick={PageChange}>
             Team
           </Link>
         </li>
