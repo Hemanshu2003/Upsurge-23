@@ -1625,7 +1625,7 @@ export default function TeamPage() {
           <div
             style={{
               background:
-                "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Naincy+Pande.jpg')",
+                "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/nancy_new.jpeg')",
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}
