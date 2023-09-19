@@ -1171,9 +1171,6 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="">
-                  <i className="fa fa-linkedin " aria-hidden="true"></i>
-                </a>
                 <a href="https://instagram.com/_.vaidehi30._">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
