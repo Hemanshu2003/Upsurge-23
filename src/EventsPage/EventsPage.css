@@ -62,8 +62,14 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  text-align: justify;
+
   padding-top: 1rem;
+}
+.EventsPage_card-textbox p {
+  text-align: justify;
+}
+.EventsPage_card-textbox h2 {
+  text-align: center;
 }
 
 .EventsPage_card-title {
