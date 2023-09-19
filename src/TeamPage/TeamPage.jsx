@@ -1633,7 +1633,7 @@ export default function TeamPage() {
           ></div>
           <div className="bottom">
             <div className="content_member">
-              <p className="team_name">Naincy Pandey</p>
+              <p className="team_name">Naincy Pande</p>
               <p className="team_about-me">Literature Head, Cosmos CSE</p>
             </div>
             <div className="bottom-bottom">
