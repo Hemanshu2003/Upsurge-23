@@ -10,11 +10,7 @@ export default function TeamPage() {
         {/* card 1 */}
 
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -31,14 +27,11 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="https://www.linkedin.com/in/hemanshu-anil-waghmare-50a7a3291/">
+                <a href="https://www.linkedin.com/in/vedant-shivde-729ba420a">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="https://www.instagram.com/hemanshu_waghmare">
+                <a href="https://instagram.com/vedant.shivde19">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
-                </a>
-                <a href="https://github.com/Hemanshu2003">
-                  <i className="fa fa-github " aria-hidden="true"></i>
                 </a>
               </div>
               <button className="button">Know me!</button>
@@ -48,11 +41,7 @@ export default function TeamPage() {
         {/* card 2 */}
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="     ">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -90,11 +79,7 @@ export default function TeamPage() {
 
         {/* card 2 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="kushthakare2016@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -117,9 +102,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/kushthakare1">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -128,11 +110,7 @@ export default function TeamPage() {
 
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="padoletejaswini19@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -155,9 +133,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/__.tejaswiniiii">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -166,11 +141,7 @@ export default function TeamPage() {
 
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="  ">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -193,9 +164,6 @@ export default function TeamPage() {
                 <a href="https://www.instagram.com/jay__shende/">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -204,11 +172,7 @@ export default function TeamPage() {
 
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="siddhantmtonpe041@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -231,9 +195,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/siddhanttonpe">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -242,11 +203,7 @@ export default function TeamPage() {
 
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="sahildafade123@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -269,9 +226,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/sahil_dafade_01">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -280,11 +234,7 @@ export default function TeamPage() {
 
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="  ">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -307,9 +257,6 @@ export default function TeamPage() {
                 <a href="https://www.instagram.com/adwait1605p/">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -318,11 +265,7 @@ export default function TeamPage() {
 
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="sakshibannagare03@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -345,9 +288,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/__.sakshi__25">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -356,11 +296,7 @@ export default function TeamPage() {
 
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="prajaktaaote2003@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -383,9 +319,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/prajakta_aote">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -394,11 +327,7 @@ export default function TeamPage() {
 
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="   ">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -421,9 +350,6 @@ export default function TeamPage() {
                 <a href="   ">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -438,11 +364,7 @@ export default function TeamPage() {
         {/* sub container 1 */}
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="patil1221navin@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -472,11 +394,7 @@ export default function TeamPage() {
         </div>
         {/* card 2 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="yw140902@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -506,11 +424,7 @@ export default function TeamPage() {
         </div>
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="kuhitechetann@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -540,11 +454,7 @@ export default function TeamPage() {
         </div>
         {/* card 4*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="yatharthss02@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -574,11 +484,7 @@ export default function TeamPage() {
         </div>
         {/* card 5*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -608,11 +514,7 @@ export default function TeamPage() {
         </div>
         {/* card 6*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -639,11 +541,7 @@ export default function TeamPage() {
         </div>
         {/* card 7*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="mailkartik497@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -673,11 +571,7 @@ export default function TeamPage() {
         </div>
         {/* card 8*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -707,11 +601,7 @@ export default function TeamPage() {
         </div>
         {/* Card 9*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="tahahussain883@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -741,11 +631,7 @@ export default function TeamPage() {
         </div>
         {/*card 10*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="fulare.vishakha@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -782,11 +668,7 @@ export default function TeamPage() {
         {/* sub container 1 */}
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="jagritisharma1423@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -816,11 +698,7 @@ export default function TeamPage() {
         </div>
         {/* card 2 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="sakshi.kj.2607@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -850,11 +728,7 @@ export default function TeamPage() {
         </div>
         {/* card 3*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="nandguruwarpooja@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -884,11 +758,7 @@ export default function TeamPage() {
         </div>
         {/* card 4*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="musaletejaswini2@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -918,11 +788,7 @@ export default function TeamPage() {
         </div>
         {/* card 4*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="sanchi.dhoke@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -953,11 +819,7 @@ export default function TeamPage() {
         {/* card 4*/}
         {/* <!-- ACM Design team --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="leave it">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -980,9 +842,6 @@ export default function TeamPage() {
                 <a href="https://www.instagram.com/hrishikesh.kakde/">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{link}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -990,11 +849,7 @@ export default function TeamPage() {
         </div>
         {/* card 5*/}
         <div className="member_card">
-          <button className="mail">
-            <a href="leave it">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1031,11 +886,7 @@ export default function TeamPage() {
         {/* sub container 1 */}
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="rutu.pethe221@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1065,11 +916,7 @@ export default function TeamPage() {
         </div>
         {/* card 2 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="deeshant239@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1096,11 +943,7 @@ export default function TeamPage() {
         </div>
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="yahadke@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1130,11 +973,7 @@ export default function TeamPage() {
         </div>
         {/* card 4 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="saurabhikhar24@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1164,11 +1003,7 @@ export default function TeamPage() {
         </div>
         {/* card 5 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="hemanshukurode@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1199,11 +1034,7 @@ export default function TeamPage() {
 
         {/* card 6 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="sawanesanskar07@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1236,16 +1067,12 @@ export default function TeamPage() {
       {/* EM section ends here */}
 
       {/* culture Section starts here */}
-      <h1 className="team_page_heading">Culture Team</h1>
+      <h1 className="team_page_heading">Cultural Team</h1>
       <div className="cultural_container">
         {/* sub container 1 */}
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1268,9 +1095,6 @@ export default function TeamPage() {
                 <a href="{__link__}">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{__link__}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -1278,11 +1102,7 @@ export default function TeamPage() {
         </div>
         {/* card 2 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1313,11 +1133,7 @@ export default function TeamPage() {
 
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1348,11 +1164,7 @@ export default function TeamPage() {
 
         {/* card 4 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1375,9 +1187,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/_.vaidehi30._">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{__link__}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -1392,11 +1201,7 @@ export default function TeamPage() {
         {/* sub container 1 */}
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="jatin.kanoje@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1426,11 +1231,7 @@ export default function TeamPage() {
         </div>
         {/* card 2 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="radhikabhute14@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1461,11 +1262,7 @@ export default function TeamPage() {
 
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="mohagaokarpranav@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1503,11 +1300,7 @@ export default function TeamPage() {
         {/* sub container 1 */}
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="prachiasutkar@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1537,11 +1330,7 @@ export default function TeamPage() {
         </div>
         {/* card 2 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="rajankarashwati@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1571,11 +1360,7 @@ export default function TeamPage() {
         </div>
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="sakshikathane09@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1605,11 +1390,7 @@ export default function TeamPage() {
         </div>
         {/* card 4 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="prachipattewar07@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1645,11 +1426,7 @@ export default function TeamPage() {
       <div className="publicity_team">
         {/* <!-- card 1 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="himanshuhiwarkar12@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1679,11 +1456,7 @@ export default function TeamPage() {
         </div>
         {/* <!-- card 2 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="bargatpurvesh@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1713,11 +1486,7 @@ export default function TeamPage() {
         </div>
         {/* <!-- card 3 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1747,11 +1516,7 @@ export default function TeamPage() {
         </div>
         {/* <!-- card 4 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1781,11 +1546,7 @@ export default function TeamPage() {
         </div>
         {/* <!-- card 5 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="hardiktajne1122@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1815,11 +1576,7 @@ export default function TeamPage() {
         </div>
         {/* <!-- card 6 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="ramteke.pradnya007@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1849,11 +1606,7 @@ export default function TeamPage() {
         </div>
         {/* <!-- card 7 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="aaryanpadole2122@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1890,11 +1643,7 @@ export default function TeamPage() {
         {/* <!-- sub container 1 
          card 1  --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="naincyrpande@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1924,11 +1673,7 @@ export default function TeamPage() {
         </div>
         {/* <!-- card 2 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="arpatni23@gmail.com">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1959,11 +1704,7 @@ export default function TeamPage() {
 
         {/* <!-- card 3 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -1993,11 +1734,7 @@ export default function TeamPage() {
         </div>
         {/* <!-- card 4 --> */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -2034,11 +1771,7 @@ export default function TeamPage() {
         {/* sub container 1 */}
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -2061,9 +1794,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/riya_agrawal919">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{__link__}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -2072,11 +1802,7 @@ export default function TeamPage() {
 
         {/* card 2 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -2099,9 +1825,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/maanushreeslife?igshid=NGVhN2U2NjQ0Yg==">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{__link__}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -2110,11 +1833,7 @@ export default function TeamPage() {
 
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -2137,9 +1856,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/aditya_lonkar03">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{__link__}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -2148,11 +1864,7 @@ export default function TeamPage() {
 
         {/* card 4 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -2175,9 +1887,6 @@ export default function TeamPage() {
                 <a href="https://www.instagram.com/aditya_wagh007/">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{__link__}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -2186,11 +1895,7 @@ export default function TeamPage() {
 
         {/* card 5 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -2213,9 +1918,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/san.kal.p">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{__link__}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -2224,11 +1926,7 @@ export default function TeamPage() {
 
         {/* card 6 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -2251,9 +1949,6 @@ export default function TeamPage() {
                 <a href="https://instagram.com/tanushree_kakde31">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{__link__}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -2268,11 +1963,7 @@ export default function TeamPage() {
         {/* sub container 1 */}
         {/* card 1 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -2304,11 +1995,7 @@ export default function TeamPage() {
         {/* card 2 */}
 
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
@@ -2339,11 +2026,7 @@ export default function TeamPage() {
 
         {/* card 3 */}
         <div className="member_card">
-          <button className="mail">
-            <a href="">
-              <i className="fa fa-envelope " aria-hidden="true"></i>
-            </a>
-          </button>
+          <button className="mail"></button>
           <div
             style={{
               background:
