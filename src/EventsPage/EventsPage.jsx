@@ -8,9 +8,9 @@ export default function EventsPage() {
           Events
         </h2>
         {/* Event 1  */}
-        <div className="EventsPage_card EventsPage_card__2n">
+        <div className="EventsPage_card">
           <img
-            className="EventsPage_card-img EventsPage_card-img__2n"
+            className="EventsPage_card-img"
             src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/Agora+Medium.png"
           />
           <div className="EventsPage_card-textbox">
@@ -86,9 +86,9 @@ export default function EventsPage() {
           </div>
         </div>
         {/* Event 2 */}
-        <div className="EventsPage_card EventsPage_card ">
+        <div className="EventsPage_card EventsPage_card__2n ">
           <img
-            className="EventsPage_card-img EventsPage_card-img"
+            className="EventsPage_card-img EventsPage_card-img__2n"
             src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/WEB+3.0+Medium.png"
           />
           <div className="EventsPage_card-textbox">
