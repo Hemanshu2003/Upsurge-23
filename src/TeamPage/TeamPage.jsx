@@ -75,9 +75,6 @@ export default function TeamPage() {
                 <a href="https://www.instagram.com/sudhaaanshuuuu/">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
-                <a href="{_link_}">
-                  <i className="fa fa-github " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -462,10 +459,10 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{https://www.linkedin.com/in/navin-b-patil}">
+                <a href="https://www.linkedin.com/in/navin-b-patil">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="{https://instagram.com/_navinpatil_}">
+                <a href="https://instagram.com/_navinpatil_">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
@@ -499,7 +496,7 @@ export default function TeamPage() {
                 <a href="{}">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="{https://instagram.com/yash._.waghmare?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==}">
+                <a href="https://instagram.com/yash._.waghmare?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
@@ -530,10 +527,10 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{https://www.linkedin.com/in/chetan-kuhite-636847159/}">
+                <a href="https://www.linkedin.com/in/chetan-kuhite-636847159/">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="{https://instagram.com/___chetan_21___}">
+                <a href="https://instagram.com/___chetan_21___">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
@@ -564,10 +561,10 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{https://linkedin.com/in/yatharth-shende}">
+                <a href="https://linkedin.com/in/yatharth-shende">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="{https://instagram.com/yatharth__shende}">
+                <a href="https://instagram.com/yatharth__shende">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
@@ -632,11 +629,8 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{https://www.linkedin.com/in/divyansh-sharma-159626246/}">
+                <a href="https://www.linkedin.com/in/divyansh-sharma-159626246/">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
-                </a>
-                <a href="{}">
-                  <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
               <button className="button">Know me!</button>
@@ -666,10 +660,10 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{https://www.linkedin.com/in/kartik-tichkule-k497/}">
+                <a href="https://www.linkedin.com/in/kartik-tichkule-k497/">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="{https://www.instagram.com/kartik_tichkule497/}">
+                <a href="https://www.instagram.com/kartik_tichkule497/">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
@@ -700,10 +694,10 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{https://www.linkedin.com/in/unnati-thakre-b95476257/}">
+                <a href="https://www.linkedin.com/in/unnati-thakre-b95476257/">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="{https://www.instagram.com/unnati_thakre/}">
+                <a href="https://www.instagram.com/unnati_thakre/">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
@@ -734,10 +728,10 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{https://www.linkedin.com/in/tahahussain11}">
+                <a href="https://www.linkedin.com/in/tahahussain11">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="{https://instagram.com/taha_hussain11?igshid=NzZlODBkYWE4Ng==}">
+                <a href="https://instagram.com/taha_hussain11?igshid=NzZlODBkYWE4Ng==">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
@@ -768,10 +762,10 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{https://www.linkedin.com/in/vishakha-fulare-117867237}">
+                <a href="https://www.linkedin.com/in/vishakha-fulare-117867237">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="{https://instagram.com/_visshakkha_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D}">
+                <a href="https://instagram.com/_visshakkha_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
