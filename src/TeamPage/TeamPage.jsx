@@ -782,6 +782,255 @@ export default function TeamPage() {
       </div>
       {/* technical team ends here */}
 
+      {/* design team starts here */}
+      <h1 className="team_page_heading">Design Team</h1>
+      <div className="Design_container">
+        {/* sub container 1 */}
+        {/* card 1 */}
+        <div className="member_card">
+          <button className="mail">
+            <a href="jagritisharma1423@gmail.com">
+              <i className="fa fa-envelope " aria-hidden="true"></i>
+            </a>
+          </button>
+          <div
+            style={{
+              background:
+                "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/JagritiSharma.jpg')",
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+            className="profile-pic"
+          ></div>
+          <div className="bottom">
+            <div className="content_member">
+              <p className="team_name">Jagriti Sharma</p>
+              <p className="team_about-me"> Design Head, Cosmos CSE</p>
+            </div>
+            <div className="bottom-bottom">
+              <div className="social-links-container">
+                <a href="https://www.linkedin.com/in/jagriti-sharma-5075b8221">
+                  <i className="fa fa-linkedin " aria-hidden="true"></i>
+                </a>
+                <a href="https://instagram.com/jagriti_0314">
+                  <i className="fa fa-instagram " aria-hidden="true"></i>
+                </a>
+              </div>
+              <button className="button">Know me!</button>
+            </div>
+          </div>
+        </div>
+        {/* card 2 */}
+        <div className="member_card">
+          <button className="mail">
+            <a href="sakshi.kj.2607@gmail.com">
+              <i className="fa fa-envelope " aria-hidden="true"></i>
+            </a>
+          </button>
+          <div
+            style={{
+              background:
+                "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/SakshiKumbhare.jpg')",
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+            className="profile-pic"
+          ></div>
+          <div className="bottom">
+            <div className="content_member">
+              <p className="team_name">Sakshi Kumbhare</p>
+              <p className="team_about-me"> Design Head</p>
+            </div>
+            <div className="bottom-bottom">
+              <div className="social-links-container">
+                <a href="https://www.linkedin.com/in/sakshi-kumbhare-99943b28b">
+                  <i className="fa fa-linkedin " aria-hidden="true"></i>
+                </a>
+                <a href="https://instagram.com/the_nightskyyyyy">
+                  <i className="fa fa-instagram " aria-hidden="true"></i>
+                </a>
+              </div>
+              <button className="button">Know me!</button>
+            </div>
+          </div>
+        </div>
+        {/* card 3*/}
+        <div className="member_card">
+          <button className="mail">
+            <a href="nandguruwarpooja@gmail.com">
+              <i className="fa fa-envelope " aria-hidden="true"></i>
+            </a>
+          </button>
+          <div
+            style={{
+              background:
+                "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/PoojaNandguruwar.jpg')",
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+            className="profile-pic"
+          ></div>
+          <div className="bottom">
+            <div className="content_member">
+              <p className="team_name">Pooja Nandguruwar</p>
+              <p className="team_about-me">Design Co-head</p>
+            </div>
+            <div className="bottom-bottom">
+              <div className="social-links-container">
+                <a href="{not avialble}">
+                  <i className="fa fa-linkedin " aria-hidden="true"></i>
+                </a>
+                <a href="https://instagram.com/poojanandguruwar?igshid=NGVhN2U2NjQ0Yg==">
+                  <i className="fa fa-instagram " aria-hidden="true"></i>
+                </a>
+              </div>
+              <button className="button">Know me!</button>
+            </div>
+          </div>
+        </div>
+        {/* card 4*/}
+        <div className="member_card">
+          <button className="mail">
+            <a href="musaletejaswini2@gmail.com">
+              <i className="fa fa-envelope " aria-hidden="true"></i>
+            </a>
+          </button>
+          <div
+            style={{
+              background:
+                "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/TejaswiniMusale.jpg')",
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+            className="profile-pic"
+          ></div>
+          <div className="bottom">
+            <div className="content_member">
+              <p className="team_name">Tejaswini Musale</p>
+              <p className="team_about-me">Design Team Member</p>
+            </div>
+            <div className="bottom-bottom">
+              <div className="social-links-container">
+                <a href="{not avialble}">
+                  <i className="fa fa-linkedin " aria-hidden="true"></i>
+                </a>
+                <a href="https://instagram.com/tejaswinii_musale">
+                  <i className="fa fa-instagram " aria-hidden="true"></i>
+                </a>
+              </div>
+              <button className="button">Know me!</button>
+            </div>
+          </div>
+        </div>
+        {/* card 4*/}
+        <div className="member_card">
+          <button className="mail">
+            <a href="sanchi.dhoke@gmail.com">
+              <i className="fa fa-envelope " aria-hidden="true"></i>
+            </a>
+          </button>
+          <div
+            style={{
+              background:
+                "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/SANCHI+DHOKE.jpg')",
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+            className="profile-pic"
+          ></div>
+          <div className="bottom">
+            <div className="content_member">
+              <p className="team_name">Sanchi Dhoke</p>
+              <p className="team_about-me">Design Team Member</p>
+            </div>
+            <div className="bottom-bottom">
+              <div className="social-links-container">
+                <a href="https://www.linkedin.com/in/sanchi-dhoke-33b2a3255">
+                  <i className="fa fa-linkedin " aria-hidden="true"></i>
+                </a>
+                <a href="https://instagram.com/sanchi_dhoke2003">
+                  <i className="fa fa-instagram " aria-hidden="true"></i>
+                </a>
+              </div>
+              <button className="button">Know me!</button>
+            </div>
+          </div>
+        </div>
+        {/* card 4*/}
+        {/* <!-- ACM Design team --> */}
+        <div className="member_card">
+          <button className="mail">
+            <a href="leave it">
+              <i className="fa fa-envelope " aria-hidden="true"></i>
+            </a>
+          </button>
+          <div
+            style={{
+              background:
+                "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/Hrishikesh+Kakde_Design+Master.JPG')",
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+            className="profile-pic"
+          ></div>
+          <div className="bottom">
+            <div className="content_member">
+              <p className="team_name">Hrishikesh Kakde</p>
+              <p className="team_about-me"> ACM Design Master</p>
+            </div>
+            <div className="bottom-bottom">
+              <div className="social-links-container">
+                <a href="https://www.linkedin.com/in/hrishikesh-kakde-55753125b/">
+                  <i className="fa fa-linkedin " aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/hrishikesh.kakde/">
+                  <i className="fa fa-instagram " aria-hidden="true"></i>
+                </a>
+                <a href="{link}">
+                  <i className="fa fa-github " aria-hidden="true"></i>
+                </a>
+              </div>
+              <button className="button">Know me!</button>
+            </div>
+          </div>
+        </div>
+        {/* card 5*/}
+        <div className="member_card">
+          <button className="mail">
+            <a href="leave it">
+              <i className="fa fa-envelope " aria-hidden="true"></i>
+            </a>
+          </button>
+          <div
+            style={{
+              background:
+                "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/RitikaAnantwar_DesignMaster.jpeg')",
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+            className="profile-pic"
+          ></div>
+          <div className="bottom">
+            <div className="content_member">
+              <p className="team_name">Ritika Anantwar</p>
+              <p className="team_about-me"> ACM Design Master</p>
+            </div>
+            <div className="bottom-bottom">
+              <div className="social-links-container">
+                <a href="https://www.linkedin.com/in/ritika-anantwar-b846b3283/">
+                  <i className="fa fa-linkedin " aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/itss_.ritika/">
+                  <i className="fa fa-instagram " aria-hidden="true"></i>
+                </a>
+              </div>
+              <button className="button">Know me!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* design team ends here */}
+
       {/* EM section starts here */}
       <h1 className="team_page_heading">Event Management Team</h1>
       <div className="eventmanagement_container">
