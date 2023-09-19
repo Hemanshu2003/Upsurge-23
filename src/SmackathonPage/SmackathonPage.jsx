@@ -4,13 +4,6 @@ import './SmackathonPage.css';
 import goodies from '../assets/images/GFG goodies Final.png';
 import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
 import { Link } from 'react-router-dom';
-import image from '../assets/images/health.png';
-import image1 from '../assets/images/education1.png';
-import image2 from '../assets/images/environment.png';
-import image3 from '../assets/images/finance.png';
-import image4 from '../assets/images/web3.png';
-import image5 from '../assets/images/agriculture.png';
-import image6 from '../assets/images/openinnvo.png';
 
 import { useState } from 'react';
 
@@ -250,7 +243,10 @@ export default function SmackathonPage() {
         <div className="track-info">
           <div className="imgHeading">
             {' '}
-            <img src={image1} alt="Description of the image" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/tracks/education1.png"
+              alt="Description of the image"
+            />
             <h1 className="track-heading">Education</h1>
           </div>
 
@@ -265,7 +261,10 @@ export default function SmackathonPage() {
 
         <div className="track-info">
           <div className="imgHeading">
-            <img src={image} alt="Description of the image" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/tracks/health.png"
+              alt="Description of the image"
+            />
             <h2 className="track-heading">Healthcare</h2>
           </div>
           <p>
@@ -279,7 +278,10 @@ export default function SmackathonPage() {
 
         <div className="track-info">
           <div className="imgHeading">
-            <img src={image2} alt="Description of the image" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/tracks/environment.png"
+              alt="Description of the image"
+            />
             <h2 className="track-heading">Environment</h2>
           </div>
 
@@ -293,7 +295,10 @@ export default function SmackathonPage() {
 
         <div className="track-info">
           <div className="imgHeading">
-            <img src={image3} alt="Description of the image" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/tracks/finance.png"
+              alt="Description of the image"
+            />
             <h2 className="track-heading">Finance</h2>
           </div>
           <p>
@@ -307,7 +312,10 @@ export default function SmackathonPage() {
 
         <div className="track-info">
           <div className="imgHeading">
-            <img src={image4} alt="Description of the image" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/tracks/web3.png"
+              alt="Description of the image"
+            />
             <h2 className="track-heading">Web3</h2>
           </div>
           <p>
@@ -323,7 +331,10 @@ export default function SmackathonPage() {
 
         <div className="track-info">
           <div className="imgHeading">
-            <img src={image5} alt="Description of the image" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/tracks/agriculture.png"
+              alt="Description of the image"
+            />
             <h2 className="track-heading">Agriculture</h2>
           </div>
           <p>
@@ -338,7 +349,10 @@ export default function SmackathonPage() {
 
         <div className="track-info last">
           <div className="imgHeading">
-            <img src={image6} alt="Description of the image" />
+            <img
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/tracks/openinnvo.png"
+              alt="Description of the image"
+            />
             <h2 className="track-heading">Open Innovation</h2>
           </div>
           <p>
