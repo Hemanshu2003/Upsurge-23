@@ -2,6 +2,7 @@
   z-index: 40;
   width: 100%;
   position: absolute;
+  padding-bottom: 100px;
 }
 
 .team_page_heading {
@@ -50,7 +51,7 @@
   font-weight: bold;
 }
 .literature_container {
-  width: 70%;
+  width: 50%;
   margin: auto;
   display: grid;
   gap: 30px;
@@ -65,7 +66,7 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .cultural_container {
-  width: 70%;
+  width: 50%;
   margin: auto;
   display: grid;
   gap: 30px;
@@ -78,4 +79,156 @@
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.sports_container {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.database_container {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.eventmanagement_container {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.Sponsorship_container {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.main_organizer_container {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 20px;
+}
+
+.technical_team {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 1180px) {
+  .team_page_heading {
+    font-size: 48px;
+  }
+  .organizer_container {
+    width: 90%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .literature_container {
+    width: 70%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .publicity_team {
+    width: 70%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .cultural_container {
+    width: 70%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .art_container {
+    width: 90%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .sports_container {
+    width: 90%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .database_container {
+    width: 70%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .eventmanagement_container {
+    width: 90%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .Sponsorship_container {
+    width: 90%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .main_organizer_container {
+    width: 90%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .technical_team {
+    width: 90%;
+
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .team_page_heading {
+    font-size: 36px;
+  }
+  .main_organizer_container {
+    width: 90%;
+  }
+
+  .organizer_container {
+    width: 90%;
+  }
+
+  .literature_container {
+    width: 70%;
+  }
+
+  .publicity_team {
+    width: 70%;
+  }
+  .cultural_container {
+    width: 70%;
+  }
+
+  .art_container {
+    width: 90%;
+  }
+
+  .sports_container {
+    width: 90%;
+  }
+
+  .database_container {
+    width: 70%;
+  }
+
+  .eventmanagement_container {
+    width: 90%;
+  }
+
+  .Sponsorship_container {
+    width: 90%;
+  }
 }
