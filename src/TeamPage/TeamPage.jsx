@@ -1085,14 +1085,7 @@ export default function TeamPage() {
               <p className="team_about-me">Cultural Head , Cosmos CSE</p>
             </div>
             <div className="bottom-bottom">
-              <div className="social-links-container">
-                <a href="">
-                  <i className="fa fa-linkedin " aria-hidden="true"></i>
-                </a>
-                <a href="{__link__}">
-                  <i className="fa fa-instagram " aria-hidden="true"></i>
-                </a>
-              </div>
+              <div className="social-links-container"></div>
               <button className="button">Know me!</button>
             </div>
           </div>
@@ -1847,9 +1840,6 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{__link__}">
-                  <i className="fa fa-linkedin " aria-hidden="true"></i>
-                </a>
                 <a href="https://instagram.com/aditya_lonkar03">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
@@ -1878,9 +1868,6 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{__link__}">
-                  <i className="fa fa-linkedin " aria-hidden="true"></i>
-                </a>
                 <a href="https://www.instagram.com/aditya_wagh007/">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
