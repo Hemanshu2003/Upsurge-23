@@ -498,10 +498,10 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="{https://www.linkedin.com/in/hemanshu-anil-waghmare-50a7a3291/}">
+                <a href="https://www.linkedin.com/in/hemanshu-anil-waghmare-50a7a3291/">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="{https://www.instagram.com/hemanshu_waghmare/}">
+                <a href="https://www.instagram.com/hemanshu_waghmare/">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
