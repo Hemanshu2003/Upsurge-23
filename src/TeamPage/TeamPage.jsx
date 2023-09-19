@@ -1463,9 +1463,6 @@ export default function TeamPage() {
                 <a href="https://www.linkedin.com/in/bargatpurvesh">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="">
-                  <i className="fa fa-instagram " aria-hidden="true"></i>
-                </a>
               </div>
               <button className="button">Know me!</button>
             </div>
@@ -1550,9 +1547,6 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="">
-                  <i className="fa fa-linkedin " aria-hidden="true"></i>
-                </a>
                 <a href="https://instagram.com/hardiktajne1">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
@@ -1580,9 +1574,6 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
-                <a href="">
-                  <i className="fa fa-linkedin " aria-hidden="true"></i>
-                </a>
                 <a href="https://instagram.com/prxdnyxx">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
