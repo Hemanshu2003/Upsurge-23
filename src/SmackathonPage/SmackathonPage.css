@@ -1322,7 +1322,7 @@ iframe {
 .track-info {
   margin: auto;
   max-width: 380px;
-  height: 300px;
+  height: 300\px;
   font-size: medium;
   color: #fff;
 }

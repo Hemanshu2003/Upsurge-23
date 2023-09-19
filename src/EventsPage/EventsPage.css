@@ -1,5 +1,151 @@
-eventspage {
-  width: 100%;
+.EventsPage {
   z-index: 40;
+  width: 100%;
   position: absolute;
+  color: #fff;
+}
+
+.EventsPage_container {
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.forEvent_heading {
+  margin-left: 0;
+}
+
+.btnbtn {
+  position: absolute;
+  bottom: 1%;
+  left: 47%;
+}
+
+.btnbtn__2n {
+  left: 4%;
+  bottom: 1%;
+}
+
+.EventsPage_card {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid palevioletred;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.EventsPage_card-title {
+  color: #000;
+}
+
+.EventsPage_card:hover {
+  box-shadow: 0 0 20px rgb(255, 0, 0), 0 0 40px #fa02e5;
+  transition: 0.7s;
+}
+
+.EventsPage_card-img {
+  position: absolute;
+  height: 350px;
+  width: 500px;
+  top: 0;
+  left: 0;
+}
+
+.EventsPage_card-img__2n {
+  left: initial;
+  right: 0;
+}
+
+.EventsPage_card-textbox {
+  position: absolute;
+  top: 7%;
+  bottom: 7%;
+  left: 531px;
+  width: calc(100% - 575px);
+  font-size: 17px;
+  text-align: justify;
+}
+
+.EventsPage_card-textbox__2n {
+  left: initial;
+  right: 530px;
+}
+
+.EventsPage_card-textbox::before,
+.EventsPage_card-textbox::after {
+  content: '';
+  position: absolute;
+  display: block;
+  /* background: red; */
+  background: #fff;
+  top: -20%;
+  left: -55px;
+  height: 140%;
+  width: 60px;
+  transform: rotate(8deg);
+}
+
+.EventsPage_card-textbox::after {
+  display: none;
+  left: initial;
+  right: -55px;
+}
+
+.EventsPage_card-textbox__2n::after {
+  display: block;
+}
+
+.EventsPage_card-textbox * {
+  position: relative;
+}
+
+.EventsPage_card-title {
+  font-family: 'Voces', 'Open Sans', arial, sans-serif;
+  font-size: 24px;
+}
+
+.EventsPage_card-subtitle {
+  font-family: 'Voces', 'Open Sans', arial, sans-serif;
+  color: #000;
+}
+
+.EventsPage_card-description {
+  font-size: 15px;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .EventsPage_container {
+    width: 90%;
+  }
+
+  .EventsPage_card {
+    overflow: inherit;
+  }
+  .EventsPage_card {
+    height: 700px;
+  }
+  .EventsPage_card-img {
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+  }
+
+  .EventsPage_card-textbox {
+    bottom: 5%;
+    top: auto;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+  }
+
+  .EventsPage_card-textbox::before,
+  .EventsPage_card-textbox::after {
+    display: none;
+  }
 }

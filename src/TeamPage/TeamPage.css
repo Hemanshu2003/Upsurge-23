@@ -1,0 +1,61 @@
+.teampage {
+  z-index: 40;
+  width: 100%;
+  position: absolute;
+}
+
+.team_page_heading {
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 68px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
+  margin-bottom: 50px;
+}
+
+.organizer_container {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.organizer_subcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* card styling */
+.profile-pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team_name {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.team_about-me {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.literature_container {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.publicity_team {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
