@@ -1,6 +1,6 @@
-import React from 'react';
-import './NavbarComponent.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./NavbarComponent.css";
+import { Link } from "react-router-dom";
 
 export default function NavbarComponent() {
   const [initial, final] = React.useState(false);
@@ -16,7 +16,7 @@ export default function NavbarComponent() {
 
   return (
     <div>
-      <ul className={`navigation ${initial && 'active'}`}>
+      <ul className={`navigation ${initial && "active"}`}>
         <li>
           <Link to="home" className="anchor" onClick={PageChange}>
             Home
@@ -42,7 +42,7 @@ export default function NavbarComponent() {
         </li>
         <span className="toggleMenu" onClick={toggleOnClick}>
           <span
-            className={`${initial ? 'line hidden' : 'line'}`}
+            className={`${initial ? "line hidden" : "line"}`}
             id="line"
           ></span>
         </span>

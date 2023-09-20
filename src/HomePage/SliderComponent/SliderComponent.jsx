@@ -688,7 +688,7 @@ export default function SliderComponent() {
             src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/FLASHMOB+Large.png"
             alt="slide_image"
           />
-          <div className="slide_content">
+          <div className="slide_content for_only_flashmob">
             <h1 className="slide_heading">Flashmob</h1>
             <p>
               • Get ready to witness a burst of spontaneous energy and
