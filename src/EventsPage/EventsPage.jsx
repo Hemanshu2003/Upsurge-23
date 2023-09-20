@@ -837,12 +837,7 @@ export default function EventsPage() {
                 style={{ paddingBottom: '10px' }}
               >
                 <p>
-                  Get ready to witness a burst of spontaneous energy and
-                  creativity as our Flash Mob event takes center stage on
-                  October 5th at 4 PM, right in front of the Admin Block! Join
-                  us for an unforgettable spectacle filled with surprises and
-                  thrilling performances.
-                  <br /> Mark your calendars for October 5th at 4 PM because an
+                  Mark your calendars for October 5th at 4 PM because an
                   electrifying Flash Mob event is about to unfold right in front
                   of the Admin Block! This thrilling gathering promises a burst
                   of spontaneity, creativity, and dance that will leave you in
