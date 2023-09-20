@@ -507,6 +507,7 @@ export default function EventsPage() {
                 <a
                   className="events_link"
                   href="https://forms.gle/bYtHskQxPQhcxs947"
+                  target="_blank"
                 >
                   <button className="events_btn edge_corner">
                     <svg
@@ -594,6 +595,7 @@ export default function EventsPage() {
                 <a
                   className="events_link"
                   href="https://forms.gle/Pun4cimLwd7rUq4F8"
+                  target="_blank"
                 >
                   <button className="events_btn edge_corner">
                     <svg
@@ -674,7 +676,7 @@ export default function EventsPage() {
                 </p>
               </div>
               <div className="btnbtn">
-                <a className="events_link" href="">
+                <a className="events_link" href="" target="_blank">
                   <button className="events_btn edge_corner">
                     <svg
                       height="44px"
