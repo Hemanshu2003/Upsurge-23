@@ -243,7 +243,7 @@ export default function EventsPage() {
         {/* Event 4 */}
         <div className="EventsPage_card EventsPage_card__2n">
           <img
-            className="EventsPage_card-img__2n"
+            className="EventsPage_card-img EventsPage_card-img__2n"
             src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/LINKEDIN+Medium.png"
           />
           <div className="EventsPage_card-textbox">
