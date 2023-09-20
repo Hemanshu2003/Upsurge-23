@@ -24,6 +24,9 @@ import { Link } from "react-router-dom";
 // import slide_image_10 from '../../assets/images/download.jpeg';
 
 export default function SliderComponent() {
+  function onPageChange() {
+    window.scrollTo(0, 0);
+  }
   // const [activeIndex, setActiveIndex] = useState(0);
 
   // const handleSlideChange = (swiper) => {
@@ -89,7 +92,7 @@ export default function SliderComponent() {
               dynamic platform. If you're interested in Agora and want to learn
               more, mark your calendar for this enlightening seminar!
             </p>
-            <Link className="link" to="/events/#agora">
+            <Link className="link" to="/events/#agora" onClick={onPageChange}>
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -156,7 +159,7 @@ export default function SliderComponent() {
               discover the potential of this transformative technology that is
               reshaping the internet as we know it.
             </p>
-            <Link className="link" to="/events/#web3">
+            <Link className="link" to="/events/#web3" onClick={onPageChange}>
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -224,7 +227,7 @@ export default function SliderComponent() {
               hands-on session. Bring your laptops and immerse yourself in
               practical learning as we delve into the world of cybersecurity.
             </p>
-            <Link className="link" to="/events/#ethicalhacking">
+            <Link className="link" to="/events/#ethicalhacking" onClick={onPageChange}>
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -291,7 +294,7 @@ export default function SliderComponent() {
               valuable insights and strategies to enhance your professional
               presence on this powerful networking platform.
             </p>
-            <Link className="link" to="/events/#linkedin">
+            <Link className="link" to="/events/#linkedin" onClick={onPageChange}>
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -359,7 +362,7 @@ export default function SliderComponent() {
               2023, at the Computer Science Department for a thrilling journey
               into the world of debugging!
             </p>
-            <Link className="link" to="/events/#debugging">
+            <Link className="link" to="/events/#debugging" onClick={onPageChange}>
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -428,7 +431,7 @@ export default function SliderComponent() {
               Captured Campus: Lens Ready?Grab your smartphone and capture the
               essence of our campus through your lens.
             </p>
-            <Link className="link" to="/events/#fadframe">
+            <Link className="link" to="/events/#fadframe" onClick={onPageChange}>
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -495,7 +498,7 @@ export default function SliderComponent() {
               dancing, poetry, stand-up comedy, musical performances, and any
               unique abilities they possess.
             </p>
-            <Link className="link" to="/events/#talentesque">
+            <Link className="link" to="/events/#talentesque" onClick={onPageChange}>
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -562,7 +565,7 @@ export default function SliderComponent() {
               thrilling games to choose from, they can boost their credit stash.
               At the event's climax, an electrifying auction awaits...
             </p>
-            <Link className="link" to="/events/#cosmotown">
+            <Link className="link" to="/events/#cosmotown" onClick={onPageChange}>
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -629,7 +632,7 @@ export default function SliderComponent() {
               with your closest pals as you explore the arena, savour delectable
               food, and conquer exciting challenges. Join us on 7th Oct 2023.
             </p>
-            <Link className="link" to="/events/#desidaredevils">
+            <Link className="link" to="/events/#desidaredevils" onClick={onPageChange}>
               <button className="events_btn">
                 <svg
                   height="44px"
