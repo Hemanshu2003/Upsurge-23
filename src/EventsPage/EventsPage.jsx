@@ -676,7 +676,11 @@ export default function EventsPage() {
                 </p>
               </div>
               <div className="btnbtn">
-                <a className="events_link" href="" target="_blank">
+                <a
+                  className="events_link"
+                  href="https://forms.gle/7qkGuL9eEW8hXa8R9"
+                  target="_blank"
+                >
                   <button className="events_btn edge_corner">
                     <svg
                       height="44px"
@@ -724,7 +728,7 @@ export default function EventsPage() {
                         fill="#e1f5fe"
                       ></path>
                     </svg>
-                    <span className="now">soon!</span>
+                    <span className="now">now!</span>
                     <span className="play">Register</span>
                   </button>
                 </a>
@@ -828,13 +832,22 @@ export default function EventsPage() {
               <div className="EventsPage_card-title">
                 <h2>Flashmob</h2>
               </div>
-              <div className="EventsPage_card-description">
+              <div
+                className="EventsPage_card-description"
+                style={{ paddingBottom: '10px' }}
+              >
                 <p>
-                  Mark your calendars for October 5th at 4 PM because an
+                  Get ready to witness a burst of spontaneous energy and
+                  creativity as our Flash Mob event takes center stage on
+                  October 5th at 4 PM, right in front of the Admin Block! Join
+                  us for an unforgettable spectacle filled with surprises and
+                  thrilling performances.
+                  <br /> Mark your calendars for October 5th at 4 PM because an
                   electrifying Flash Mob event is about to unfold right in front
                   of the Admin Block! This thrilling gathering promises a burst
                   of spontaneity, creativity, and dance that will leave you in
                   awe.
+                  <br />
                   <br />
                   Join us at the undisclosed location and experience the magic
                   as a talented group of dancers takes to the streets to deliver
@@ -842,6 +855,11 @@ export default function EventsPage() {
                   specialty, and you won't want to miss the moment when music
                   fills the air, and the crowd becomes part of a dynamic,
                   impromptu show.
+                  <br />
+                  <br />
+                  Keep your eyes peeled for updates and be ready to join in on
+                  the fun because in the world of Flash Mob, the only thing you
+                  can expect is the unexpected!
                 </p>
               </div>
               {/* <div className="btnbtn">
