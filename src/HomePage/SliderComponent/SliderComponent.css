@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap");
 
 * {
   margin: 0;
@@ -22,7 +22,7 @@
     0 0 80px #ff2edc, 0 0 160px #ff2edc; */
   /* animation: tubelight 5s linear; */
   letter-spacing: 5px;
-  font-family: 'Noto Sans Anatolian Hieroglyphs', sans-serif;
+  font-family: "Noto Sans Anatolian Hieroglyphs", sans-serif;
   color: #ffedff;
   text-transform: uppercase;
   filter: url(#stroke) url(#inner-glow) url(#outer-glow);
@@ -99,9 +99,12 @@
   background-color: #ffffff;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-  padding: 2rem 2.5rem;
+  padding: 1rem 2.5rem;
   color: black;
-  height: 250px;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   /* display: none; */
 }
 .slide_content p {
@@ -111,6 +114,10 @@
 .slide_heading {
   text-align: center;
   font-size: 28px;
+}
+
+.forLine_height {
+  line-height: 1.1;
 }
 
 .slider-controler {
@@ -142,7 +149,7 @@
 }
 
 .slider-controler .slider-arrow::after {
-  content: '';
+  content: "";
 }
 
 .swiper-pagination {
@@ -163,11 +170,11 @@
   } */
   .swiper-slide {
     width: 300px !important;
-    height: 25rem;
+    /* height: 25rem; */
   }
   .swiper-slide img {
     width: 300px;
-    height: 200px;
+    height: 230px;
   }
   .slider-arrow {
     display: none !important;
@@ -178,6 +185,7 @@
   }
 
   .slide_content {
+    height: 18rem;
     padding: 1rem 1.5rem;
     line-height: 24px;
     text-align: justify;
@@ -185,9 +193,11 @@
 
   .slide_heading {
     margin-bottom: 10px;
+    font-size: 27px;
   }
   .slide_content p {
-    text-align: center;
+    text-align: justify;
+    line-height: 1.3;
   }
 }
 
