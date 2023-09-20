@@ -837,30 +837,15 @@ export default function EventsPage() {
                 style={{ paddingBottom: '10px' }}
               >
                 <p>
-                  Mark your calendars for October 5th at 4 PM because an
-                  electrifying Flash Mob event is about to unfold right in front
-                  of the Admin Block! This thrilling gathering promises a burst
-                  of spontaneity, creativity, and dance that will leave you in
-                  awe.
-                  <br />
-                  <br />
-                  Join us at the undisclosed location and experience the magic
-                  as a talented group of dancers takes to the streets to deliver
-                  a jaw-dropping performance. The element of surprise is our
-                  specialty, and you won't want to miss the moment when music
-                  fills the air, and the crowd becomes part of a dynamic,
-                  impromptu show.
-                  <br />
-                  <br />
                   Keep your eyes peeled for updates and be ready to join in on
                   the fun because in the world of Flash Mob, the only thing you
-                  can expect is the unexpected!
+                  can expect is the unexpected! Stay tuned to know more...
                 </p>
               </div>
-              {/* <div className="btnbtn">
+              <div className="btnbtn">
                 <a
                   className="events_link"
-                  href="https://forms.gle/mqrEXXiL32iyWfjF9"
+                  href="https://chat.whatsapp.com/DUjtzY8CgPMIayFSOWlnRa"
                 >
                   <button className="events_btn edge_corner">
                     <svg
@@ -909,11 +894,11 @@ export default function EventsPage() {
                         fill="#e1f5fe"
                       ></path>
                     </svg>
-                    <span className="now">Now!</span>
-                    <span className="play">Register</span>
+                    <span className="now">Us!</span>
+                    <span className="play">Join</span>
                   </button>
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
 
