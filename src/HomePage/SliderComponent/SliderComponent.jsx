@@ -693,7 +693,7 @@ export default function SliderComponent() {
           />
           <div className="slide_content for_only_flashmob">
             <h1 className="slide_heading">Flashmob</h1>
-            <p>
+            <p className="for_only_flashmob_padding">
               • Get ready to witness a burst of spontaneous energy and
               creativity as our Flash Mob event takes center stage on October
               5th at 4 PM, right in front of the Admin Block! Join us for an

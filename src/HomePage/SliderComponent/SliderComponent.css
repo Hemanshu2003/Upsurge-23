@@ -165,7 +165,11 @@
 }
 
 .for_only_flashmob {
-  justify-content: space-evenly;
+  justify-content: start;
+}
+
+.for_only_flashmob_padding{
+  padding-top: 2.5rem;
 }
 
 @media (max-width: 600px) {
