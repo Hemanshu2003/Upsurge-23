@@ -147,3 +147,7 @@
     height: 510px;
   }
 }
+
+.edge_corner {
+  border-radius: 2px;
+}
