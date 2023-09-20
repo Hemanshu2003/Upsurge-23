@@ -57,8 +57,8 @@ export default function SliderComponent() {
         //   modifier: 2.5,
         // }}
         cardsEffect={{
-          perSlideOffset: 10,
-          perSlideRotate: 2,
+          perSlideOffset: 8,
+          perSlideRotate: 3,
           rotate: true,
           slideShadows: true,
         }}
