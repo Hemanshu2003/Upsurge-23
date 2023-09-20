@@ -137,7 +137,7 @@ export default function EventsPage() {
                 chance to be at the forefront of the Web3 revolution!
               </p>
             </div>
-            <div className="btnbtn">
+            <div className="btnbtn ">
               <button
                 className="events_btn edge_corner"
                 onClick={() => openModel(2)}
@@ -234,7 +234,7 @@ export default function EventsPage() {
               </p>
             </div>
             <div className="btnbtn" onClick={() => openModel(3)}>
-              <button className="events_btn">
+              <button className="events_btn edge_corner">
                 <svg
                   height="44px"
                   width="44px"
@@ -307,7 +307,7 @@ export default function EventsPage() {
           />
           <div className="EventsPage_card-textbox">
             <div className="EventsPage_card-title">
-              <h2>Linkedin Seminar</h2>
+              <h2>LinkedIn Seminar</h2>
             </div>
             <div className="EventsPage_card-description">
               <p>
@@ -328,7 +328,7 @@ export default function EventsPage() {
               </p>
             </div>
             <div className="btnbtn" onClick={() => openModel(4)}>
-              <button className="events_btn">
+              <button className="events_btn edge_corner">
                 <svg
                   height="44px"
                   width="44px"
@@ -842,7 +842,7 @@ export default function EventsPage() {
                   impromptu show.
                 </p>
               </div>
-              <div className="btnbtn">
+              {/* <div className="btnbtn">
                 <a
                   className="events_link"
                   href="https://forms.gle/mqrEXXiL32iyWfjF9"
@@ -898,7 +898,7 @@ export default function EventsPage() {
                     <span className="play">Register</span>
                   </button>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 

@@ -93,6 +93,12 @@
     width: 90%;
   }
 
+  .EventsPage_card-textbox h2 {
+    font-size: 28px;
+    line-height: 20px;
+    line-height: 30px;
+  }
+
   .EventsPage_card {
     flex-direction: column;
   }
@@ -108,6 +114,7 @@
     text-align: justify;
     width: 90%;
     margin: auto;
+    padding-top: 0px;
   }
 
   .btnbtn {
