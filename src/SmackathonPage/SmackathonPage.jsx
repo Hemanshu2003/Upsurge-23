@@ -170,6 +170,15 @@ export default function SmackathonPage() {
           </h3>
         </div>
       </section> */}
+      <div className="brochure" style={{ margin: 'auto', width: '300px' }}>
+        <a href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Information+Brochure+-+Smackathon.pdf">
+          {' '}
+          <button className="regBtn back">
+            <span>Download Brochure</span>
+          </button>
+        </a>
+      </div>
+
       {/* PRICE POOL SECTION STARTS*/}
       <div className="prizepool_info">
         <h2 className="pricepool_heading">CASH Prizes</h2>
