@@ -22,6 +22,7 @@
 }
 
 .EventsPage_card {
+  position: relative;
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -110,5 +111,39 @@
   .btnbtn {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+}
+
+.model_event {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px;
+  margin: auto;
+}
+
+.hidden_model_events {
+  display: none;
+}
+
+.model_event iframe {
+  height: 600px;
+}
+
+@media (max-width: 600px) {
+  .model_event {
+    padding: 30px;
+  }
+
+  .model_event iframe {
+    height: 510px;
   }
 }
