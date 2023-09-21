@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&display=swap');
 
 * {
   margin: 0;
@@ -22,7 +22,7 @@
     0 0 80px #ff2edc, 0 0 160px #ff2edc; */
   /* animation: tubelight 5s linear; */
   letter-spacing: 5px;
-  font-family: "Noto Sans Anatolian Hieroglyphs", sans-serif;
+  font-family: 'Noto Sans Anatolian Hieroglyphs', sans-serif;
   color: #ffedff;
   text-transform: uppercase;
   filter: url(#stroke) url(#inner-glow) url(#outer-glow);
@@ -114,6 +114,7 @@
 .slide_heading {
   text-align: center;
   font-size: 28px;
+  text-transform: uppercase;
 }
 
 .forLine_height {
@@ -149,7 +150,7 @@
 }
 
 .slider-controler .slider-arrow::after {
-  content: "";
+  content: '';
 }
 
 .swiper-pagination {
