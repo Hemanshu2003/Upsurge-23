@@ -194,6 +194,7 @@
   .slide_heading {
     margin-bottom: 10px;
     font-size: 27px;
+    text-transform: uppercase;
   }
   .slide_content p {
     text-align: justify;
