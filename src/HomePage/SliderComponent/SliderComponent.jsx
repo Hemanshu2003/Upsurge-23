@@ -227,7 +227,11 @@ export default function SliderComponent() {
               hands-on session. Bring your laptops and immerse yourself in
               practical learning as we delve into the world of cybersecurity.
             </p>
-            <Link className="link" to="/events/#ethicalhacking" onClick={onPageChange}>
+            <Link
+              className="link"
+              to="/events/#ethicalhacking"
+              onClick={onPageChange}
+            >
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -294,7 +298,11 @@ export default function SliderComponent() {
               valuable insights and strategies to enhance your professional
               presence on this powerful networking platform.
             </p>
-            <Link className="link" to="/events/#linkedin" onClick={onPageChange}>
+            <Link
+              className="link"
+              to="/events/#linkedin"
+              onClick={onPageChange}
+            >
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -362,7 +370,11 @@ export default function SliderComponent() {
               2023, at the Computer Science Department for a thrilling journey
               into the world of debugging!
             </p>
-            <Link className="link" to="/events/#debugging" onClick={onPageChange}>
+            <Link
+              className="link"
+              to="/events/#debugging"
+              onClick={onPageChange}
+            >
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -431,7 +443,11 @@ export default function SliderComponent() {
               Captured Campus: Lens Ready?Grab your smartphone and capture the
               essence of our campus through your lens.
             </p>
-            <Link className="link" to="/events/#fadframe" onClick={onPageChange}>
+            <Link
+              className="link"
+              to="/events/#fadframe"
+              onClick={onPageChange}
+            >
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -498,7 +514,11 @@ export default function SliderComponent() {
               dancing, poetry, stand-up comedy, musical performances, and any
               unique abilities they possess.
             </p>
-            <Link className="link" to="/events/#talentesque" onClick={onPageChange}>
+            <Link
+              className="link"
+              to="/events/#talentesque"
+              onClick={onPageChange}
+            >
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -565,7 +585,11 @@ export default function SliderComponent() {
               thrilling games to choose from, they can boost their credit stash.
               At the event's climax, an electrifying auction awaits...
             </p>
-            <Link className="link" to="/events/#cosmotown" onClick={onPageChange}>
+            <Link
+              className="link"
+              to="/events/#cosmotown"
+              onClick={onPageChange}
+            >
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -632,7 +656,11 @@ export default function SliderComponent() {
               with your closest pals as you explore the arena, savour delectable
               food, and conquer exciting challenges. Join us on 7th Oct 2023.
             </p>
-            <Link className="link" to="/events/#desidaredevils" onClick={onPageChange}>
+            <Link
+              className="link"
+              to="/events/#desidaredevils"
+              onClick={onPageChange}
+            >
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -694,13 +722,11 @@ export default function SliderComponent() {
           <div className="slide_content for_only_flashmob">
             <h1 className="slide_heading">Flashmob</h1>
             <p className="for_only_flashmob_padding">
-              • Get ready to witness a burst of spontaneous energy and
-              creativity as our Flash Mob event takes center stage on October
-              5th at 4 PM, right in front of the Admin Block! Join us for an
-              unforgettable spectacle filled with surprises and thrilling
-              performances.
+              Keep your eyes peeled for updates and be ready to join in on the
+              fun because in the world of Flash Mob, the only thing you can
+              expect is the unexpected! Stay tuned to know more...
             </p>
-            {/* <Link className="link" to="/events/#flashmob">
+            <Link className="link" to="/events/#flashmob">
               <button className="events_btn">
                 <svg
                   height="44px"
@@ -748,10 +774,10 @@ export default function SliderComponent() {
                     fill="#e1f5fe"
                   ></path>
                 </svg>
-                <span className="now">More...</span>
-                <span className="play">Know</span>
+                <span className="now">Us...</span>
+                <span className="play">Join</span>
               </button>
-            </Link> */}
+            </Link>
           </div>
         </SwiperSlide>
 

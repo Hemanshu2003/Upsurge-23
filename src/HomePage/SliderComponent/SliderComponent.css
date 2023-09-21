@@ -164,14 +164,6 @@
   background: #00f7ff;
 }
 
-.for_only_flashmob {
-  justify-content: start;
-}
-
-.for_only_flashmob_padding{
-  padding-top: 2.5rem;
-}
-
 @media (max-width: 600px) {
   /* .swiper_container {
     height: 47rem;
