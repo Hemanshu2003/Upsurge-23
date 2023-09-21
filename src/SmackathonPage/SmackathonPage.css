@@ -719,6 +719,11 @@ iframe {
     max-width: 300px;
     text-align: center;
   }
+
+  .goodies_img {
+    width: 315px;
+    margin-bottom: 20px;
+  }
   .voucher_heading {
     font-size: 32px;
     width: 80%;
