@@ -8,11 +8,6 @@ export default function WebsiteTeamPage() {
         <div className="website_team_cards_container">
           {/* memeber 1  */}
           <div className="member_card">
-            <button className="mail">
-              <a href="">
-                <i className="fa fa-envelope " aria-hidden="true"></i>
-              </a>
-            </button>
             <div className=" hemanshu profile-pic"></div>
             <div className="bottom">
               <div className="content_member">
@@ -40,11 +35,6 @@ export default function WebsiteTeamPage() {
           </div>
           {/* memeber 2 */}
           <div className="member_card">
-            <button className="mail">
-              <a href="">
-                <i className="fa fa-envelope " aria-hidden="true"></i>
-              </a>
-            </button>
             <div className="divyansh profile-pic">
               {/* <img src={photo} alt=""/>*/}
             </div>
@@ -71,11 +61,6 @@ export default function WebsiteTeamPage() {
           </div>
           {/* member 3 */}
           <div className="member_card">
-            <button className="mail">
-              <a href="">
-                <i className="fa fa-envelope " aria-hidden="true"></i>
-              </a>
-            </button>
             <div className="unnati profile-pic">
               {/* <img src={photo} alt=""/>*/}
             </div>
@@ -105,11 +90,6 @@ export default function WebsiteTeamPage() {
 
           {/* member 4 */}
           <div className="member_card">
-            <button className="mail">
-              <a href="">
-                <i className="fa fa-envelope " aria-hidden="true"></i>
-              </a>
-            </button>
             <div className="kartik profile-pic ">
               {/* <img src={photo} alt=""/>*/}
             </div>
@@ -128,9 +108,6 @@ export default function WebsiteTeamPage() {
                   <a href="https://instagram.com/kartik_tichkule497?igshid=OGQ5ZDc2ODk2ZA==">
                     <i className="fa fa-instagram " aria-hidden="true"></i>
                   </a>
-                  <a href="">
-                    <i className="fa fa-github " aria-hidden="true"></i>
-                  </a>
                 </div>
                 <button className="button">Know me!</button>
               </div>
@@ -138,11 +115,6 @@ export default function WebsiteTeamPage() {
           </div>
           {/* member 5 */}
           <div className="member_card">
-            <button className="mail">
-              <a href="">
-                <i className="fa fa-envelope " aria-hidden="true"></i>
-              </a>
-            </button>
             <div className="abhijeet profile-pic">
               {/* <img src={photo} alt=""/>*/}
             </div>
@@ -171,11 +143,6 @@ export default function WebsiteTeamPage() {
           </div>
           {/* member 6 */}
           <div className="member_card">
-            <button className="mail">
-              <a href="">
-                <i className="fa fa-envelope " aria-hidden="true"></i>
-              </a>
-            </button>
             <div className="taha profile-pic">
               {/* <img src={photo} alt=""/>*/}
             </div>
@@ -194,9 +161,6 @@ export default function WebsiteTeamPage() {
                   <a href="https://instagram.com/taha_hussain11?igshid=NzZlODBkYWE4Ng==">
                     <i className="fa fa-instagram " aria-hidden="true"></i>
                   </a>
-                  <a href="">
-                    <i className="fa fa-github " aria-hidden="true"></i>
-                  </a>
                 </div>
                 <button className="button">Know me!</button>
               </div>
@@ -204,11 +168,6 @@ export default function WebsiteTeamPage() {
           </div>
           {/* member 7 */}
           <div className="member_card span3">
-            <button className="mail">
-              <a href="">
-                <i className="fa fa-envelope " aria-hidden="true"></i>
-              </a>
-            </button>
             <div className="vishaka profile-pic">
               {/* <img src={photo} alt=""/>*/}
             </div>
@@ -222,7 +181,7 @@ export default function WebsiteTeamPage() {
                   <a href="https://www.linkedin.com/in/vishakha-fulare-117867237">
                     <i className="fa fa-linkedin " aria-hidden="true"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/vishakha-fulare-117867237">
+                  <a href="https://instagram.com/_visshakkha_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
                     <i className="fa fa-instagram " aria-hidden="true"></i>
                   </a>
                   <a href="https://github.com/vishakha24f">
