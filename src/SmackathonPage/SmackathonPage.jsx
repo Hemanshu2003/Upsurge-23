@@ -171,7 +171,7 @@ export default function SmackathonPage() {
         </div>
       </section> */}
       <div className="brochure" style={{ margin: 'auto', width: '300px' }}>
-        <a href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Information+Brochure+-+Smackathon.pdf">
+        <a href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Smackathon+Brochure+Updated.pdf">
           {' '}
           <button className="regBtn back">
             <span>Download Brochure</span>
