@@ -231,7 +231,7 @@ export default function SmackathonPage() {
 
           <div className="right_goodies">
             <h3 className="goodies_para">
-              1. Provide GFG Kits to the top 3 winners of the Hackathon.{' '}
+              1. GFG Kits to the top 3 winners of the Hackathon.{' '}
             </h3>
             <br />
             <h3 className="goodies_para">
@@ -261,7 +261,7 @@ export default function SmackathonPage() {
           <p>
             These projects increase access to educational resources, facilitate
             learning in the classroom, or generally make acquiring knowledge a
-            more engaging process. Hacks submitted to this category can range
+            more engaging process. Hacks submitted under this category can range
             from all-encompassing edtech solutions to projects that bring
             awareness to a specific topic.
           </p>
@@ -278,8 +278,8 @@ export default function SmackathonPage() {
           <p>
             These projects take on public health challenges, combat health
             disparities, or assist with maintaining personal wellness. Hacks
-            submitted to this category can range from digital archives of public
-            health information to apps that track the fitness data of an
+            submitted under this category can range from digital archives of
+            public health information to apps that track the fitness data of an
             individual user.
           </p>
         </div>
@@ -295,9 +295,9 @@ export default function SmackathonPage() {
 
           <p>
             These projects use technology to preserve ecological ecosystems or
-            promote sustainable lifestyles. Hacks submitted to this category can
-            range from sweeping solutions to pertinent environmental crises to
-            apps that encourage small sustainable habits{' '}
+            promote sustainable lifestyles. Hacks submitted under this category
+            can range from sweeping solutions to pertinent environmental crises
+            to apps that encourage small sustainable habits{' '}
           </p>
         </div>
 
@@ -312,7 +312,7 @@ export default function SmackathonPage() {
           <p>
             These projects use technology to drive economic growth, generate
             employment opportunities, attract investments and achieve economic
-            sustainability. Hacks submitted to this category can range from
+            sustainability. Hacks submitted under this category can range from
             solutions to mitigate risks, revolutionize fintech, make
             transactions more secure and handle existing financial crisis.
           </p>{' '}
@@ -348,9 +348,9 @@ export default function SmackathonPage() {
           <p>
             These projects use technology to influence a multitude of factors
             that range from crop cultivation, livestock management to
-            agribusiness development. Hacks submitted to this category can range
-            from sweeping solutions to pertinent agricultural and farming crisis
-            to apps that encourage eco-friendly farming techniques and
+            agribusiness development. Hacks submitted under this category can
+            range from sweeping solutions to pertinent agricultural and farming
+            crisis to apps that encourage eco-friendly farming techniques and
             sustainable agribusiness.
           </p>
         </div>
@@ -366,7 +366,7 @@ export default function SmackathonPage() {
           <p>
             Open innovation projects leverage technology and collaboration to
             foster innovation across various sectors and industries. Projects
-            submitted to this category can encompass a wide range of
+            submitted under this category can encompass a wide range of
             initiatives, from open-source software development to collaborative
             research efforts and ecosystem-building activities.
           </p>
