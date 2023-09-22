@@ -106,12 +106,12 @@ export default function SmackathonPage() {
           <div className="Co_poweredBy">
             <h3 className="presents">CO-Powered By</h3>
             <div className="Co_poweredBy_img">
-              <img
+              {/* <img
                 src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/my+doket'.png"
                 alt=""
                 className="doket_logo"
               />
-              <span className="whiteLine"></span>
+              <span className="whiteLine"></span> */}
               <img
                 src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/images/webgurukul.png"
                 alt=""
@@ -172,7 +172,6 @@ export default function SmackathonPage() {
       </section> */}
       <div className="brochure" style={{ margin: 'auto', width: '300px' }}>
         <a href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Smackathon+Brochure+Updated.pdf">
-          {' '}
           <button className="regBtn back">
             <span>Download Brochure</span>
           </button>
