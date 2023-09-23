@@ -424,7 +424,7 @@ export default function EventsPage() {
                 </p>
               </div>
               <div className="btnbtn">
-                <a>
+                <a href="https://forms.gle/nrmjMiQbQeho1yXG9" target="_blank">
                   <button className="events_btn edge_corner">
                     <svg
                       height="44px"
