@@ -1,16 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 // import React, { useState } from 'react';
-import { Swiper, SwiperSlide } from "swiper/react";
-import "./SliderComponent.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import './SliderComponent.css';
 
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "swiper/css/effect-cards";
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import 'swiper/css/effect-cards';
 
-import { EffectCoverflow, Pagination, Navigation, EffectCards } from "swiper";
-import { Link } from "react-router-dom";
+import { EffectCoverflow, Pagination, Navigation, EffectCards } from 'swiper';
+import { Link } from 'react-router-dom';
 
 // import slide_image_1 from '../../assets/images/download.jpeg';
 // import slide_image_2 from '../../assets/images/download.jpeg';
@@ -43,13 +43,13 @@ export default function SliderComponent() {
         slideToClickedSlide={true}
         autoHeight={true}
         // effect={"coverflow"}
-        effect={"cards"}
+        effect={'cards'}
         // effect={"creative"}
         // effect={"fade"}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={"auto"}
+        slidesPerView={'auto'}
         // coverflowEffect={{
         //   rotate: 0,
         //   stretch: 0,
@@ -62,21 +62,21 @@ export default function SliderComponent() {
           rotate: true,
           slideShadows: true,
         }}
-        pagination={{ el: ".swiper-pagination", clickable: true }}
+        pagination={{ el: '.swiper-pagination', clickable: true }}
         navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
           clickable: true,
         }}
         modules={[EffectCoverflow, EffectCards, Pagination, Navigation]}
         className="swiper_container"
         // onSlideChangeTransitionEnd={handleSlideChange}
         onActiveIndexChange={(swiper) => {
-          const slides = document.querySelectorAll(".swiper-slide");
+          const slides = document.querySelectorAll('.swiper-slide');
           slides.forEach((slide) =>
-            slide.classList.remove("swiper-slide-active")
+            slide.classList.remove('swiper-slide-active')
           );
-          slides[swiper.realIndex].classList.add("swiper-slide-active");
+          slides[swiper.realIndex].classList.add('swiper-slide-active');
         }}
       >
         <SwiperSlide>
@@ -503,7 +503,7 @@ export default function SliderComponent() {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/TALENT+SHOW+Medium.png"
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/TALENT+SHOW1.png"
             alt="slide_image"
           />
           <div className="slide_content">

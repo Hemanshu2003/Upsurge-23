@@ -472,7 +472,7 @@ export default function EventsPage() {
                         fill="#e1f5fe"
                       ></path>
                     </svg>
-                    <span className="now">soon!</span>
+                    <span className="now">now!</span>
                     <span className="play">Register</span>
                   </button>
                 </a>
@@ -567,7 +567,7 @@ export default function EventsPage() {
           <div id="talentesque" className="EventsPage_card">
             <img
               className="EventsPage_card-img"
-              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/TALENT+SHOW+Medium.png"
+              src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/TALENT+SHOW1.png"
             />
             <div className="EventsPage_card-textbox">
               <div className="EventsPage_card-title">
