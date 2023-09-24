@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-// import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './SliderComponent.css';
 
@@ -12,27 +11,10 @@ import 'swiper/css/effect-cards';
 import { EffectCoverflow, Pagination, Navigation, EffectCards } from 'swiper';
 import { Link } from 'react-router-dom';
 
-// import slide_image_1 from '../../assets/images/download.jpeg';
-// import slide_image_2 from '../../assets/images/download.jpeg';
-// import slide_image_3 from '../../assets/images/download.jpeg';
-// import slide_image_4 from '../../assets/images/download.jpeg';
-// import slide_image_5 from '../../assets/images/download.jpeg';
-// import slide_image_6 from '../../assets/images/download.jpeg';
-// import slide_image_7 from '../../assets/images/download.jpeg';
-// import slide_image_8 from '../../assets/images/download.jpeg';
-// import slide_image_9 from '../../assets/images/download.jpeg';
-// import slide_image_10 from '../../assets/images/download.jpeg';
-
 export default function SliderComponent() {
   function onPageChange() {
     window.scrollTo(0, 0);
   }
-  // const [activeIndex, setActiveIndex] = useState(0);
-
-  // const handleSlideChange = (swiper) => {
-  //   const newIndex = swiper.realIndex;
-  //   setActiveIndex(newIndex);
-  // };
 
   return (
     <div className="slider-section" id="events">

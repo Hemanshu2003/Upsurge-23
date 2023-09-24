@@ -461,7 +461,7 @@ export default function SmackathonPage() {
           <div className="text-box">
             <h2 className="N">DAY 2</h2>
             <small className="M">
-              10 : 00 PM - 12:00 PM : Final Presentation Round 2 Shortlisting{' '}
+              10 : 00 AM - 12:00 PM : Final Presentation Round 2 Shortlisting{' '}
               <br />
               12 : 00 PM : Top 5 Finalists Declaration
             </small>
