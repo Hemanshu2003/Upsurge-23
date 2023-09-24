@@ -63,7 +63,7 @@ export default function SliderComponent() {
       >
         <SwiperSlide>
           <img
-            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/Agora+Medium.png"
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/Agora_new.jpeg"
             alt="slide_image"
           />
           <div className="slide_content">

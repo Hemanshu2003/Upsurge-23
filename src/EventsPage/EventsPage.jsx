@@ -22,7 +22,7 @@ export default function EventsPage() {
         <div id="agora" className="EventsPage_card">
           <img
             className="EventsPage_card-img"
-            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/Agora+Medium.png"
+            src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/Events/4_3/Agora_new.jpeg"
           />
           <div className="EventsPage_card-textbox">
             <div className="EventsPage_card-title">
