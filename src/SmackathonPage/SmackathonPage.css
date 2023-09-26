@@ -1081,10 +1081,15 @@ iframe {
   width: 30%;
 }
 
+.links_smackathon{
+  row-gap: 25px;
+}
+
 .links_smackathon a {
   text-align: left;
   padding: 5px;
-  font-size: 16px;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .follow_All {
