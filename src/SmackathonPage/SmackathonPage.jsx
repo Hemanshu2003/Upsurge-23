@@ -386,7 +386,6 @@ export default function SmackathonPage() {
             <h2 className="N">DAY 1</h2>
             <small className="M">
               08 : 30 AM : Check-in Time for Teams <br />
-              09 : 30 AM : INAUGURATION
             </small>
             <span className="left-container-arrow"></span>
           </div>
@@ -431,7 +430,7 @@ export default function SmackathonPage() {
           <div className="text-box">
             <h2 className="N">DAY 1</h2>
             <small className="M">
-              7 : 30 PM - 10:30 PM : Dinner for teams who have opted for
+              7 : 30 PM - 8:30 PM : Dinner for teams who have opted for
               accommodation <br />
             </small>
             <span className="right-container-arrow"></span>
