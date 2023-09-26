@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-target-blank */
-import './SmackathonPage.css';
-import goodies from '../assets/images/GFG goodies Final.png';
-import mi from '../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif';
-import { Link } from 'react-router-dom';
+import "./SmackathonPage.css";
+import goodies from "../assets/images/GFG goodies Final.png";
+import mi from "../assets/HomePage/Smackathon/wired-gradient-18-location-pin.gif";
+import { Link } from "react-router-dom";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function SmackathonPage() {
   // eslint-disable-next-line no-unused-vars
@@ -13,20 +13,20 @@ export default function SmackathonPage() {
 
   function flipState() {
     setState((prev) => !prev);
-    const accordionContent = document.querySelectorAll('.accordion-content');
+    const accordionContent = document.querySelectorAll(".accordion-content");
 
     accordionContent.forEach((item, index) => {
-      let header = item.querySelector('header');
-      header.addEventListener('click', () => {
-        item.classList.toggle('open');
+      let header = item.querySelector("header");
+      header.addEventListener("click", () => {
+        item.classList.toggle("open");
 
-        let description = item.querySelector('.description');
-        if (item.classList.contains('open')) {
+        let description = item.querySelector(".description");
+        if (item.classList.contains("open")) {
           description.style.height = `${description.scrollHeight}px`;
-          item.querySelector('i').classList.replace('fa-plus', 'fa-minus');
+          item.querySelector("i").classList.replace("fa-plus", "fa-minus");
         } else {
-          description.style.height = '0px';
-          item.querySelector('i').classList.replace('fa-minus', 'fa-plus');
+          description.style.height = "0px";
+          item.querySelector("i").classList.replace("fa-minus", "fa-plus");
         }
         removeOpen(index);
       });
@@ -34,21 +34,21 @@ export default function SmackathonPage() {
   }
 
   function removeOpen(index1) {
-    const accordionContent = document.querySelectorAll('.accordion-content');
+    const accordionContent = document.querySelectorAll(".accordion-content");
     accordionContent.forEach((item2, index2) => {
       if (index1 != index2) {
-        item2.classList.remove('open');
+        item2.classList.remove("open");
 
-        let des = item2.querySelector('.description');
-        des.style.height = '0px';
-        item2.querySelector('i').classList.replace('fa-minus', 'fa-plus');
+        let des = item2.querySelector(".description");
+        des.style.height = "0px";
+        item2.querySelector("i").classList.replace("fa-minus", "fa-plus");
       }
     });
   }
 
   const closeModal = function () {
-    const modal = document.querySelector('.modal');
-    modal.classList.add('hidden_model');
+    const modal = document.querySelector(".modal");
+    modal.classList.add("hidden_model");
   };
 
   function PageChange() {
@@ -56,8 +56,8 @@ export default function SmackathonPage() {
   }
 
   const openModal = function () {
-    const modal = document.querySelector('.modal');
-    modal.classList.remove('hidden_model');
+    const modal = document.querySelector(".modal");
+    modal.classList.remove("hidden_model");
   };
 
   return (
@@ -170,7 +170,7 @@ export default function SmackathonPage() {
           </h3>
         </div>
       </section> */}
-      <div className="brochure" style={{ margin: 'auto', width: '300px' }}>
+      <div className="brochure" style={{ margin: "auto", width: "300px" }}>
         <a href="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/smackathon/Smackathon+Brochure+Updated.pdf">
           <button className="regBtn back">
             <span>Download Brochure</span>
@@ -182,7 +182,7 @@ export default function SmackathonPage() {
       <div className="prizepool_info">
         <h2 className="pricepool_heading">CASH Prizes</h2>
       </div>
-      <div style={{ width: '84%', margin: 'auto' }}>
+      <div style={{ width: "84%", margin: "auto" }}>
         <div className="bg_para">
           <div className="pricepool_container">
             <div className="card1">
@@ -231,15 +231,15 @@ export default function SmackathonPage() {
 
           <div className="right_goodies">
             <h3 className="goodies_para">
-              1. GFG Kits to the top 3 winners of the Hackathon.{' '}
+              1. GFG Kits to the top 3 winners of the Hackathon.{" "}
             </h3>
             <br />
             <h3 className="goodies_para">
-              2. GFG Discount coupons worth Rs2000 for winners.{' '}
-            </h3>{' '}
+              2. GFG Discount coupons worth Rs2000 for winners.{" "}
+            </h3>{" "}
             <br />
             <h3 className="goodies_para">
-              3. GFG Discount coupons worth Rs300 for all participants.{' '}
+              3. GFG Discount coupons worth Rs300 for all participants.{" "}
             </h3>
           </div>
         </div>
@@ -250,7 +250,7 @@ export default function SmackathonPage() {
       <div className="track">
         <div className="track-info">
           <div className="imgHeading">
-            {' '}
+            {" "}
             <img
               src="https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/tracks/education1.png"
               alt="Description of the image"
@@ -297,7 +297,7 @@ export default function SmackathonPage() {
             These projects use technology to preserve ecological ecosystems or
             promote sustainable lifestyles. Hacks submitted under this category
             can range from sweeping solutions to pertinent environmental crises
-            to apps that encourage small sustainable habits{' '}
+            to apps that encourage small sustainable habits{" "}
           </p>
         </div>
 
@@ -315,7 +315,7 @@ export default function SmackathonPage() {
             sustainability. Hacks submitted under this category can range from
             solutions to mitigate risks, revolutionize fintech, make
             transactions more secure and handle existing financial crisis.
-          </p>{' '}
+          </p>{" "}
         </div>
 
         <div className="track-info">
@@ -334,7 +334,7 @@ export default function SmackathonPage() {
             and privacy to decentralized apps that encourage censorship
             resistance, govern interoperability and harness environmental
             sustainability.
-          </p>{' '}
+          </p>{" "}
         </div>
 
         <div className="track-info">
@@ -390,7 +390,7 @@ export default function SmackathonPage() {
             </small>
             <span className="left-container-arrow"></span>
           </div>
-          <div style={{ height: '20px' }}></div>
+          <div style={{ height: "20px" }}></div>
         </div>
         <div className="container_timeline right_container">
           <img
@@ -405,7 +405,7 @@ export default function SmackathonPage() {
             </small>
             <span className="right-container-arrow"></span>
           </div>
-          <div style={{ height: '20px' }}></div>
+          <div style={{ height: "20px" }}></div>
         </div>
         <div className="container_timeline left_container">
           <img
@@ -421,7 +421,7 @@ export default function SmackathonPage() {
             </small>
             <span className="left-container-arrow"></span>
           </div>
-          <div style={{ height: '20px' }}></div>
+          <div style={{ height: "20px" }}></div>
         </div>
         <div className="container_timeline right_container">
           <img
@@ -436,7 +436,7 @@ export default function SmackathonPage() {
             </small>
             <span className="right-container-arrow"></span>
           </div>
-          <div style={{ height: '20px' }}></div>
+          <div style={{ height: "20px" }}></div>
         </div>
         <div className="container_timeline left_container">
           <img
@@ -451,7 +451,7 @@ export default function SmackathonPage() {
             </small>
             <span className="left-container-arrow"></span>
           </div>
-          <div style={{ height: '20px' }}></div>
+          <div style={{ height: "20px" }}></div>
         </div>
         <div className="container_timeline right_container">
           <img
@@ -461,13 +461,13 @@ export default function SmackathonPage() {
           <div className="text-box">
             <h2 className="N">DAY 2</h2>
             <small className="M">
-              10 : 00 AM - 12:00 PM : Final Presentation Round 2 Shortlisting{' '}
+              10 : 00 AM - 12:00 PM : Final Presentation Round 2 Shortlisting{" "}
               <br />
               12 : 00 PM : Top 5 Finalists Declaration
             </small>
             <span className="right-container-arrow"></span>
           </div>
-          <div style={{ height: '20px' }}></div>
+          <div style={{ height: "20px" }}></div>
         </div>
         <div className="container_timeline left_container">
           <img
@@ -477,13 +477,13 @@ export default function SmackathonPage() {
           <div className="text-box">
             <h2 className="N">DAY 2</h2>
             <small className="M">
-              2 : 00 PM : Winners to be Announced in the valedictory ceremony{' '}
+              2 : 00 PM : Winners to be Announced in the valedictory ceremony{" "}
               <br />
             </small>
             <span className="left-container-arrow"></span>
           </div>
-          <div style={{ height: '20px' }}></div>
-        </div>{' '}
+          <div style={{ height: "20px" }}></div>
+        </div>{" "}
         {/* <div className="container_timeline right_container">
           <img src={ele1} alt="Image" />
           <div className="text-box">
@@ -752,10 +752,10 @@ export default function SmackathonPage() {
             className="peaklogo1"
             alt=""
           />
-          <div style={{ alignItems: 'center' }} className="iframeMap ">
+          <div style={{ alignItems: "center" }} className="iframeMap ">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119118.2038380647!2d78.82803159726564!3d21.094862899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd495abf6622d6f%3A0x2bd70ec1faa74ad4!2sDepartment%20Of%20Computer%20Science%20And%20Engineering!5e0!3m2!1sen!2sin!4v1694333084486!5m2!1sen!2sin"
-              style={{ filter: 'invert(100%)' }}
+              style={{ filter: "invert(100%)" }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -805,7 +805,9 @@ export default function SmackathonPage() {
                 Smackathon
               </a>
               <a href="#">Schedule</a>
-              <a href="#">Events</a>
+              <a href="/#/events" onClick={PageChange}>
+                Events
+              </a>
               <a href="/#/team" onClick={PageChange}>
                 Team
               </a>
@@ -849,7 +851,7 @@ export default function SmackathonPage() {
                 <h3>Contact Us</h3>
                 <div
                   className="contact_details"
-                  style={{ textAlign: 'center' }}
+                  style={{ textAlign: "center" }}
                 >
                   <div className="smackathon_contact_name">
                     <p>Sudhanshu Nerkar</p>
@@ -882,7 +884,7 @@ export default function SmackathonPage() {
             <Link
               to="/websiteteam"
               className="privacy_footer"
-              style={{ padding: '0px 4px' }}
+              style={{ padding: "0px 4px" }}
               onClick={PageChange}
             >
               Website Team CSE <br />

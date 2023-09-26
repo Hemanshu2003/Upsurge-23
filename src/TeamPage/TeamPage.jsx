@@ -1,4 +1,4 @@
-import './TeamPage.css';
+import "./TeamPage.css";
 
 export default function TeamPage() {
   return (
@@ -15,8 +15,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/vedantshivde.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -46,8 +46,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/SudhanshuNerkar_Chairperson+Large.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -84,8 +84,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/KushThakare.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -115,8 +115,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/TejaswiniPadole.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -146,8 +146,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/JayShende_vicechairperson+Small.png')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -177,8 +177,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/SiddhantTonpe.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -208,8 +208,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/SahilDafade.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -239,8 +239,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/adwaitTikekar_secretary+Large.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -270,8 +270,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/SakshiBannagare.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -301,8 +301,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/PrajaktaAote.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -332,8 +332,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/abhijeet+2.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -366,8 +366,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/NavinPatil.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -396,8 +396,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/YashWaghmare.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -426,8 +426,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Chetankuhite.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -456,8 +456,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/YatharthShende.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -486,8 +486,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/hemanshu.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -516,8 +516,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/Divyansh_new.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -543,8 +543,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/kartik.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -573,8 +573,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/website+team+page/unnati.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -603,8 +603,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Taha_Hussain.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -633,8 +633,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/VishakhaFulare.png')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -670,8 +670,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/JagritiSharma.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -685,7 +685,7 @@ export default function TeamPage() {
                 <a href="https://www.linkedin.com/in/jagriti-sharma-5075b8221">
                   <i className="fa fa-linkedin " aria-hidden="true"></i>
                 </a>
-                <a href="https://instagram.com/jagriti_0314">
+                <a href="https://instagram.com/jagriti_0341">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
               </div>
@@ -700,8 +700,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/SakshiKumbhare.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -730,8 +730,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/PoojaNandguruwar.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -760,8 +760,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/TejaswiniMusale.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -790,8 +790,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/SANCHI+DHOKE.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -821,8 +821,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/Hrishikesh+Kakde_Design+Master.JPG')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -851,8 +851,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/RitikaAnantwar_DesignMaster.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -888,8 +888,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/RutujaPethe.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -918,8 +918,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Deeshantkotnake.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -930,6 +930,9 @@ export default function TeamPage() {
             </div>
             <div className="bottom-bottom">
               <div className="social-links-container">
+                <a href="https://www.linkedin.com/in/deeshant-kotnake-56811623b">
+                  <i className="fa fa-linkedin " aria-hidden="true"></i>
+                </a>
                 <a href="https://instagram.com/deeshant_2002">
                   <i className="fa fa-instagram " aria-hidden="true"></i>
                 </a>
@@ -945,8 +948,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/YatharthHadke.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -975,8 +978,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/SaurabhIkhar.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1005,8 +1008,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/hemanshu_kurode.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1036,8 +1039,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/sanskarsawane.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1074,8 +1077,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Aditya_Nagose.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1097,8 +1100,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/NidhiRathod.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1128,8 +1131,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/RutikaKadu.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1159,8 +1162,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/VaidehiNarkhede.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1193,8 +1196,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Jatinkanoje.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1223,8 +1226,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/SijukaBhute.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1254,8 +1257,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Pranav_Mohagaokar.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1292,8 +1295,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/prachiasutkar.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1322,8 +1325,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Ashwati.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1352,8 +1355,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Sakshi_kathane.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1382,8 +1385,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/prachi_pattewar.jpg')",
-              backgroundSize: 'contain',
-              backgroundPosition: 'center',
+              backgroundSize: "contain",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1418,8 +1421,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Himanshu_Hiwarkar.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1448,8 +1451,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Purvesh_Bargat.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1475,8 +1478,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/RadhikaKimmatkar_PRMaster.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1505,8 +1508,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/OmRusia_PRMaster+Large.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1535,8 +1538,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Hardik_Tajne.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1562,8 +1565,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Priyadarshini+Ramteke.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1589,8 +1592,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Aaryan.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1626,8 +1629,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/nancy_new.jpeg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1656,8 +1659,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Anushka_Patni.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1687,8 +1690,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/Vidhi+Satpute+_CCMaster.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1717,8 +1720,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamACM/Ajinkya+Nanivadekar_Content_Creation_Master.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1754,8 +1757,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/RiyaAgrawal.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1785,8 +1788,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Maanushree+Misal.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1816,8 +1819,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Aditya_Lonkar.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1844,8 +1847,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Aditya_Wagh.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1872,8 +1875,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/sankalpNinawe.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1903,8 +1906,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/TanushreeKakde.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1940,8 +1943,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/VipinKumar.jpg')",
-              backgroundSize: 'contain',
-              backgroundPosition: 'center',
+              backgroundSize: "contain",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -1972,8 +1975,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/Ninad_Tanksale.jpg')",
-              backgroundSize: 'contain',
-              backgroundPosition: 'center',
+              backgroundSize: "contain",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>
@@ -2003,8 +2006,8 @@ export default function TeamPage() {
             style={{
               background:
                 "url('https://campusfestbucket.s3.us-west-1.amazonaws.com/Upsurge/teamCOSMOS/DollyNandanwar.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
             className="profile-pic"
           ></div>

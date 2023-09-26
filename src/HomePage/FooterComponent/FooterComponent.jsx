@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
-import { Link } from 'react-router-dom';
-import './FooterComponent.css';
+import { Link } from "react-router-dom";
+import "./FooterComponent.css";
 
 export default function FooterComponent() {
   function PageChange() {
@@ -20,7 +20,9 @@ export default function FooterComponent() {
             Smackathon
           </a>
           <a href="#">Schedule</a>
-          <a href="#">Events</a>
+          <a href="/#/events" onClick={PageChange}>
+            Events
+          </a>
           <a href="/#/team" onClick={PageChange}>
             Team
           </a>
@@ -104,12 +106,12 @@ export default function FooterComponent() {
         <p className="copyright">
           &copy; Copyrights belongs to Department Computer Science and
           Engineering <br />
-          Developed By{' '}
+          Developed By{" "}
           <Link
             to="/websiteteam"
             onClick={PageChange}
             className="privacy_footer"
-            style={{ margin: '0 3px'}}
+            style={{ margin: "0 3px" }}
           >
             Website Team CSE <br />
           </Link>
