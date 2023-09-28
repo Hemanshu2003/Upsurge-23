@@ -67,6 +67,26 @@
   justify-content: space-around;
   align-items: center;
 }
+.dates {
+  font-family: 'Caveat', cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 10px #ff2edc, 0 0 20px #ff2edc, 0 0 40px #ff2edc,
+    0 0 80px #ff2edc, 0 0 160px #ff2edc;
+}
+.dates h2 {
+  font-size: 35px;
+  color: white;
+  margin: 0;
+}
+.dates h1 {
+  margin-bottom: -20px;
+}
+.dates h2 sup {
+  font-size: 20px;
+  color: white;
+}
 
 .cojag_logo {
   width: 180px;
@@ -1081,7 +1101,7 @@ iframe {
   width: 30%;
 }
 
-.links_smackathon{
+.links_smackathon {
   row-gap: 25px;
 }
 

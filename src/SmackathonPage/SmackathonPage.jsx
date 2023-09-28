@@ -103,6 +103,12 @@ export default function SmackathonPage() {
               className="cojag_logo"
             />
           </div>
+          <div className="dates">
+            <h1>On</h1>
+            <h2>
+              12<sup> th</sup>-13<sup> th</sup> October
+            </h2>
+          </div>
           <div className="Co_poweredBy">
             <h3 className="presents">CO-Powered By</h3>
             <div className="Co_poweredBy_img">
