@@ -419,7 +419,7 @@ export default function EventsPage() {
                   With cash prizes of rupees 1200, 1st rupees 800 & 2nd rupees
                   400, this is your chance to showcase your debugging skills and
                   claim the title of debugging champion. Don't forget to bring
-                  your laptop, and we'll see you on October 12th, 2023, at the
+                  your laptop, and we'll see you on October 11th, 2023, at the
                   Computer Science Department!
                 </p>
               </div>
