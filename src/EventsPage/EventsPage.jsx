@@ -30,11 +30,11 @@ export default function EventsPage() {
             </div>
             <div className="EventsPage_card-description">
               <p>
-                Join us on October 6th for an illuminating seminar dedicated to
-                Agora, where our distinguished speaker will delve into the
-                depths of this cutting-edge platform. Agora has rapidly emerged
-                as a pivotal player in the world of real-time engagement,
-                revolutionizing how we connect and interact online.
+                Join us for an illuminating seminar dedicated to Agora, where
+                our distinguished speaker will delve into the depths of this
+                cutting-edge platform. Agora has rapidly emerged as a pivotal
+                player in the world of real-time engagement, revolutionizing how
+                we connect and interact online.
                 <br />
                 Discover how Agora's innovative technologies are powering
                 interactive live streaming, video, voice, and messaging
