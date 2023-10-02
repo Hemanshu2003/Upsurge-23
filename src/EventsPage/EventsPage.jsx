@@ -576,7 +576,7 @@ export default function EventsPage() {
               <div className="EventsPage_card-description">
                 <p>
                   Join us for an extraordinary showcase of talent at our
-                  upcoming event on 7th Oct 2023. Participants from all
+                  upcoming event on 13th Oct 2023. Participants from all
                   backgrounds are invited to take the stage and reveal their
                   unique abilities, which can encompass singing, dancing,
                   poetry, stand-up comedy, playing musical instruments, and any
