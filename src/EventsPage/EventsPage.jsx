@@ -1,16 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-target-blank */
-import "./EventsPage.css";
+import './EventsPage.css';
 
 export default function EventsPage() {
   const closeModal = function (id) {
     const modal = document.querySelector(`.model--${id}`);
-    modal.classList.add("hidden_model_events");
+    modal.classList.add('hidden_model_events');
   };
 
   const openModel = function (id) {
     const modal = document.querySelector(`.model--${id}`);
-    modal.classList.remove("hidden_model_events");
+    modal.classList.remove('hidden_model_events');
   };
   return (
     <div className="EventsPage">
@@ -126,13 +126,13 @@ export default function EventsPage() {
             <div className="EventsPage_card-description">
               <p>
                 Unveil the revolutionary era of Web3 in our upcoming seminar
-                scheduled for October 6th. Web3 represents a paradigm shift in
+                scheduled for October 12th. Web3 represents a paradigm shift in
                 the way we interact with the digital world, and this seminar is
                 your gateway to understanding its profound impact.
                 <br />
                 As Web3 continues to gain momentum and reshape industries, now
                 is the time to familiarise yourself with this game-changing
-                technology. Mark your calendar for October 6th and join us for
+                technology. Mark your calendar for October 12th and join us for
                 an engaging seminar that will unlock the possibilities of Web3
                 and its role in shaping the digital landscape. Don't miss this
                 chance to be at the forefront of the Web3 revolution!
@@ -416,11 +416,11 @@ export default function EventsPage() {
                   to unravel the mysteries of faulty code and emerge as the
                   champion of debugging.
                   <br />
-                  With cash prizes of rupees 1000, rupees 500, and rupees 300
-                  for the top three teams, this is your chance to showcase your
-                  debugging skills and claim the title of debugging champion.
-                  Don't forget to bring your laptop, and we'll see you on
-                  October 5th, 2023, at the Computer Science Department!
+                  With cash prizes of rupees 1200, 1st rupees 800 & 2nd rupees
+                  400, this is your chance to showcase your debugging skills and
+                  claim the title of debugging champion. Don't forget to bring
+                  your laptop, and we'll see you on October 12th, 2023, at the
+                  Computer Science Department!
                 </p>
               </div>
               <div className="btnbtn">
@@ -492,7 +492,7 @@ export default function EventsPage() {
               <div className="EventsPage_card-description">
                 <p>
                   Welcome to FadFrame, where creativity and talent converge in
-                  two thrilling competitions: <br /> <b>• Trending Rhythms:</b>{" "}
+                  two thrilling competitions: <br /> <b>• Trending Rhythms:</b>{' '}
                   Express yourself through dance moves or your melodious
                   voice.Whether solo or in a group, showcase your artistic
                   interpretation of popular songs. The entry fee for Trending
@@ -921,7 +921,7 @@ export default function EventsPage() {
               </div>
               <div
                 className="EventsPage_card-description"
-                style={{ paddingBottom: "10px" }}
+                style={{ paddingBottom: '10px' }}
               >
                 <p>
                   Keep your eyes peeled for updates and be ready to join in on
