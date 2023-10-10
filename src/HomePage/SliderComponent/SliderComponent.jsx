@@ -136,7 +136,7 @@ export default function SliderComponent() {
           <div className="slide_content">
             <h1 className="slide_heading">WEB3 Seminar</h1>
             <p>
-              Explore the fascinating world of Web3 on October 6th at our
+              Explore the fascinating world of Web3 on October 12th at our
               enlightening seminar. Join us for an in-depth discussion and
               discover the potential of this transformative technology that is
               reshaping the internet as we know it.
@@ -348,7 +348,7 @@ export default function SliderComponent() {
             <p>
               Dive into the world of precision and intellect at Upsurge 2k23's
               "Debugging Quiz." Challenge yourself to decode faulty code in this
-              intellectually stimulating competition. Join us on October 5th,
+              intellectually stimulating competition. Join us on October 11th,
               2023, at the Computer Science Department for a thrilling journey
               into the world of debugging!
             </p>
@@ -705,7 +705,7 @@ export default function SliderComponent() {
               "Desi Daredevils" is an entertaining game consisting of three
               stages, ideal for a team of four members. Enjoy a fantastic time
               with your closest pals as you explore the arena, savour delectable
-              food, and conquer exciting challenges. Join us on 7th Oct 2023.
+              food, and conquer exciting challenges. Join us on 12th Oct 2023.
             </p>
             <Link
               className="link"

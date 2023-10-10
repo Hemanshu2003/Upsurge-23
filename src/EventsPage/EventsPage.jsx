@@ -219,7 +219,7 @@ export default function EventsPage() {
             </div>
             <div className="EventsPage_card-description">
               <p>
-                On October 6th, gear up for an interactive and practical
+                On October 12th, gear up for an interactive and practical
                 exploration of cybersecurity in our hands-on session. In an
                 increasingly digital world, understanding how to protect your
                 online presence is paramount, and this session is designed to
@@ -313,7 +313,7 @@ export default function EventsPage() {
             <div className="EventsPage_card-description">
               <p>
                 Unlock the full potential of your LinkedIn profile at our
-                upcoming seminar on October 7th. In today's digital age,
+                upcoming seminar on October 13th. In today's digital age,
                 LinkedIn has become a crucial tool for professional networking
                 and career growth. Whether you're a job seeker, a business
                 professional, or simply looking to expand your network, this
@@ -747,7 +747,7 @@ export default function EventsPage() {
               <div className="EventsPage_card-description">
                 <p>
                   Experience a day of pure excitement and reward at our upcoming
-                  event! On October 5th, 2023, at the CSE department YCCE, we're
+                  event! On October 11th, 2023, at the CSE department YCCE, we're
                   hosting a thrilling event featuring a wide array of ten
                   captivating games, each designed to earn you valuable credits.
                   There's something for everyone to enjoy <br />
