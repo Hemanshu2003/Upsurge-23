@@ -69,7 +69,7 @@ export default function SliderComponent() {
           <div className="slide_content">
             <h1 className="slide_heading">Agora for You</h1>
             <p>
-              Discover the world of Agora on October 6th as our expert speaker
+              Discover the world of Agora on October 12th as our expert speaker
               provides exclusive insights and valuable information about this
               dynamic platform. If you're interested in Agora and want to learn
               more, mark your calendar for this enlightening seminar!
@@ -275,7 +275,7 @@ export default function SliderComponent() {
           <div className="slide_content">
             <h1 className="slide_heading">Linkedin Seminar</h1>
             <p>
-              Join us on October 7th for an enlightening seminar focused on
+              Join us on October 13th for an enlightening seminar focused on
               optimizing your LinkedIn profile. Our expert speaker will share
               valuable insights and strategies to enhance your professional
               presence on this powerful networking platform.
