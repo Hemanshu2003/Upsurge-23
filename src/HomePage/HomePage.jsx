@@ -1,5 +1,5 @@
 import SliderComponent from './SliderComponent/SliderComponent';
-// import ScheduleComponent from '  ./ScheduleComponent/ScheduleComponent';
+import ScheduleComponent from '  ./ScheduleComponent/ScheduleComponent';
 import SmakathonComponent from './SmakathonComponent/SmakathonComponent';
 import FooterComponent from './FooterComponent/FooterComponent';
 import HeroComponent from './HeroComponent/HeroComponent';
@@ -194,7 +194,7 @@ export default function HomePage() {
 {/*           <h1 className="schedule_heading1" style={{ textAlign: 'centre' }}>
             Coming Soon...
           </h1> */}
-{/*            <ScheduleComponent />  */}
+     <ScheduleComponent />  
         </section>
 
         <footer>
